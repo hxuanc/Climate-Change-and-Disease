@@ -4,29 +4,137 @@
   <meta charset="UTF-8">
   <title>Temperature & Precipitation Anomaly Dashboard</title>
   <link rel="stylesheet" href="style/plots.css">
+  <style>
+    .tooltip {
+      position: absolute;
+      background: white;
+      border: 1px solid #999;
+      padding: 6px;
+      pointer-events: none;
+      font-size: 13px;
+    }
+  </style>
 </head>
 <body>
+
+<!-- Charts Wrapper -->
 <div id="charts-wrapper" style="display: flex; gap: 40px; justify-content: center;">
-<div id="temp-anomaly-chart"></div>
-<div id="precip-anomaly-chart"></div>
+  <div id="temp-anomaly-chart"></div>
+  <div id="precip-anomaly-chart"></div>
 </div>
 
-  <!-- D3 Library -->
-  <script src="https://d3js.org/d3.v7.min.js"></script>
+<!-- Strip & Ridgeline -->
+<div id="precip-strip-chart"></div>
+<div id="temp_ridgeline_chart"></div>
 
-  <!-- Temp Chart Script -->
-  <script src="plots/temp_anomaly_plot.js"></script>
-  <!-- Call Temp Chart -->
-  <script>
-    renderTempAnomalyChart("#temp-anomaly-chart", "data/cleaned-annual-temperature-anomalies.csv");
-  </script>
+<!-- Choropleth Map Section -->
+<div id="choropleth-map-wrapper" style="margin-top: 40px; text-align: center;">
+  <h2>Global Temperature Map</h2>
+  
+<!-- Sliders -->
+<div class="slider-container" style="margin: 10px auto; text-align: center;">
+  <label for="choropleth-timeline">
+    Date: <span id="choropleth-timeline-label">December 2020</span>
+  </label><br>
+  <input type="range" id="choropleth-timeline" min="0" max="899" value="899" style="width: 60%;">
+</div>
 
-  <!-- Precip Chart Script -->
-  <script src="plots/precip_anomaly_plot.js"></script>
-  <!-- Call Precip Chart -->
-  <script>
-    renderPrecipAnomalyChart("#precip-anomaly-chart", "data/cleaned-annual-precipitation-anomalies.csv");
-  </script>
+  <!-- Map Container -->
+  <div id="choropleth-map" style="margin-top: 20px;"></div>
+</div>
+
+<!-- Year-Based Choropleth Map Section -->
+<div id="yearly-choropleth-wrapper" style="margin-top:60px;text-align:center;">
+  <h2>Yearly Precipitation by Country</h2>
+  <div class="slider-container" style="margin:10px auto;">
+    <label for="yearly-choropleth-slider">
+      Year: <span id="yearly-choropleth-label"></span>
+    </label><br>
+    <input type="range" id="yearly-choropleth-slider" step="1" style="width:60%;">
+  </div>
+  <div id="yearly-choropleth-map" style="margin-top:20px;"></div>
+</div>
+
+  <!-- Influenza Section -->
+  <section id="influenza-wrapper" style="margin-top: 60px;">
+    <h2>Influenza Trends by Hemisphere</h2>
+    <div class="control-panel">
+      <label for="flu-year-select">Select Year:</label>
+      <select id="flu-year-select"></select>
+
+      <label for="hemisphere-select" style="margin-left: 20px;">Select Hemisphere:</label>
+      <select id="hemisphere-select">
+        <option value="northern">Northern Hemisphere</option>
+        <option value="southern">Southern Hemisphere</option>
+      </select>
+    </div>
+
+    <div class="chart-container">
+      <div id="northern-hemisphere"></div>
+      <div id="southern-hemisphere"></div>
+    </div>
+  </section>
+
+<!-- D3 + TopoJSON Libraries -->
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="https://unpkg.com/topojson-client@3"></script>
+
+<!-- Visualization Scripts -->
+<script src="plots/temp_anomaly_plot.js"></script>
+<script src="plots/precip_anomaly_plot.js"></script>
+<script src="plots/precip_strip_plot.js"></script>
+<script src="plots/temp_ridgeline_plot.js"></script>
+<script src="plots/temp_choropleth.js"></script>
+<script src="plots/precip_choropleth.js"></script>
+<script src="plots/influenza_radial_plot.js"></script>
+
+<!-- Render Functions -->
+<script>
+  renderTempAnomalyChart("#temp-anomaly-chart", "data/cleaned-annual-temperature-anomalies.csv");
+  renderPrecipAnomalyChart("#precip-anomaly-chart", "data/cleaned-annual-precipitation-anomalies.csv");
+  renderPrecipStripChart("#precip-strip-chart", "data/cleaned-annual-precipitation-anomalies.csv");
+  renderRidgelinePlot("#temp_ridgeline_chart", "data/cleaned-annual-temperature-anomalies.csv");
+  renderTempChoroplethMap(
+  "#choropleth-map",
+  "https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson",
+  "data/cleaned_average_monthly_surface_temperature.csv"
+    );
+  renderYearlyChoropleth(
+    "#yearly-choropleth-map",
+    "https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson",
+    "data/cleaned_annual_precipitation_by_country.csv"
+    );
+
+  d3.csv("data/cleaned_influenza_hemi_grouped.csv").then(data => {
+    renderRadialFlu("#northern-hemisphere", "#southern-hemisphere", data);
+
+    const years = d3.range(2009, 2025);  // [2009, 2010, ..., 2024]
+    const yearSelect = d3.select("#flu-year-select");
+
+    yearSelect.selectAll("option")
+    .data(years)
+    .enter()
+    .append("option")
+    .attr("value", d => d)
+    .property("selected", d => d === 2024) // Default to 2024
+    .text(d => d);
+
+    const defaultYear = 2024;
+    yearSelect.property("value", defaultYear);
+    window.updateRadialFluCharts(defaultYear);
+
+    yearSelect.on("change", function () {
+    const selectedYear = +this.value;
+    window.updateRadialFluCharts(selectedYear);
+    });
+
+    d3.select("#hemisphere-select").on("change", function () {
+    const selectedYear = +d3.select("#flu-year-select").property("value");
+    window.updateRadialFluCharts(selectedYear);
+    });
+});
+</script>
+
 
 </body>
 </html>
