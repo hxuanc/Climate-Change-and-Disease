@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Temperature & Precipitation Anomaly Dashboard</title>
+  <link rel="stylesheet" href="style/plots.css">
+</head>
+<body>
+<div id="charts-wrapper" style="display: flex; gap: 40px; justify-content: center;">
+<div id="temp-anomaly-chart"></div>
+<div id="precip-anomaly-chart"></div>
+</div>
+
+  <!-- D3 Library -->
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+
+  <!-- Temp Chart Script -->
+  <script src="plots/temp_anomaly_plot.js"></script>
+  <!-- Call Temp Chart -->
+  <script>
+    renderTempAnomalyChart("#temp-anomaly-chart", "data/cleaned-annual-temperature-anomalies.csv");
+  </script>
+
+  <!-- Precip Chart Script -->
+  <script src="plots/precip_anomaly_plot.js"></script>
+  <!-- Call Precip Chart -->
+  <script>
+    renderPrecipAnomalyChart("#precip-anomaly-chart", "data/cleaned-annual-precipitation-anomalies.csv");
+  </script>
+
+</body>
+</html>
