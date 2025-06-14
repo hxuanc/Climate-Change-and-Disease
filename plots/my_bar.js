@@ -15,12 +15,14 @@ function renderClimateChart(containerSelector, csvPath) {
     .attr("class", "tooltip")
     .style("position", "absolute")
     .style("visibility", "hidden")
-    .style("background", "white")
+    .style("background", "rgba(255, 255, 255, 0.95)")
     .style("border", "1px solid #ccc")
-    .style("padding", "8px")
-    .style("border-radius", "4px")
+    .style("padding", "10px")
+    .style("border-radius", "6px")
+    .style("box-shadow", "0 2px 5px rgba(0,0,0,0.2)")
     .style("font-size", "12px")
-    .style("pointer-events", "none");
+    .style("pointer-events", "none")
+    .style("max-width", "200px");
 
   d3.csv(csvPath).then(data => {
     data.forEach(d => {
@@ -91,7 +93,6 @@ function renderClimateChart(containerSelector, csvPath) {
       .attr("text-anchor", "end")
       .text("Temperature (°C)");
 
-    // Bars for precipitation
     svg.selectAll(".bar")
       .data(data)
       .join("rect")
@@ -100,16 +101,24 @@ function renderClimateChart(containerSelector, csvPath) {
       .attr("y", d => yLeft(d.Precipitation))
       .attr("width", x.bandwidth())
       .attr("height", d => height - margin.bottom - yLeft(d.Precipitation))
-      .attr("fill", "#c1e8d5")
+      .attr("fill", "#c7e9b4")
       .on("mouseover", (event, d) => {
         d3.select(event.currentTarget).attr("opacity", 0.6);
         tooltip.style("visibility", "visible")
-          .html(`<strong>${d.MonthFull}</strong><br>Precipitation: ${d.Precipitation} mm`);
+          .html(`
+            <strong>${d.MonthFull}</strong><br>
+            <b>Precipitation</b>: ${d.Precipitation} mm<br>
+            <b>Min Temperature</b>: ${d.MinTemp} °C<br>
+            <b>Mean Temperature</b>: ${d.MeanTemp} °C<br>
+            <b>Max Temperature</b>: ${d.MaxTemp} °C
+          `);
       })
       .on("mousemove", event => {
-        tooltip.style("top", `${event.pageY - 40}px`).style("left", `${event.pageX + 10}px`);
+        tooltip
+          .style("top", `${event.pageY - 70}px`)
+          .style("left", `${event.pageX + 15}px`);
       })
-      .on("mouseout", (event) => {
+      .on("mouseout", event => {
         d3.select(event.currentTarget).attr("opacity", 1);
         tooltip.style("visibility", "hidden");
       });
@@ -125,7 +134,6 @@ function renderClimateChart(containerSelector, csvPath) {
     ];
 
     tempLines.forEach(temp => {
-      // Draw line
       svg.append("path")
         .datum(data)
         .attr("fill", "none")
@@ -133,7 +141,6 @@ function renderClimateChart(containerSelector, csvPath) {
         .attr("stroke-width", 2)
         .attr("d", line(temp.key));
 
-      // Draw dots
       svg.selectAll(`.dot-${temp.key}`)
         .data(data)
         .join("circle")
@@ -145,10 +152,18 @@ function renderClimateChart(containerSelector, csvPath) {
         .on("mouseover", (event, d) => {
           d3.select(event.currentTarget).attr("opacity", 0.6);
           tooltip.style("visibility", "visible")
-            .html(`<strong>${d.MonthFull}</strong><br>${temp.label}: ${d[temp.key]} °C`);
+            .html(`
+              <strong>${d.MonthFull}</strong><br>
+              <b>Precipitation</b>: ${d.Precipitation} mm<br>
+              <b>Min Temperature</b>: ${d.MinTemp} °C<br>
+              <b>Mean Temperature</b>: ${d.MeanTemp} °C<br>
+              <b>Max Temperature</b>: ${d.MaxTemp} °C
+            `);
         })
         .on("mousemove", event => {
-          tooltip.style("top", `${event.pageY - 40}px`).style("left", `${event.pageX + 10}px`);
+          tooltip
+            .style("top", `${event.pageY - 70}px`)
+            .style("left", `${event.pageX + 15}px`);
         })
         .on("mouseout", (event) => {
           d3.select(event.currentTarget).attr("opacity", 1);
@@ -156,13 +171,12 @@ function renderClimateChart(containerSelector, csvPath) {
         });
     });
 
-    // Legend
     const legend = svg.selectAll(".legend")
       .data(tempLines)
       .enter()
       .append("g")
       .attr("class", "legend")
-      .attr("transform", (d, i) => `translate(5, ${margin.top  + i * 12})`);
+      .attr("transform", (d, i) => `translate(5, ${margin.top + i * 14})`);
 
     legend.append("line")
       .attr("x1", width - 150)
@@ -176,7 +190,7 @@ function renderClimateChart(containerSelector, csvPath) {
       .attr("x", width - 125)
       .attr("y", 0)
       .attr("dy", "0.35em")
-      .style("font-size", "10px")
+      .style("font-size", "11px")
       .text(d => d.label);
   });
 }

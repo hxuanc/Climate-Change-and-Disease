@@ -15,6 +15,16 @@ function renderTempChoroplethMap(containerSelector, geoJsonPath, dataPath) {
 
   const path = d3.geoPath().projection(projection);
 
+  const mapGroup = svg.append("g");
+
+  const zoom = d3.zoom()
+  .scaleExtent([1, 8]) // min/max zoom
+  .on("zoom", (event) => {
+    mapGroup.attr("transform", event.transform);
+  });
+
+  svg.call(zoom);
+
   const tooltip = d3.select("body").append("div")
     .style("position", "absolute")
     .style("background", "#fff")
@@ -75,14 +85,11 @@ function renderTempChoroplethMap(containerSelector, geoJsonPath, dataPath) {
       .attr("x2", "100%").attr("y2", "0%");
 
     linearGradient.selectAll("stop")
-      .data([
-        { offset: "0%", color: colorScale(minTemp) },
-        { offset: "50%", color: colorScale(midTemp) },
-        { offset: "100%", color: colorScale(maxTemp) }
-      ])
-      .enter().append("stop")
-      .attr("offset", d => d.offset)
-      .attr("stop-color", d => d.color);
+      .data(d3.range(0, 1.01, 0.01)) // finer gradient
+      .enter()
+      .append("stop")
+      .attr("offset", d => `${d * 100}%`)
+      .attr("stop-color", d => colorScale(d3.interpolateNumber(minTemp, maxTemp)(d)));
 
     legendSvg.append("rect")
       .attr("x", 0)
@@ -92,6 +99,13 @@ function renderTempChoroplethMap(containerSelector, geoJsonPath, dataPath) {
       .style("fill", "url(#legend-gradient)")
       .style("stroke", "#ccc")
       .style("stroke-width", "1");
+
+    legendSvg.append("text")
+      .attr("x", legendWidth / 2)
+      .attr("y", legendHeight + 30)
+      .attr("text-anchor", "middle")
+      .style("font-size", "12px")
+      .text("Monthly Average Temperature (°C)");
 
     const legendScale = d3.scaleLinear()
       .domain([minTemp, maxTemp])
@@ -114,7 +128,7 @@ function renderTempChoroplethMap(containerSelector, geoJsonPath, dataPath) {
 
       d3.select("#choropleth-timeline-label").text(`${monthName} ${year}`);
 
-      svg.selectAll("path")
+      mapGroup.selectAll("path")
         .data(countries)
         .join("path")
         .attr("class", "choropleth-country")
@@ -138,8 +152,8 @@ function renderTempChoroplethMap(containerSelector, geoJsonPath, dataPath) {
           tooltip
             .html(`
               <strong>${name}</strong><br>
-              ${monthName} ${year}<br>
-              Temp: ${temp !== undefined ? temp.toFixed(2) + "°C" : "N/A"}
+              <strong>${monthName} ${year}</strong><br>
+              <strong>Temperature:</strong> ${temp !== undefined ? temp.toFixed(2) + "°C" : "N/A"}
             `)
             .style("left", (event.pageX + 10) + "px")
             .style("top", (event.pageY - 28) + "px")

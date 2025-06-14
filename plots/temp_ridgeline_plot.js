@@ -71,8 +71,8 @@ function renderRidgelinePlot(containerSelector, csvPath) {
           tooltip.transition().duration(200).style("opacity", 1);
           tooltip.html(
             `<strong>${region}</strong><br>
-             1950: ${temps["1950"]}°C<br>
-             2010: ${temps["2010"]}°C`
+             <strong>1950s</strong>: ${temps["1950"]}°C<br>
+             <strong>2010s</strong>: ${temps["2010"]}°C`
           );
         })
         .on("mousemove", function (event) {

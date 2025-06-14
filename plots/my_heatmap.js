@@ -46,16 +46,19 @@ function renderDengueHeatmap(containerSelector, csvPath) {
 
       const tooltip = d3.select(containerSelector)
         .append("div")
-        .attr("class", "tooltip")
+        .attr("class", "tooltip-dengue")
         .style("position", "absolute")
         .style("visibility", "hidden")
-        .style("background", "white")
+        .style("background", "#fff")
+        .style("color", "#333")
         .style("border", "1px solid #ccc")
-        .style("padding", "8px")
-        .style("border-radius", "4px")
-        .style("font-size", "12px")
-        .style("pointer-events", "none");
-
+        .style("padding", "10px 14px")
+        .style("border-radius", "6px")
+        .style("box-shadow", "0 4px 8px rgba(0, 0, 0, 0.15)")
+        .style("font-size", "13px")
+        .style("pointer-events", "none")
+        .style("z-index", "9999");
+        
     d3.csv(csvPath).then(data => {
         data.forEach(d => {
             d.Year = +d.Year;
@@ -108,7 +111,10 @@ function renderDengueHeatmap(containerSelector, csvPath) {
             .on("mouseover", function (event, d) {
                 tooltip
                     .style("visibility", "visible")
-                    .html(`<strong>${d.Month} ${d.Year}</strong><br>Cases: ${d.Total}`);
+                    .html(`
+            <div><strong>${d.Month} ${d.Year}</strong></div>
+            <div> <strong>Dengue Cases</strong>:${d.Total.toLocaleString()}</div>
+        `);
 
                 svg.selectAll("rect")
                     .transition()

@@ -152,7 +152,7 @@ function renderPrecipAnomalyChart(containerSelector, csvPath) {
         .attr("y", d => d.PrecipitationAnomaly >= 0 ? y(d.PrecipitationAnomaly) : y(0))
         .attr("width", x.bandwidth())
         .attr("height", d => Math.abs(y(d.PrecipitationAnomaly) - y(0)))
-        .attr("fill", d => d.PrecipitationAnomaly >= 0 ? "#5ca9e0" : "#e0695c")
+        .attr("fill", d => d.PrecipitationAnomaly >= 0 ? "#7fcdbb" : "#f5e397")
         .on("mouseover", function (event, d){
           d3.select(this)
             .attr("stroke", "black")
@@ -185,7 +185,7 @@ function renderPrecipAnomalyChart(containerSelector, csvPath) {
         svg.append("path")
           .datum([filtered[i - 1], filtered[i]])
           .attr("fill", "none")
-          .attr("stroke", d => d[1].MovingAverage >= 0 ?"#5ca9e0" : "#e0695c")
+          .attr("stroke", d => d[1].MovingAverage >= 0 ?"#7fcdbb" : "#f5e397")
           .attr("stroke-width", 2)
           .attr("d", line);
       }
@@ -199,7 +199,7 @@ function renderPrecipAnomalyChart(containerSelector, csvPath) {
         .attr("cx", d => x(d.Year) + x.bandwidth() / 2)
         .attr("cy", d => y(d.MovingAverage))
         .attr("r", 5)
-        .attr("fill", d => d.MovingAverage >= 0 ?"#5ca9e0" : "#e0695c") // match line color
+        .attr("fill", d => d.MovingAverage >= 0 ?"#7fcdbb" : "#f5e397") // match line color
         .attr("fill-opacity", 0) // make initially transparent
         .attr("pointer-events", "all")
         .on("mouseover",  function (event, d) {
@@ -212,7 +212,7 @@ function renderPrecipAnomalyChart(containerSelector, csvPath) {
           tooltip.style.opacity = 1;
           tooltip.innerHTML = `
             <strong>Year:</strong> ${d.Year}<br>
-            <strong>Moving Average:</strong> ${d.MovingAverage.toFixed(2)}°C
+            <strong>Moving Average:</strong> ${d.MovingAverage.toFixed(2)}mm
           `;
         })
         .on("mousemove",  function (event) {

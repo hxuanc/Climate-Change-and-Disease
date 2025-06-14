@@ -158,7 +158,7 @@ function renderDengueProportionalMap(containerSelector, geoJsonPath, dataPath) {
           .attr("stroke-width",0.5)
           .on("mouseover", function (event, d) {
             tooltip.transition().duration(200).style("opacity", 0.9);
-            tooltip.html(`<strong>${d.properties.name}</strong><br>Total: ${d.total.toLocaleString()}`)
+            tooltip.html(`<strong>${d.properties.name}</strong><br><strong>Total:</strong> ${d.total.toLocaleString()}`)
               .style("left", (event.pageX + 10) + "px")
               .style("top", (event.pageY - 28) + "px");
 

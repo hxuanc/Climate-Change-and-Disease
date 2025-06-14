@@ -1,7 +1,7 @@
 function renderDenguePrecipScatterPlot(containerSelector, csvPath) {
   const width = 700;
   const height = 400;
-  const margin = { top: 50, right: 30, bottom: 60, left: 70 };
+  const margin = { top: 50, right: 30, bottom: 60, left: 160 }; // Increased left margin
 
   const svg = d3.select(containerSelector)
     .append("svg")
@@ -9,13 +9,11 @@ function renderDenguePrecipScatterPlot(containerSelector, csvPath) {
     .attr("height", height);
 
   d3.csv(csvPath).then(data => {
-    // Parse numeric values
     data.forEach(d => {
       d.AnnualPrecipitation = +d['Annual.precipitation'];
       d.Total = +d.Total;
     });
 
-    // Scales
     const x = d3.scaleLinear()
       .domain(d3.extent(data, d => d.Total)).nice()
       .range([margin.left, width - margin.right]);
@@ -27,10 +25,10 @@ function renderDenguePrecipScatterPlot(containerSelector, csvPath) {
     const color = d3.scaleSequential(d3.interpolateYlGnBu)
       .domain(d3.extent(data, d => d.AnnualPrecipitation));
 
-    // Axes
+    // X Axis
     svg.append("g")
       .attr("transform", `translate(0, ${height - margin.bottom})`)
-      .call(d3.axisBottom(x))
+      .call(d3.axisBottom(x).ticks(5)) // 5 evenly spaced ticks
       .append("text")
       .attr("x", width / 2)
       .attr("y", 40)
@@ -38,6 +36,7 @@ function renderDenguePrecipScatterPlot(containerSelector, csvPath) {
       .attr("text-anchor", "middle")
       .text("Total Dengue Cases");
 
+    // Y Axis
     svg.append("g")
       .attr("transform", `translate(${margin.left}, 0)`)
       .call(d3.axisLeft(y))
@@ -61,7 +60,7 @@ function renderDenguePrecipScatterPlot(containerSelector, csvPath) {
       .style("font-size", "12px")
       .style("opacity", 0);
 
-    // Points
+    // Circles
     svg.selectAll("circle")
       .data(data)
       .join("circle")
@@ -78,10 +77,10 @@ function renderDenguePrecipScatterPlot(containerSelector, csvPath) {
 
         tooltip.transition().duration(200).style("opacity", 0.9);
         tooltip.html(`<strong>${d.Country}</strong><br>
-                      Year: ${d.Year}<br>
-                      Total Cases: ${d.Total}<br>
-                      Precipitation: ${d.AnnualPrecipitation}`)
-          .style("left", (event.pageX + 10) + "px")
+                      <b>Year</b>: ${d.Year}<br>
+                      <b>Total Cases:</b> ${d.Total.toLocaleString()}<br>
+                      <b>Precipitation:</b> ${d.AnnualPrecipitation.toLocaleString()} mm`)
+          .style("left", (event.pageX + 12) + "px")
           .style("top", (event.pageY - 28) + "px");
       })
       .on("mouseout", function () {
@@ -92,7 +91,7 @@ function renderDenguePrecipScatterPlot(containerSelector, csvPath) {
         tooltip.transition().duration(300).style("opacity", 0);
       });
 
-    // Color legend (continuous)
+    // Color Legend (next to y-axis)
     const legendHeight = 200;
     const legendWidth = 15;
 
@@ -103,13 +102,12 @@ function renderDenguePrecipScatterPlot(containerSelector, csvPath) {
     const legendAxis = d3.axisRight(legendScale)
       .ticks(6);
 
-    const legendSvg = svg.append("g")
-      .attr("transform", `translate(${width - 40}, ${margin.top})`);
+    const legendX = margin.left - 120;
+    const legendY = margin.top+50;
 
     const legendDefs = svg.append("defs");
 
     const gradientId = "precip-gradient";
-
     const gradient = legendDefs.append("linearGradient")
       .attr("id", gradientId)
       .attr("x1", "0%")
@@ -117,28 +115,29 @@ function renderDenguePrecipScatterPlot(containerSelector, csvPath) {
       .attr("x2", "0%")
       .attr("y2", "0%");
 
-    const gradientStops = d3.range(0, 1.01, 0.1);
-
-    gradientStops.forEach(t => {
+    d3.range(0, 1.01, 0.1).forEach(t => {
       gradient.append("stop")
         .attr("offset", `${t * 100}%`)
         .attr("stop-color", color(color.domain()[0] + t * (color.domain()[1] - color.domain()[0])));
     });
 
-    legendSvg.append("rect")
+    const legendGroup = svg.append("g")
+      .attr("transform", `translate(${legendX}, ${legendY})`);
+
+    legendGroup.append("rect")
       .attr("width", legendWidth)
       .attr("height", legendHeight)
       .style("fill", `url(#${gradientId})`);
 
-    legendSvg.append("g")
+    legendGroup.append("g")
       .attr("transform", `translate(${legendWidth}, 0)`)
       .call(legendAxis);
 
-    legendSvg.append("text")
-      .attr("x", -10)
+    legendGroup.append("text")
+      .attr("x", legendWidth / 2)
       .attr("y", -10)
-      .attr("text-anchor", "end")
-      .text("Precip (mm)")
-      .attr("font-size", "12px");
+      .attr("text-anchor", "middle")
+      .text("Precipitation (mm)")
+      .attr("font-size", "10px");
   });
 }

@@ -11,11 +11,14 @@ function renderFluTempScatterPlot(containerSelector, csvPath) {
   const tooltip = d3.select(containerSelector)
     .append("div")
     .style("position", "absolute")
-    .style("background", "rgba(255,255,255,0.9)")
-    .style("border", "1px solid #ccc")
-    .style("padding", "8px")
-    .style("border-radius", "4px")
+    .style("background", "rgba(255, 255, 255, 0.95)")
+    .style("box-shadow", "0 4px 12px rgba(0, 0, 0, 0.15)")
+    .style("border", "1px solid #ddd")
+    .style("padding", "10px 14px")
+    .style("border-radius", "6px")
     .style("pointer-events", "none")
+    .style("font-size", "14px")
+    .style("line-height", "1.5")
     .style("opacity", 0);
 
   d3.csv(csvPath).then(data => {
@@ -84,11 +87,11 @@ function renderFluTempScatterPlot(containerSelector, csvPath) {
       .attr("opacity", 0.7)
       .on("mouseover", function(event, d) {
         tooltip.transition().duration(200).style("opacity", 1);
-        tooltip.html(
-          `<strong>Country:</strong> ${d.Entity}<br/>
-           <strong>Total Cases:</strong> ${d.total_cases}<br/>
-           <strong>Avg Temp:</strong> ${d.avg_temp} °C`
-        )
+        tooltip.html(`
+          <div><strong>Country:</strong> ${d.Entity}</div>
+          <div><strong>Total Cases:</strong> ${d.total_cases.toLocaleString()}</div>
+          <div><strong>Avg Temp:</strong> ${d.avg_temp.toFixed(1)} °C</div>
+        `)
         .style("left", `${event.pageX + 10}px`)
         .style("top", `${event.pageY - 28}px`);
 

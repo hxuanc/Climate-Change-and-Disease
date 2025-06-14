@@ -1,8 +1,8 @@
 function renderPrecipStripChart(containerSelector, csvPath) {
   const container = document.querySelector(containerSelector);
   const containerWidth = container.clientWidth;
-  const margin = { top: 30, right: 30, bottom: 30, left: 30 };
-  const width = 400;
+  const margin = { top: 30, right: 30, bottom: 30, left: 80 };
+  const width = 500;
   const height = 500;
 
 
@@ -65,7 +65,7 @@ function renderPrecipStripChart(containerSelector, csvPath) {
     const colorMax = 300; // or another cutoff value
     const colorScale = d3.scaleDiverging()
     .domain([-colorMax, 0, colorMax])
-    .interpolator(d3.interpolateRdBu);
+    .interpolator(d3.interpolateBrBG);
 
     const anomalyByCountry2010 = {};
     aggregatedData.forEach(d => {
@@ -120,7 +120,7 @@ function renderPrecipStripChart(containerSelector, csvPath) {
         tooltip.html(
           `<strong>Country:</strong> ${d.Entity}<br/>
            <strong>Decade:</strong> ${d.Decade}<br/>
-           <strong>Anomaly:</strong> ${d["Annual.precipitation.anomaly"].toFixed(2)}`
+           <strong>Anomaly:</strong> ${d["Annual.precipitation.anomaly"].toFixed(2)}mm`
         )
         .style("left", `${event.pageX + 10}px`)
         .style("top", `${event.pageY - 28}px`);

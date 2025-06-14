@@ -9,6 +9,16 @@ function renderYearlyChoropleth(containerSelector, geoJsonPath, dataPath) {
     .attr("width", width)
     .attr("height", height);
 
+  const mapGroup = svg.append("g");
+
+  const zoom = d3.zoom()
+  .scaleExtent([1, 8]) // min/max zoom
+  .on("zoom", (event) => {
+    mapGroup.attr("transform", event.transform);
+  });
+
+  svg.call(zoom);
+
   const projection = d3.geoNaturalEarth1().scale(160).translate([width / 2, height / 2]);
   const path = d3.geoPath().projection(projection);
 
@@ -56,11 +66,60 @@ function renderYearlyChoropleth(containerSelector, geoJsonPath, dataPath) {
 
     colorScale.domain([d3.min(allValues), d3.max(allValues)]);
 
+    // Create a color legend inside its own container
+    const legendWidth = 300;
+    const legendHeight = 12;
+
+    const legendSvg = d3.select("#yearly-choropleth-legend")
+      .append("svg")
+      .attr("width", legendWidth)
+      .attr("height", 50);  // add some padding below the gradient
+
+    const defs = legendSvg.append("defs");
+
+    const linearGradient = defs.append("linearGradient")
+      .attr("id", "legend-gradient-centered");
+
+    linearGradient.selectAll("stop")
+      .data(d3.ticks(0, 1, 10))
+      .enter()
+      .append("stop")
+      .attr("offset", d => `${d * 100}%`)
+      .attr("stop-color", d => colorScale(colorScale.domain()[0] + d * (colorScale.domain()[1] - colorScale.domain()[0])));
+
+    legendSvg.append("rect")
+      .attr("x", 0)
+      .attr("y", 0)
+      .attr("width", legendWidth)
+      .attr("height", legendHeight)
+      .style("fill", "url(#legend-gradient-centered)");
+
+    const legendScale = d3.scaleLinear()
+      .domain(colorScale.domain())
+      .range([0, legendWidth]);
+
+    const legendAxis = d3.axisBottom(legendScale)
+      .ticks(5)
+      .tickFormat(d3.format(".0f"));
+
+    legendSvg.append("g")
+      .attr("transform", `translate(0, ${legendHeight})`)
+      .call(legendAxis)
+      .selectAll("text")
+      .style("font-size", "10px");
+
+    legendSvg.append("text")
+      .attr("x", legendWidth / 2)
+      .attr("y", legendHeight + 30)
+      .attr("text-anchor", "middle")
+      .style("font-size", "12px")
+      .text("Annual Precipitation (mm)");
+      
     function updateMap() {
       const year = +slider.property("value");
       label.text(year);
 
-      svg.selectAll("path.yearly-country")
+      mapGroup.selectAll("path.yearly-country")
         .data(countries)
         .join("path")
           .attr("class", "yearly-country")
@@ -73,21 +132,21 @@ function renderYearlyChoropleth(containerSelector, geoJsonPath, dataPath) {
           .attr("stroke", "#333")
           .attr("stroke-width", d => (valueLookup[`${d.properties.name}-${year}`] != null) ? 0.5 : 0.2)
           .on("mouseover", function(event, d) {
-            svg.selectAll("path.yearly-country").transition().duration(200).style("opacity", 0.2);
+            mapGroup.selectAll("path.yearly-country").transition().duration(200).style("opacity", 0.2);
             d3.select(this).transition().duration(200).style("opacity", 1).style("stroke", "black");
 
             const val = valueLookup[`${d.properties.name}-${year}`];
             tooltip.html(
               `<strong>${d.properties.name}</strong><br>
-               Year: ${year}<br>
-               Precipitation: ${val != null ? val.toFixed(2) : "N/A"} mm`
+               <strong>Year:</strong> ${year}<br>
+               <strong>Precipitation:</strong> ${val != null ? val.toFixed(2) : "N/A"} mm`
             )
             .style("left", (event.pageX + 10) + "px")
             .style("top", (event.pageY - 28) + "px")
             .transition().duration(200).style("opacity", 1);
           })
           .on("mouseout", function() {
-            svg.selectAll("path.yearly-country").transition().duration(200).style("opacity", 1).style("stroke", "#333");
+            mapGroup.selectAll("path.yearly-country").transition().duration(200).style("opacity", 1).style("stroke", "#333");
             tooltip.transition().duration(200).style("opacity", 0);
           });
     }

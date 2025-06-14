@@ -3,8 +3,8 @@ function renderDengueBarChart(containerSelector, csvPath) {
     // Sort data descending by Total
     data.sort((a, b) => d3.descending(a.Total, b.Total));
 
-    const margin = { top: 20, right: 30, bottom: 40, left: 30 };
-    const width = 800 - margin.left - margin.right;
+    const margin = { top: 20, right: 30, bottom: 40, left: 60 };
+    const width = 900 - margin.left - margin.right;
     const height = data.length * 35;
 
     const svg = d3.select(containerSelector)
@@ -61,7 +61,7 @@ function renderDengueBarChart(containerSelector, csvPath) {
       .attr("fill", "#69b3a2")
       .on("mouseover", function (event, d) {
         tooltip.transition().duration(200).style("opacity", 1);
-        tooltip.html(`<strong>${d.Country}</strong><br/>Total: ${d3.format(",")(d.Total)}`)
+        tooltip.html(`<strong>${d.Country}</strong><br/><strong>Total:</strong> ${d3.format(",")(d.Total)}`)
           .style("left", `${event.pageX + 10}px`)
           .style("top", `${event.pageY - 28}px`);
         d3.select(this).attr("fill", "#40a389");

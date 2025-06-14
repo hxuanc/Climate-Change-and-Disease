@@ -3,7 +3,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Climate & Disease Dashboard</title>
+  <!-- Hero Section with Background Image -->
+  <section class="hero-section">
+    <div class="hero-overlay">
+        <h1>From Climate Anomalies to Disease Outbreaks: A Global Data Exploration</h1>
+        <p>Choong Hui Xuan</p>
+        <p>32880553</p>
+        <p></p>
+          <p style="text-align: justify; font-size: 16px; line-height: 1.6; max-width: 1150px; margin: auto; padding-top: 20px;padding-bottom: 20px; padding-left: 5px; padding-right: 5px;">
+    In the face of a rapidly changing climate, understanding how shifts in global temperature and precipitation influence public health has never been more vital. This data story explores the intricate relationships between climate anomalies and disease patterns, offering a global-to-local perspective. By examining temperature and rainfall changes across decades, and aligning these trends with outbreaks of diseases like influenza and dengue, this dashboard reveals insights into the environmental conditions that shape health outcomes. Using interactive visualizations and real-world datasets, we investigate not only where and how the planet is changing—but also how these changes ripple through human populations.
+  </p>
+    </div>
+  </section>
   <style>
     body {
       font-family: 'Segoe UI', sans-serif;
@@ -11,6 +22,43 @@
       padding: 0 20px;
       background-color: #f9f9f9;
       color: #333;
+    }
+
+    .hero-section {
+      background-image: url('data/background.jpg'); 
+      background-size: cover;
+      background-position: center;
+      height: 450px;
+      width: 1200px;
+      margin: 0 auto; 
+      position: relative;
+      display: flex;
+      align-items: center;
+      border-radius: 5px;
+      justify-content: center;
+      }
+
+    .hero-overlay {
+      background: rgba(0, 0, 0, 0); /* semi-transparent overlay */
+      padding: 20px 40px;
+      border-radius: 12px;
+    }
+
+    .hero-overlay h1 {
+      color: white;
+      font-size: 55px;
+      margin: 0;
+      text-align: center;
+    }
+
+    .hero-overlay p {
+      font-size: 20px;
+      text-align: center;
+      color: white;
+      font-weight:900;
+      margin: 0;
+      font-weight: 300;
+      letter-spacing: 0.5px;
     }
 
     h1 {
@@ -65,12 +113,26 @@
     }
 
     .slider-container {
-      text-align: center;
-      margin-bottom: 30px;
+      display: flex;
+      justify-content: center;
+      margin: 10px 10px;
     }
 
     .slider-container input {
-      width: 300px;
+      width: 100%;
+    }
+
+    .slider-frame {
+      background-color: #ffffff;
+      width: 400px;    
+      padding: 8px 20px;
+      border-radius: 10px;
+      border: 1px solid #ccc;
+      box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+      display: inline-flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2px;
     }
 
     @media (max-width: 768px) {
@@ -91,35 +153,75 @@
       width: 90%;
       border-radius: 1px;
     }
+
+    .footer-section {
+      background-image: url('data/background.jpg'); 
+      background-size: cover;
+      background-position: center;
+      height: 300px;
+      width: 1200px;
+      margin: 0 auto; 
+      position: relative;
+      display: flex;
+      align-items: center;
+      border-radius: 5px;
+      justify-content: center;
+  }
+
+  .footer-overlay {
+    background-color: rgba(0, 0, 0, 0); /* darken for readability */
+    color: white;
+    text-align: center;
+    padding: 20px 40px;
+    border-radius: 10px;
+    max-width: 800px;
+  }
+
+  .footer-overlay p {
+    margin: 5px 0;
+    font-size: 0.95rem;
+  }
   </style>
 </head>
 <body>
 
-    <h1>From Climate Anomalies to Disease Outbreaks: A Global Data Exploration</h1>
+
 
   <!-- SECTION 1 -->
    <h2>Warming and Wetter: How Earth's Climate is Changing?</h2>
-  <section class="section-fullwidth">
+  <p style="text-align: justify; font-size: 16px; line-height: 1.6; max-width: 1150px; margin: auto; padding-top: 20px;padding-bottom: 20px; padding-left: 5px; padding-right: 5px;">
+    Through a series of interactive visualizations, this section explores evolving patterns of 
+     temperature and precipitation across regions and decades. From 
+    choropleth maps to bar and ridgeline plots, we track how the planet's surface 
+    has warmed and rainfall patterns have shifted over time. These visualizations reveal that 
+    climate change is not a uniform experience—its impact varies greatly across 
+    geographies and historical periods. By visualizing these changes, we lay a critical 
+    foundation for understanding their ripple effects on global health.
+  </p><section class="section-fullwidth">
     <div style="display: flex; flex-direction: column; gap: 40px;">
-      <div style="display: flex; flex-direction: column; gap: 30px;">
-        <h3 style="text-align: center;">Global Temperature Anomalies</h3>
+      <div style="display: flex; flex-direction: column; gap: 25px;">
+        <h3 style="text-align: center; margin-bottom: 0">Global Monthly Surface Temperature</h3>
+        
         <div id="choropleth-map-wrapper" style="text-align: center;">
-          <div class="slider-container">
-            <label for="choropleth-timeline">
-              Date: <span id="choropleth-timeline-label">December 2020</span>
-            </label><br>
-            <input type="range" id="choropleth-timeline" min="0" max="899" value="899" style="width: 60%;">
-          </div>
+      <div class="slider-container">
+        <div class="slider-frame">
+          <label for="choropleth-timeline">
+            <strong>Date: </strong><span id="choropleth-timeline-label">December 2020</span>
+          </label>
+          <input type="range" id="choropleth-timeline" min="0" max="899" value="899">
+        </div>
+      </div>
           <div id="choropleth-map" style="margin-top: 0;"></div>
           <div id="temp-choropleth-legend-container"></div>
         </div>
       </div>
         <div id="anomaly-description" class="description-box">
-          <h3>Description</h3>
-          <p>This section explains the patterns and insights derived from the temperature and precipitation anomaly data.</p>
+            <p style="text-align: justify; font-size: 16px; line-height: 1.6; max-width: 1150px; margin: auto; padding-top: 20px; padding-bottom: 20px; padding-left: 5px; padding-right: 5px;">
+    The <strong>Global Monthly Surface Temperature Choropleth Map</strong> highlights Earth's seasonal cycles. We observe that <strong>July is summer in the Northern Hemisphere</strong>, showing widespread warming over North America, Europe, and Asia, while it is <strong>winter in the Southern Hemisphere</strong>. This seasonal pattern is consistent annually, yet masks the larger signal: a steady upward shift in global temperatures over time.
+  </p>
         </div>
 
-        <div style="display: flex; gap: 30px;">
+        <div style="display: flex; gap: 10px;">
           <div style="flex: 1; display: flex; flex-direction: column; align-items: center;">
             <h3 style="text-align: center;">Temperature Anomaly Over Time</h3>
             <div id="temp-anomaly-chart" class="chart-box"></div>
@@ -129,6 +231,23 @@
             <div id="temp_ridgeline_chart" class="chart-box"></div>
           </div>
       </div>
+      <div>
+          <p style="text-align: justify; font-size: 16px; line-height: 1.6; max-width: 1150px; margin: auto;  padding-bottom: 20px; padding-left: 5px; padding-right: 5px;">
+    The <strong>Temperature Anomaly Over Time plot</strong> shows how average global temperatures have diverged from the 1951–1980 baseline. From the 1940s to the late 1970s, global temperatures were consistently below baseline, indicating a period of relative cooling. Around 1980, however, we see a dramatic shift:  <span style="color: #e0695c; font-weight: bold;">temperature anomalies begin rising steadily</span>, crossing the zero line around the year 2000. This marks a critical threshold—global temperatures are no longer fluctuating around the baseline; they are now consistently higher. The most recent years show anomalies reaching  <span style="color: #e0695c; font-weight: bold;">+0.7°C or more</span>, signaling a total warming of approximately <strong>1.5°C from the coldest decades</strong>.
+  </p>
+
+  <p style="text-align: justify; font-size: 16px; line-height: 1.6; max-width: 1150px; margin: auto; padding-top: 20px; padding-bottom: 20px; padding-left: 5px; padding-right: 5px;">
+    This temporal warming trend is further confirmed in the <strong>Temperature Distribution Over Time strip plot</strong>, which compares regional temperature distributions in the 1950s versus the 2010s. Every region—Asia, Europe, North America, Africa, Oceania, and even Antarctica—exhibits a <strong>clear rightward shift</strong> in temperature, indicating widespread warming. Particularly striking are:
+  </p>
+    <li><strong>Asia and Europe</strong>, where the 2010s distributions are almost entirely separated from their 1950s baselines.</li>
+    <li><strong>North America and Africa</strong>, which show broad warming with increased variability.</li>
+    <li><strong>Antarctica</strong>, where warming is evident but shows greater spread and unpredictability.</li>
+    <li><strong>Oceania</strong>, which despite its smaller landmass, demonstrates a noticeable shift.</li>
+
+  <p style="text-align: justify; font-size: 16px; line-height: 1.6; max-width: 1150px; margin: auto; padding-top: 20px; padding-bottom: 20px; padding-left: 5px; padding-right: 5px;">
+    In summary, these visualizations collectively demonstrate that <strong>climate change is not isolated to specific regions or timeframes</strong>. It is a <strong>global, accelerating phenomenon</strong>, with consistent warming patterns observable across hemispheres, decades, and continents. The data leaves little room for doubt: Earth’s climate system has fundamentally shifted, with rising temperatures now defining the new global norm.
+  </p>
+      </div>
     </div>
   </section>
 
@@ -137,22 +256,44 @@
   <section class="section-fullwidth">
 
     <div style="display: flex; flex-direction: column; gap: 40px;">
-      <div style="display: flex; flex-direction: column; gap: 30px;">
-        <div id="yearly-choropleth-wrapper" style="text-align: center;">
-          <h3>Yearly Precipitation Map</h3>
+      <div style="display: flex; flex-direction: column; gap: 25px;">
+        
+        <!-- Yearly Precipitation Map Wrapper -->
+        <div id="yearly-choropleth-wrapper" style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+
+          <!-- Title -->
+          <h3>Global Annual Precipitation</h3>
+
+          <!-- Slider Container -->
           <div class="slider-container">
-            <label for="yearly-choropleth-slider">
-              Year: <span id="yearly-choropleth-label"></span>
-            </label><br>
-            <input type="range" id="yearly-choropleth-slider" step="1" style="width: 60%;">
+            <div class="slider-frame">
+              <label for="yearly-choropleth-slider">
+                <strong>Year: </strong><span id="yearly-choropleth-label">Loading...</span>
+              </label>
+              <input 
+                type="range" 
+                id="yearly-choropleth-slider" 
+                step="1" 
+                style="width: 100%;"
+              >
+            </div>
           </div>
-          <div id="yearly-choropleth-map" style="margin-top: 20px;"></div>
+
+          <!-- Map -->
+          <div id="yearly-choropleth-map" style="margin-top: 20px; width: 100%; max-width: 1000px; height: 500px;"></div>
+
+          <!-- Legend -->
+          <div id="yearly-choropleth-legend" style="margin-top: 10px;"></div>
         </div>
+      </div>
+    </div>
+
 
       </div>
           <div class="description-box">
-          <h3>Description</h3>
-          <p>This section explains the patterns and insights derived from the precipitation data by year and region.</p>
+  <p style="text-align: justify; font-size: 16px; line-height: 1.6; max-width: 1150px; margin: auto; padding-top: 20px; padding-bottom: 20px; padding-left: 5px; padding-right: 5px;">
+    The <strong style="color: black;">Global Monthly Precipitation Choropleth Map</strong> reveals a consistent spatial trend: areas near the equator receive substantially more rainfall than regions at higher latitudes. This is due to the <strong style="color: black;">Intertropical Convergence Zone (ITCZ)</strong>, where warm, moist air rises and cools, producing persistent rain. This pattern is especially prominent over equatorial Africa, Southeast Asia, and parts of South America. In contrast, subtropical zones—such as Northern Africa, Australia, and the Middle East—tend to remain dry. The map underscores how geography and atmospheric circulation shape <strong style="color: black;">precipitation intensity</strong> across the globe.
+  </p>
         </div>
 
       <div style="display: flex; gap: 30px;">
@@ -161,61 +302,45 @@
           <div id="precip-anomaly-chart" class="chart-box"></div>
         </div>
         <div style="flex: 1; display: flex; flex-direction: column; align-items: center;">
-          <h3 style="text-align: center;">Precipitation Patterns by Year</h3>
+          <h3 style="text-align: center;">Precipitation Distribution by Decade</h3>
           <div id="precip-strip-chart" class="chart-box"></div>
+          <div id="precip-legend" style="margin-top: 10px;"></div>
         </div>
+      </div>
+      <div>
+          <p style="text-align: justify; font-size: 16px; line-height: 1.6; max-width: 1150px; margin: auto; padding-top: 20px; padding-bottom: 20px; padding-left: 5px; padding-right: 5px;">
+    The <strong style="color: black;">Precipitation Anomaly Over Time plot</strong> paints a more erratic picture than temperature. From the 1940s through the late 1970s, global precipitation anomalies were mostly negative, indicating a period of <strong style="color: black;">drier-than-average conditions</strong>. Around 1980, however, there is a notable shift: anomalies begin swinging into positive territory. The decades between 1990 and 2010 exhibit several <span style="color: #4ea6d7; font-weight: bold;">extremely wet years</span>, with anomalies exceeding <span style="color: #4ea6d7; font-weight: bold;">+20mm to +25mm</span> above baseline. 
+  </p>
+
+  <p style="text-align: justify; font-size: 16px; line-height: 1.6; max-width: 1150px; margin: auto; padding-top: 5px; padding-bottom: 20px; padding-left: 5px; padding-right: 5px;">
+    The <strong style="color: black;">Regional Precipitation Distribution plot</strong> further illustrates how rainfall shifts are <strong style="color: black;">regionally diverse</strong>. Unlike the globally consistent temperature increase, precipitation changes vary dramatically:
+  </p>
+    <li><strong style="color: black;">Africa</strong> shows heightened variability, with both <span style="color: #4ea6d7; font-weight: bold;">more extreme wet years</span> and pronounced dry periods.</li>
+    <li><strong style="color: black;">Asia</strong> presents a mixed pattern—some regions experienced drying, while others show <span style="color: #4ea6d7; font-weight: bold;">increases in precipitation</span>.</li>
+    <li><strong style="color: black;">Europe</strong> reveals relatively modest changes between decades, with slight signs of <span style="color: #4ea6d7; font-weight: bold;">increased rainfall extremes</span>.</li>
+    <li><strong style="color: black;">Oceania</strong> is marked by <span style="color: #4ea6d7; font-weight: bold;">high variability</span> in both periods, reflecting its sensitivity to oceanic and atmospheric cycles such as El Niño.</li>
+
+  <p style="text-align: justify; font-size: 16px; line-height: 1.6; max-width: 1150px; margin: auto; padding-top: 20px; padding-bottom: 20px; padding-left: 5px; padding-right: 5px;">
+    Across nearly all regions, the spread of precipitation anomalies has widened, indicating a rise in <span style="color: #4ea6d7; font-weight: bold;">extreme rainfall and drought events</span>. The “World” distribution captures this shift: while the 1950s skewed dry, the 2010s show <span style="color: #4ea6d7; font-weight: bold;">slightly wetter and more variable conditions</span>.
+  </p>
       </div>
     </div>
   </section>
 
 
-  <!-- SECTION 3 -->
-  <!-- <section class="section-fullwidth">
-
-    <div class="control-panel" style="text-align: center;">
-      <label for="flu-year-select">Select Year:</label>
-      <select id="flu-year-select"></select>
-      <label for="hemisphere-select" style="margin-left: 20px;">Select Hemisphere:</label>
-      <select id="hemisphere-select">
-        <option value="northern">Northern Hemisphere</option>
-        <option value="southern">Southern Hemisphere</option>
-      </select>
-    </div>
-    <div class="chart-container" style="display: flex; gap: 30px; margin-top: 30px;">
-      <div id="northern-hemisphere" style="flex: 1;"></div>
-      <div id="southern-hemisphere" style="flex: 1;"></div>
-    </div>
-    <div style="display: grid; grid-template-columns: 7fr 3fr; gap: 30px;">
-      <div id="combined-flu-chart"></div>
-      <div class="description-box">
-        <h3>Flu Trend Description</h3>
-        <p>This section highlights aggregated influenza trends across hemispheres and years, showing how flu peaks vary and how climate might influence them.</p>
-      </div>
-    </div>
-  </section> -->
-
-  <!-- SECTION 4 -->
-  <!-- <h2>Section 4: Dengue Trends and Climate</h2> -->
-  <!-- <section class="section-fullwidth">
-
-    <div id="controls" style="text-align: center; margin-bottom: 30px;">
-      <label for="monthYearSlider">
-        <strong>Month-Year:</strong> <span id="monthYearLabel">Jan 2009</span>
-      </label><br>
-      <input type="range" id="monthYearSlider" min="0" max="168" step="1" value="0" style="width: 60%;">
-    </div>
-    <div style="display: flex; flex-direction: column; gap: 30px;">
-      <div id="dengue-map" style="flex: 1; height: 700px;"></div>
-      <div id="dengue-bar-chart" style="flex: 1;"></div>
-    </div>
-    <div class="description-box" style="margin-top: 30px;">
-      <h3>Dengue Overview</h3>
-      <p>This map and chart explore how dengue fever trends relate to seasonal patterns and geographic regions. Use the slider to explore changes over time.</p>
-    </div>
-  </section> -->
-
 <h2>Disease Dynamics in a Changing World</h2>
-
+  <p style="text-align: justify; font-size: 16px; line-height: 1.6; max-width: 1150px; margin: auto; padding-top: 20px;padding-bottom: 20px; padding-left: 5px; padding-right: 5px;">
+    With the rhythm of a shifting climate established, we now focus on its effect on human health. 
+    How are diseases responding to environmental stress? This section spotlights 
+    influenza and dengue — two of the world’s most widespread and 
+    climate-sensitive diseases. Through seasonal and strain-based visualizations, we uncover how 
+    flu patterns fluctuate between hemispheres and consider whether seasonal predictability is 
+    being eroded. This section challenges us to reflect on the vulnerability of global health systems in a 
+    warming, interconnected world.
+  </p>
+  <p style="text-align: center; font-size: 16px; font-weight: bold;">
+    Select an interested disease to view related information.
+  </p>
 <!-- Toggle Buttons -->
 <div style="text-align: center; margin-bottom: 20px;">
   <button onclick="showSection('flu')" style="margin-right: 10px;">Show Influenza Trends</button>
@@ -224,7 +349,9 @@
 
 <!-- SECTION 3: Influenza -->
 <section id="section-flu" class="section-fullwidth">
-  <h3 style="text-align: center;">Influenza Trends by Hemisphere</h3>
+  <h3 style="text-align: center;">Seasonal Influenza Radial Plot</h3>
+  <p style="text-align: center; font-size: 16px; line-height: 1.6; max-width: 1150px; margin: auto;padding-bottom: 20px; padding-left: 5px; padding-right: 5px;">
+ Select an interested year and hemisphere to explore the influenza cases at that time.</p>
   <div class="control-panel" style="text-align: center;">
     <label for="flu-year-select">Select Year:</label>
     <select id="flu-year-select"></select>
@@ -243,14 +370,26 @@
 </div>
 
 
-  <div style="display: grid; grid-template-columns: 7fr 3fr; gap: 30px;">
+  <div style="display: grid; grid-template-columns: 7fr 3fr; gap: 10px;">
     <div>
-      <h3 style="text-align: center;">Combined Influenza Chart</h3>
+      <h3 style="text-align: center;">Global Influenza Strain Over Time</h3>
       <div id="combined-flu-chart"></div>
     </div>
     <div class="description-box">
-      <h3>Flu Trend Description</h3>
-      <p>This section highlights aggregated influenza trends across hemispheres and years, showing how flu peaks vary and how climate might influence them.</p>
+    <p>
+    <b>Northern Hemisphere:</b> Annual spikes align with <span style="color:#7da5cf"><b>winter</b></span> and reach up to <b style="color:#0077cc">300,000 cases</b>. 
+    Activity dips in <span style="color:#f6c881"><b>summer</b></span>, creating a distinct seasonal rhythm.
+  </p>
+  <p>
+    <b>Southern Hemisphere:</b> Flu peaks occur during <span style="color:#7da5cf"><b>their winter</b></span> (<span style="color:#f6c881"><b>June–August</b></span>), offset by six months.
+    Peaks are lower (~<b style="color:#0077cc">10,000 cases</b>) and show **more variability** year to year.
+  </p>
+
+  <p style="font: 20px;"><b>Key Takeaways</b></p>
+    <li style="text-align: justify;">Influenza follows <strong>predictable seasonal cycles</strong> driven by climate.</li>
+    <li style="text-align: justify;"><b style="color:#0077cc">Higher peaks</b> in the North reflect both larger populations and possibly better surveillance systems.</li>
+    <li style="text-align: justify;">2022–2024 patterns hint at lingering impacts from <strong>COVID-19</strong>disruptions.</li>
+    <li style="text-align: justify;">Opposite seasons mean flu circulates globally, with timing critical for hemisphere-specific vaccination.</li>
     </div>
   </div>
 </section>
@@ -258,26 +397,42 @@
 
 <!-- SECTION 4: Dengue -->
 <section id="section-dengue" class="section-fullwidth" style="display: none;">
-  <h3 style="text-align: center;">Dengue Cases Choropleth Map</h3>
-  <div id="controls" style="text-align: center; margin-bottom: 30px;">
-    <label for="monthYearSlider">
-      <strong>Month-Year:</strong> <span id="monthYearLabel">Jan 2009</span>
-    </label><br>
-    <input type="range" id="monthYearSlider" min="0" max="168" step="1" value="0" style="width: 60%;">
+  <h3 style="text-align: center;">Dengue Cases over the World</h3>
+
+  <!-- Slider Container & Frame -->
+  <div class="slider-container">
+    <div class="slider-frame">
+      <label for="monthYearSlider">
+        <strong>Month and Year:</strong> <span id="monthYearLabel">Jan 2009</span>
+      </label>
+      <input 
+        type="range" 
+        id="monthYearSlider" 
+        min="0" 
+        max="168" 
+        step="1" 
+        value="0" 
+        style="width: 100%;"
+      >
+    </div>
   </div>
+
+  <!-- Main Content -->
   <div style="display: flex; flex-direction: column; gap: 30px; align-items: center;">
     <div>
       <div id="dengue-map" style="flex: 1; height: 700px;"></div>
     </div>
     <div>
-      <h3 style="text-align: center;">Monthly Dengue Case Counts</h3>
+      <h3 style="text-align: center;">Top 10 Countries with Dengue in 2022</h3>
       <div id="dengue-bar-chart" style="flex: 1;"></div>
     </div>
   </div>
+
+  <!-- Description -->
   <div class="description-box" style="margin-top: 30px;">
-    <h3>Dengue Overview</h3>
-    <p>This map and chart explore how dengue fever trends relate to seasonal patterns and geographic regions. Use the slider to explore changes over time.</p>
-  </div>
+<p style="text-align: justify; font-size: 16px; line-height: 1.6; max-width: 1150px; margin: auto; padding: 20px 5px;">
+  Dengue remains concentrated in the <b style="color: black;">tropical belt</b>, with <b style="color: black;">Brazil</b> showing an outsized burden (~2.2M cases), far surpassing other nations. High case numbers also appear in <b style="color: black;">India</b>, <b style="color: black;">Philippines</b>, and parts of <b style="color: black;">Southeast Asia</b> and <b style="color: black;">Latin America</b>. The map confirms dengue’s strong association with regions where <b style="color: #5890ff;">Aedes mosquitoes</b> thrive, primarily between 30°N–30°S. Focused control efforts in <b style="color: black;">Brazil</b> and other hotspots could yield major global gains in reducing dengue transmission.
+</p></div>
 </section>
 
 <!-- JavaScript to toggle -->
@@ -296,46 +451,75 @@
   }
 </script>
     <h2>From Weather to Wards: Exploring Correlations</h2>
+  <p style="text-align: justify; font-size: 16px; line-height: 1.6; max-width: 1150px; margin: auto; padding-top: 20px;padding-bottom: 20px; padding-left: 5px; padding-right: 5px;">
+    We move from observation to connection—are rising temperatures and increased rainfall truly linked to 
+    disease outbreaks? In this section, scatterplots allow us to analyze the 
+    relationships between temperature and influenza, and precipitation and dengue. 
+    What emerges is a compelling insight: warmer regions often see influenza spikes, while 
+    rainy seasons correspond with dengue outbreaks. While correlation is not causation, these trends 
+    provide valuable cues for epidemiological forecasting and underscore the need for 
+    climate-informed health policies. This section serves as a critical link—connecting environmental 
+    shifts to real-world health consequences.
+  </p>
   <!-- SECTION 5 -->
   <section class="section-fullwidth">
 
     <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px;">
     <div>
-      <h3 style="text-align: center;">Flu Activity vs Temperature</h3>
+      <h3 style="text-align: center;">Temperature vs. Influenza Cases</h3>
       <div id="flu-temp-scatter-chart"></div>
     </div>
       <div class="description-box">
-        <h3>Flu vs Temperature</h3>
-        <p>This scatter plot shows the relationship between flu activity and temperature across months and regions.</p>
+      <p style="text-align: justify; font-size: 16px; line-height: 1.6; max-width: 1150px; margin: auto; padding-top: 150px;padding-bottom: 20px; padding-left: 5px; padding-right: 5px;">
+        This scatter plot shows a strong <strong>inverse correlation</strong> between <b>temperature</b> and <b>influenza cases</b>.
+        Peak flu counts (>2,000 cases) occur at <b style="color:#e0695c">0–15°C</b>, with a sharp drop above <b style="color:#e0695c">25°C</b>.
+        Patterns are consistent in both hemispheres—<span style="color:#98e4c8"><b>Northern</b></span> and <span style="color:#f4a44a"><b>Southern</b></span>—supporting cold weather as a major transmission driver.
+      </p>
       </div>
     </div>
     <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px; margin-top: 40px;">
       <div class="description-box">
-        <h3>Dengue vs Precipitation</h3>
-        <p>This chart analyzes how precipitation impacts dengue activity, showing a correlation pattern over the observation period.</p>
-      </div>
+   <p style="text-align: justify; font-size: 16px; line-height: 1.6; max-width: 1150px; margin: auto; padding-top: 150px;padding-bottom: 20px; padding-left: 5px; padding-right: 5px;">
+    Dengue cases cluster around <b style="color:#0077cc">1,500–2,000 mm</b> annual rainfall. 
+    Transmission is highest at <b style="color:#0077cc">moderate precipitation</b>—enough for mosquito breeding, but not extreme.
+    Very low (<b>&lt;1,000mm</b>) or very high (<b>3,500mm+</b>) rainfall regions show <b>fewer cases</b>, likely due to habitat limits.
+  </p>
+</div>
     <div>
-      <h3 style="text-align: center;">Dengue Activity vs Precipitation</h3>
+      <h3 style="text-align: center;">Precipitation vs. Dengue Cases</h3>
       <div id="dengue-precip-scatter-chart"></div>
     </div>
     </div>
   </section>
 
 <h2>From National Data to Local Insight: Malaysia's Story</h2>
+  <p style="text-align: justify; font-size: 16px; line-height: 1.6; max-width: 1150px; margin: auto; padding-top: 20px;padding-bottom: 20px; padding-left: 5px; padding-right: 5px;">
+      Every global pattern is made up of local narratives. In this final section, we focus on 
+    Malaysia —— a country that faces recurring dengue outbreaks closely tied to 
+    seasonal rainfall</strong>. Through localized visualizations, including a climate-case heatmap, we reveal 
+    how temperature and precipitation fluctuations align with monthly disease trends. 
+
+  </p>
 <!-- SECTION 6 -->
 <section class="section-fullwidth">
 
   <div style="display: flex; gap: 30px;">
     <div style="flex: 1;">
-      <h3 style="text-align: center;">Malaysia Climate Anomalies by Year</h3>
+      <h3 style="text-align: center;">Climate Trends in Malaysia</h3>
       <div id="my-climate-bar"></div>
     </div>
     <div style="flex: 1;">
-      <h3 style="text-align: center;">Malaysia Climate Anomalies Heatmap</h3>
+      <h3 style="text-align: center;">Malaysia Climate Cases over Time</h3>
       <div id="heatmap-container"></div>
     </div>
-  </div>
 
+  </div>
+    <div>
+<p style="text-align: justify; font-size: 16px; line-height: 1.6; max-width: 1150px; margin: auto; padding: 20px 5px;">
+  Malaysia’s <b style="color: black;">dengue trends</b> closely track its tropical <b style="color: #5890ff;">rainfall</b> cycles. While <b style="color: black;">temperatures</b> stay stable (26–31°C), <b style="color: black;">precipitation</b> peaks in <b style="color: black;">October–December</b> and dips in <b style="color: #5890ff;">June–July</b>. <b style="color: black;">Dengue cases</b> rise about 1–2 months after wet periods, with surges in <b style="color: black;">January–March</b>, and drop during the dry season. The heatmap shows clear seasonal patterns and year-to-year shifts, highlighting how <b style="color: black;">climate</b> timing can guide timely <b style="color: black;">public health action</b>.
+</p>
+
+    </div>
 </section>
 
   <!-- D3 + TopoJSON Libraries -->
@@ -422,8 +606,22 @@
 
 
   </script>
-
-
-
 </body>
+<footer class="footer-section">
+  <div class="footer-overlay">
+    <p style="color: white; font-size: 13px; margin-top: 15px; text-align: center;">
+      Choong Hui Xuan 32880553 | Monash University FIT5147 Data Exploration and Visualization
+    </p>
+    <p style="color: white; font-size: 14px; text-align: justify; max-width: 1000px; margin: 0 auto;">
+      Climate and disease data sourced from Ritchie, H., Roser, M., & Rosado, P. (2024). 
+      <strong><a href="https://ourworldindata.org/temperature-anomaly" style="color: white;">Our World in Data</a></strong> (temperature anomalies, precipitation, and influenza trends); 
+      <strong><a href="https://opendengue.org/data.html" style="color: white;">OpenDengue</a></strong> (dengue case data); and 
+      <strong><a href="https://climateknowledgeportal.worldbank.org/download-data" style="color: white;">World Bank Climate Knowledge Portal</a></strong> (climate datasets).
+    </p>
+
+  </div>
+</footer>
+
+  </div>
+</footer>
 </html>

@@ -7,6 +7,18 @@ function renderCombinedFluAreaChart(selector, csvPath) {
   const chartHeight = (height - margin.top - margin.bottom) / 2 - 20;
 
   const subtypes = ["Ah1n12009", "Ah1", "Ah3", "Ah5", "Ah7n9", "A_no_subtype", "Bvic", "Byam", "Bnotdetermined"];
+
+  const subtypeLabels = {
+  "Ah1n12009": "A(H1N1)pdm09",
+  "Ah1": "A(H1)",
+  "Ah3": "A(H3)",
+  "Ah5": "A(H5)",
+  "Ah7n9": "A(H7N9)",
+  "A_no_subtype": "A (no subtype)",
+  "Bvic": "B (Victoria)",
+  "Byam": "B (Yamagata)",
+  "Bnotdetermined": "B (not determined)"
+};
   const color = d3.scaleOrdinal(subtypes, d3.schemeSet3);
 
   const parseDate = d3.timeParse("%Y-%B");
@@ -97,6 +109,8 @@ function renderCombinedFluAreaChart(selector, csvPath) {
     drawHemisphere(northData, margin.top, "Northern Hemisphere", 300000);
     drawHemisphere(southData, margin.top + chartHeight + 40, "Southern Hemisphere", 20000);
 
+
+
     // Tooltip setup
     const tooltip = d3.select(selector)
       .append("div")
@@ -141,7 +155,11 @@ function renderCombinedFluAreaChart(selector, csvPath) {
 
         const format = d3.timeFormat("%B %Y");
 
-        const makeSubtypeTable = (d) => subtypes.map(k => `${k}: ${d[k]}`).join("<br/>");
+        const makeSubtypeTable = (d) =>
+          subtypes
+          .filter(k => d[k] > 0)
+          .map(k => `<span style="color:${color(k)};">●</span> ${subtypeLabels[k]}: ${d[k].toLocaleString()}`)
+          .join("<br/>");
 
         tooltip.html(`
           <strong>${format(northDatum.date)}</strong><br/>
