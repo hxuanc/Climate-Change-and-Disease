@@ -2,7 +2,7 @@ function renderPrecipStripChart(containerSelector, csvPath) {
   const container = document.querySelector(containerSelector);
   const containerWidth = container.clientWidth;
   const margin = { top: 30, right: 30, bottom: 30, left: 30 };
-  const width = containerWidth - margin.left - margin.right;
+  const width = 400;
   const height = 500;
 
 

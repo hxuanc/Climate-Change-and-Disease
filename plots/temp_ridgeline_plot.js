@@ -2,7 +2,7 @@ function renderRidgelinePlot(containerSelector, csvPath) {
   const container = document.querySelector(containerSelector);
   const containerWidth = container.clientWidth;
   const margin = { top: 50, right: 30, bottom: 40, left: 160 };
-  const width = 400;
+  const width = 350;
 
   const tooltip = d3.select(containerSelector)
     .append("div")
