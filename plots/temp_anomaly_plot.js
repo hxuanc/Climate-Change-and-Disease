@@ -3,7 +3,7 @@ function renderTempAnomalyChart(containerSelector, csvPath) {
   const containerWidth = container.clientWidth;
 
   const margin = { top: 30, right: 30, bottom: 30, left: 30 };
-  const width = containerWidth - margin.left - margin.right;
+  const width = 400;
   const height = 500 - margin.top - margin.bottom;
   // container.innerHTML = ''; // Clear previous content
 
