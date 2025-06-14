@@ -3,7 +3,7 @@ function renderDengueBarChart(containerSelector, csvPath) {
     // Sort data descending by Total
     data.sort((a, b) => d3.descending(a.Total, b.Total));
 
-    const margin = { top: 20, right: 30, bottom: 40, left: 180 };
+    const margin = { top: 20, right: 30, bottom: 40, left: 30 };
     const width = 800 - margin.left - margin.right;
     const height = data.length * 35;
 

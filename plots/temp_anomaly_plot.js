@@ -45,7 +45,7 @@ function renderTempAnomalyChart(containerSelector, csvPath) {
 
   resetBtn.addEventListener("click", () => {
   select.value = "World";
-  select.dispatchEvent(new Event("change")); // 🔥 triggers dropdown logic
+  select.dispatchEvent(new Event("change")); // triggers dropdown logic
 });
 
   // Tooltip
@@ -149,7 +149,7 @@ function renderTempAnomalyChart(containerSelector, csvPath) {
         .attr("y", d => d.TemperatureAnomaly >= 0 ? y(d.TemperatureAnomaly) : y(0))
         .attr("width", x.bandwidth())
         .attr("height", d => Math.abs(y(d.TemperatureAnomaly) - y(0)))
-        .attr("fill", d => d.TemperatureAnomaly >= 0 ? "#1f77b4" : "#d62728")
+        .attr("fill", d => d.TemperatureAnomaly >= 0 ?  "#5ca9e0" : "#e0695c")
         .on("mouseover", function (event, d){
           d3.select(this)
             .attr("stroke", "black")
@@ -181,7 +181,7 @@ function renderTempAnomalyChart(containerSelector, csvPath) {
         svg.append("path")
           .datum([filtered[i - 1], filtered[i]])
           .attr("fill", "none")
-          .attr("stroke", d => d[1].MovingAverage >= 0 ? "#1f77b4" : "#d62728")
+          .attr("stroke", d => d[1].MovingAverage >= 0 ?  "#5ca9e0" : "#e0695c")
           .attr("stroke-width", 2)
           .attr("d", line);
       }
@@ -195,7 +195,7 @@ function renderTempAnomalyChart(containerSelector, csvPath) {
         .attr("cx", d => x(d.Year) + x.bandwidth() / 2)
         .attr("cy", d => y(d.MovingAverage))
         .attr("r", 5)
-        .attr("fill", d => d.MovingAverage >= 0 ? "#1f77b4" : "#d62728")
+        .attr("fill", d => d.MovingAverage >= 0 ?  "#5ca9e0" : "#e0695c")
         .attr("fill-opacity", 0)
         .attr("pointer-events", "all")
         .on("mouseover",  function (event, d) {

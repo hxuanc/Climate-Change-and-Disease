@@ -1,5 +1,5 @@
 function renderDengueProportionalMap(containerSelector, geoJsonPath, dataPath) {
-  const width = 1200, height = 700;
+  const width = 900, height = 700;
   const maxTotal = 530000; // fixed max value across all time for consistency
 
   const svg = d3.select(containerSelector)
@@ -77,7 +77,7 @@ function renderDengueProportionalMap(containerSelector, geoJsonPath, dataPath) {
       .join("path")
       .attr("d", path)
       .attr("fill", "#f8f9fa")
-      .attr("stroke", "#ced4da")
+      .attr("stroke", "#666")
       .attr("stroke-width", 0.5);
 
     // Color legend
@@ -102,7 +102,7 @@ function renderDengueProportionalMap(containerSelector, geoJsonPath, dataPath) {
       .attr("width", 100)
       .attr("height", 10)
       .style("fill", "url(#colorGradient)")
-      .style("stroke", "#333")
+      .style("stroke", "#99")
       .style("stroke-width", 0.5);
 
     const legendScale = d3.scaleLinear()
