@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dengue Heatmap</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        .tooltip {
+            position: absolute;
+            visibility: hidden;
+            background-color: white;
+            border: 1px solid #999;
+            border-radius: 5px;
+            padding: 8px 12px;
+            font-size: 13px;
+            color: #333;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+            pointer-events: none;
+            z-index: 9999;
+        }
+    </style>
+</head>
+<body>
+    <div id="heatmap-container"></div>
+    <div class="tooltip"></div>
+
+    <script>
+        function renderDengueHeatmap(containerSelector, data) {
+            const margin = { top: 50, right: 20, bottom: 50, left: 70 },
+                  width = 800 - margin.left - margin.right,
+                  height = 500 - margin.top - margin.bottom;
+
+            const svg = d3.select(containerSelector)
+                .append("svg")
+                .attr("width", width + margin.left + margin.right)
+                .attr("height", height + margin.top + margin.bottom)
+                .append("g")
+                .attr("transform", `translate(${margin.left},${margin.top})`);
+
+            const tooltip = d3.select(".tooltip");
+
+            const monthNames = [
+                "January", "February", "March", "April", "May", "June",
+                "July", "August", "September", "October", "November", "December"
+            ];
+
+            data.forEach(d => {
+                d.Year = +d.Year;
+                d.Total = +d.Total;
+            });
+
+            const years = [...new Set(data.map(d => d.Year))].sort(d3.ascending);
+
+            const x = d3.scaleBand().domain(monthNames).range([0, width]).padding(0.05);
+            const y = d3.scaleBand().domain(years).range([0, height]).padding(0.05);
+            const colorScale = d3.scaleSequential().interpolator(d3.interpolateReds).domain([0, d3.max(data, d => d.Total)]);
+
+            svg.append("g")
+                .call(d3.axisTop(x))
+                .selectAll("text")
+                .attr("transform", "rotate(-45)")
+                .style("text-anchor", "start");
+
+            svg.append("g").call(d3.axisLeft(y));
+
+            svg.selectAll("rect")
+                .data(data)
+                .join("rect")
+                .attr("x", d => x(d.Month))
+                .attr("y", d => y(d.Year))
+                .attr("width", x.bandwidth())
+                .attr("height", y.bandwidth())
+                .attr("fill", d => colorScale(d.Total))
+                .on("mouseover", function (event, d) {
+                    tooltip
+                        .style("visibility", "visible")
+                        .html(`<strong>${d.Month} ${d.Year}</strong><br>Cases: ${d.Total}`);
+                })
+                .on("mousemove", function (event) {
+                    tooltip
+                        .style("top", `${event.pageY - 40}px`)
+                        .style("left", `${event.pageX + 10}px`);
+                })
+                .on("mouseout", function () {
+                    tooltip.style("visibility", "hidden");
+                });
+        }
+
+        // SAMPLE DATA
+        const sampleData = [
+            { Month: "January", Year: "2020", Total: 50 },
+            { Month: "February", Year: "2020", Total: 100 },
+            { Month: "March", Year: "2020", Total: 200 },
+            { Month: "April", Year: "2020", Total: 10 },
+            { Month: "May", Year: "2020", Total: 5 },
+            { Month: "June", Year: "2020", Total: 300 },
+            { Month: "July", Year: "2020", Total: 400 },
+            { Month: "August", Year: "2020", Total: 250 },
+            { Month: "September", Year: "2020", Total: 100 },
+            { Month: "October", Year: "2020", Total: 150 },
+            { Month: "November", Year: "2020", Total: 20 },
+            { Month: "December", Year: "2020", Total: 30 }
+        ];
+
+        renderDengueHeatmap("#heatmap-container", sampleData);
+    </script>
+</body>
+</html>

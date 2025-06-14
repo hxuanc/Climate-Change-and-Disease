@@ -1,8 +1,10 @@
 function renderRadialFlu(containerN, containerS, data) {
-  const margin = { top: 10, right: 40, bottom: 10, left: 40 },
-    width = 1200 - margin.left - margin.right,
-    height = 800 - margin.top - margin.bottom;
-  const innerRadius = 100;
+  const container = document.querySelector(containerN);
+  const containerWidth = container.clientWidth;
+  const margin = { top: 30, right: 30, bottom: 30, left: 30 };
+  const width = containerWidth - margin.left - margin.right;
+  const height = 800 - margin.top - margin.bottom;
+  const innerRadius = 120;
   const outerRadius = Math.min(width, height) / 2 - 60; // add buffer to prevent clipping
 
   const monthNames = [

@@ -1,139 +1,357 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Temperature & Precipitation Anomaly Dashboard</title>
-  <link rel="stylesheet" href="style/plots.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Climate & Disease Dashboard</title>
   <style>
-    .tooltip {
-      position: absolute;
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0 20px;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    h1 {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 2.5em;
+    }
+
+    h2 {
+      margin-top: 60px;
+      font-size: 1.8em;
+      text-align: center;
+    }
+
+    .description {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #f0f0f5;
+      border-left: 5px solid #007BFF;
+      border-radius: 8px;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    .section-grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+      margin-top: 20px;
+      margin-bottom: 40px;
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .section-fullwidth {
+      max-width: 1200px;
+      margin: 40px auto;
+      background-color: #ffffff;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    }
+
+    .chart {
+      background-color: white;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      height: 400px;
+    }
+
+    .slider-container {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .slider-container input {
+      width: 300px;
+    }
+
+    @media (max-width: 768px) {
+      .section-grid-2 {
+        grid-template-columns: 1fr;
+      }
+    }
+    .map-frame {
+      border: 2px solid #ccc;
+      border-radius: 12px;
+      padding: 10px;
       background: white;
-      border: 1px solid #999;
-      padding: 6px;
-      pointer-events: none;
-      font-size: 13px;
     }
   </style>
 </head>
 <body>
 
-<!-- Charts Wrapper -->
-<div id="charts-wrapper" style="display: flex; gap: 40px; justify-content: center;">
-  <div id="temp-anomaly-chart"></div>
-  <div id="precip-anomaly-chart"></div>
-</div>
+  <h1>Climate & Disease: A Data-Driven Story</h1>
 
-<!-- Strip & Ridgeline -->
-<div id="precip-strip-chart"></div>
-<div id="temp_ridgeline_chart"></div>
+  <!-- SECTION 1 -->
+<section class="section-fullwidth">
+  <h2 style="text-align: center;">Global Temperature Map</h2>
 
-<!-- Choropleth Map Section -->
-<div id="choropleth-map-wrapper" style="margin-top: 40px; text-align: center;">
-  <h2>Global Temperature Map</h2>
-  
-<!-- Sliders -->
-<div class="slider-container" style="margin: 10px auto; text-align: center;">
-  <label for="choropleth-timeline">
-    Date: <span id="choropleth-timeline-label">December 2020</span>
-  </label><br>
-  <input type="range" id="choropleth-timeline" min="0" max="899" value="899" style="width: 60%;">
-</div>
+  <!-- Whole section column layout -->
+  <div style="display: flex; flex-direction: column; gap: 40px;">
 
-  <!-- Map Container -->
-  <div id="choropleth-map" style="margin-top: 20px;"></div>
-</div>
+    <!-- Row 1: Map + Description -->
+    <div style="display: grid; grid-template-columns: 2fr 1fr; gap: 30px;">
+      <!-- Map -->
+      <div id="choropleth-map-wrapper" style="text-align: center;">
+        <!-- Slider -->
+        <div class="slider-container" style="margin: 10px auto; text-align: center;">
+          <label for="choropleth-timeline">
+            Date: <span id="choropleth-timeline-label">December 2020</span>
+          </label><br>
+          <input type="range" id="choropleth-timeline" min="0" max="899" value="899" style="width: 60%;">
+        </div>
+        <div id="choropleth-map" style="margin-top: 0;"></div>
+      </div>
 
-<!-- Year-Based Choropleth Map Section -->
-<div id="yearly-choropleth-wrapper" style="margin-top:60px;text-align:center;">
-  <h2>Yearly Precipitation by Country</h2>
-  <div class="slider-container" style="margin:10px auto;">
-    <label for="yearly-choropleth-slider">
-      Year: <span id="yearly-choropleth-label"></span>
-    </label><br>
-    <input type="range" id="yearly-choropleth-slider" step="1" style="width:60%;">
+      <!-- Description -->
+      <div id="anomaly-description" class="description-box">
+        <h3>Description</h3>
+        <p>
+          This section explains the patterns and insights derived from the temperature and precipitation anomaly data.
+        </p>
+      </div>
+    </div>
+
+    <!-- Row 2: Ridgeline + Anomaly charts side by side -->
+    <div style="display: flex; gap: 30px;">
+      <div id="temp-anomaly-chart" class="chart-box" style="flex: 1;"></div>
+      <div id="temp_ridgeline_chart" class="chart-box" style="flex: 1;"></div>
+    </div>
+
   </div>
-  <div id="yearly-choropleth-map" style="margin-top:20px;"></div>
-</div>
+</section>
 
-  <!-- Influenza Section -->
-  <section id="influenza-wrapper" style="margin-top: 60px;">
-    <h2>Influenza Trends by Hemisphere</h2>
-    <div class="control-panel">
-      <label for="flu-year-select">Select Year:</label>
-      <select id="flu-year-select"></select>
+  <!-- SECTION 2 -->
+<section class="section-fullwidth">
+  <h2 style="text-align: center;">Global Temperature Map</h2>
 
-      <label for="hemisphere-select" style="margin-left: 20px;">Select Hemisphere:</label>
-      <select id="hemisphere-select">
-        <option value="northern">Northern Hemisphere</option>
-        <option value="southern">Southern Hemisphere</option>
-      </select>
+  <!-- Whole section column layout -->
+  <div style="display: flex; flex-direction: column; gap: 40px;">
+
+    <!-- Row 1: Map + Description -->
+    <div style="display: grid; grid-template-columns: 2fr 1fr; gap: 30px;">
+      <!-- Map -->
+      <div id="yearly-choropleth-wrapper" style="margin-top:60px;text-align:center;">
+        <h2>Yearly Precipitation by Country</h2>
+        <div class="slider-container" style="margin:10px auto;">
+          <label for="yearly-choropleth-slider">
+            Year: <span id="yearly-choropleth-label"></span>
+          </label><br>
+          <input type="range" id="yearly-choropleth-slider" step="1" style="width:60%;">
+        </div>
+        <div id="yearly-choropleth-map" style="margin-top:20px;"></div>
+      </div>
+
+      <!-- Description -->
+      <div id="anomaly-description" class="description-box">
+        <h3>Description</h3>
+        <p>
+          This section explains the patterns and insights derived from the temperature and precipitation anomaly data.
+        </p>
+      </div>
     </div>
 
-    <div class="chart-container">
-      <div id="northern-hemisphere"></div>
-      <div id="southern-hemisphere"></div>
+    <!-- Row 2: Ridgeline + Anomaly charts side by side -->
+    <div style="display: flex; gap: 30px;">
+      <div id="precip-anomaly-chart" class="chart-box" style="flex: 1;"></div>
+      <div id="precip-strip-chart" class="chart-box" style="flex: 1;"></div>
     </div>
-  </section>
 
-<!-- D3 + TopoJSON Libraries -->
-<script src="https://d3js.org/d3.v7.min.js"></script>
-<script src="https://unpkg.com/topojson-client@3"></script>
+  </div>
+</section>
 
-<!-- Visualization Scripts -->
-<script src="plots/temp_anomaly_plot.js"></script>
-<script src="plots/precip_anomaly_plot.js"></script>
-<script src="plots/precip_strip_plot.js"></script>
-<script src="plots/temp_ridgeline_plot.js"></script>
-<script src="plots/temp_choropleth.js"></script>
-<script src="plots/precip_choropleth.js"></script>
-<script src="plots/influenza_radial_plot.js"></script>
 
-<!-- Render Functions -->
-<script>
-  renderTempAnomalyChart("#temp-anomaly-chart", "data/cleaned-annual-temperature-anomalies.csv");
-  renderPrecipAnomalyChart("#precip-anomaly-chart", "data/cleaned-annual-precipitation-anomalies.csv");
-  renderPrecipStripChart("#precip-strip-chart", "data/cleaned-annual-precipitation-anomalies.csv");
-  renderRidgelinePlot("#temp_ridgeline_chart", "data/cleaned-annual-temperature-anomalies.csv");
-  renderTempChoroplethMap(
-  "#choropleth-map",
-  "https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson",
-  "data/cleaned_average_monthly_surface_temperature.csv"
-    );
-  renderYearlyChoropleth(
-    "#yearly-choropleth-map",
+<!-- SECTION 3: Influenza by Hemisphere -->
+<section class="section-fullwidth" style="margin-top: 20px;">
+  <h2 style="text-align: center;">Influenza Trends by Hemisphere</h2>
+  <div class="control-panel" style="text-align: center;">
+    <label for="flu-year-select">Select Year:</label>
+    <select id="flu-year-select"></select>
+
+    <label for="hemisphere-select" style="margin-left: 20px;">Select Hemisphere:</label>
+    <select id="hemisphere-select">
+      <option value="northern">Northern Hemisphere</option>
+      <option value="southern">Southern Hemisphere</option>
+    </select>
+  </div>
+
+  <div class="chart-container" style="display: flex; gap: 30px; margin-top: 30px;">
+    <div id="northern-hemisphere" style="flex: 1;"></div>
+    <div id="southern-hemisphere" style="flex: 1;"></div>
+  </div>
+
+    <div style="display: grid; grid-template-columns: 7fr 3fr; gap: 30px;">
+    <div id="combined-flu-chart"></div>
+    <div class="description-box">
+      <h3>Flu Trend Description</h3>
+      <p>
+        This section highlights aggregated influenza trends across hemispheres and years. It shows how flu activity peaks vary and how climate might influence seasonal patterns.
+      </p>
+    </div>
+  </div>
+</section>
+
+
+<!-- SECTION 5: Dengue Section -->
+<section class="section-fullwidth" style="margin-top: 60px;">
+  <h2 style="text-align: center;">Dengue Trends and Climate</h2>
+
+  <!-- Controls -->
+  <div id="controls" style="text-align: center; margin-bottom: 30px;">
+    <label for="monthYearSlider">
+      <strong>Month-Year:</strong> <span id="monthYearLabel">Jan 2009</span>
+    </label><br>
+    <input type="range" id="monthYearSlider" min="0" max="168" step="1" value="0" style="width: 60%;">
+  </div>
+
+  <!-- Map + Bar chart -->
+  <div style="display: flex; gap: 30px;">
+    <div id="dengue-map" style="flex: 1; height: 700px;"></div>
+    <div id="dengue-bar-chart" style="flex: 1;"></div>
+  </div>
+
+  <!-- Description under -->
+  <div class="description-box" style="margin-top: 30px;">
+    <h3>Dengue Overview</h3>
+    <p>
+      This map and chart explore how dengue fever trends relate to seasonal patterns and geographic regions. Use the slider to explore changes over time.
+    </p>
+  </div>
+</section>
+
+<!-- SECTION 6: Correlation Analysis -->
+<section class="section-fullwidth" style="margin-top: 60px;">
+  <!-- First Correlation Pair -->
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px;">
+    <div id="flu-temp-scatter-chart"></div>
+    <div class="description-box">
+      <h3>Flu vs Temperature</h3>
+      <p>
+        This scatter plot shows the relationship between flu activity and temperature across months and regions.
+      </p>
+    </div>
+  </div>
+
+  <!-- Second Correlation Pair -->
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px; margin-top: 40px;">
+    <div class="description-box">
+      <h3>Dengue vs Precipitation</h3>
+      <p>
+        Here we analyze how precipitation impacts dengue activity, showing a correlation pattern over the observation period.
+      </p>
+    </div>
+    <div id="dengue-precip-scatter-chart"></div>
+  </div>
+</section>
+
+<!-- SECTION 7: Summary Bar + Heatmap -->
+<section class="section-fullwidth" style="margin-top: 60px;">
+  <div style="display: flex; gap: 30px;">
+    <div id="my-climate-bar" style="flex: 1;"></div>
+    <div id="heatmap-container" style="flex: 1;"></div>
+  </div>
+
+  <div class="description-box" style="margin-top: 30px;">
+    <h3>Climate and Disease Summary</h3>
+    <p>
+      This section summarizes key relationships between climate variables and disease incidence across datasets. The bar chart shows contributions or intensities per variable, while the heatmap provides a high-level view of seasonal and spatial patterns.
+    </p>
+  </div>
+</section>
+
+  <!-- D3 + TopoJSON Libraries -->
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="https://unpkg.com/topojson-client@3"></script>
+
+  <!-- Visualization Scripts -->
+  <script src="plots/temp_anomaly_plot.js"></script>
+  <script src="plots/precip_anomaly_plot.js"></script>
+  <script src="plots/precip_strip_plot.js"></script>
+  <script src="plots/temp_ridgeline_plot.js"></script>
+  <script src="plots/temp_choropleth.js"></script>
+  <script src="plots/precip_choropleth.js"></script>
+  <script src="plots/influenza_radial_plot.js"></script>
+  <script src="plots/influenza_area_plot.js"></script>
+  <script src="plots/dengue_map.js"></script>
+  <script src="plots/dengue_top10_bar_plot.js"></script>
+  <script src="plots/flu_temp_scatter_plot.js"></script>
+  <script src="plots/dengue_precip_scatter.plot.js"></script>
+  <script src="plots/my_bar.js"></script>
+  <script src="plots/my_heatmap.js"></script>
+
+  <!-- Render Functions -->
+  <script>
+
+    renderTempChoroplethMap(
+    "#choropleth-map",
     "https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson",
-    "data/cleaned_annual_precipitation_by_country.csv"
+    "data/cleaned_average_monthly_surface_temperature.csv"
+      );
+    renderYearlyChoropleth(
+      "#yearly-choropleth-map",
+      "https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson",
+      "data/cleaned_annual_precipitation_by_country.csv"
+      );
+    renderRidgelinePlot("#temp_ridgeline_chart", "data/cleaned-annual-temperature-anomalies.csv");
+    renderTempAnomalyChart("#temp-anomaly-chart", "data/cleaned-annual-temperature-anomalies.csv");
+    renderPrecipAnomalyChart("#precip-anomaly-chart", "data/cleaned-annual-precipitation-anomalies.csv");
+    renderPrecipStripChart("#precip-strip-chart", "data/cleaned-annual-precipitation-anomalies.csv");
+    
+  renderCombinedFluAreaChart("#combined-flu-chart", "data/cleaned_influenza_hemi_grouped.csv");
+  renderFluTempScatterPlot("#flu-temp-scatter-chart", "data/cleaned_flu_temp_combined.csv");
+  renderDenguePrecipScatterPlot("#dengue-precip-scatter-chart", "data/cleaned_dengue_precip_combined.csv");
+
+  renderDengueBarChart("#dengue-bar-chart","data/cleaned_dengue_top10.csv");
+  renderDengueProportionalMap(
+      "#dengue-map",
+      "https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson",  // GeoJSON with ISO3 id
+      "data/cleaned_dengue.csv"           // Your flu dataset
     );
 
-  d3.csv("data/cleaned_influenza_hemi_grouped.csv").then(data => {
-    renderRadialFlu("#northern-hemisphere", "#southern-hemisphere", data);
 
-    const years = d3.range(2009, 2025);  // [2009, 2010, ..., 2024]
-    const yearSelect = d3.select("#flu-year-select");
+  
+  renderDengueHeatmap("#heatmap-container", "data/cleaned_dengue_MY.csv");
+   renderClimateChart("#my-climate-bar", "data/cleaned_precipitation_my.csv");
+    d3.csv("data/cleaned_influenza_hemi_grouped.csv").then(data => {
+      renderRadialFlu("#northern-hemisphere", "#southern-hemisphere", data);
 
-    yearSelect.selectAll("option")
-    .data(years)
-    .enter()
-    .append("option")
-    .attr("value", d => d)
-    .property("selected", d => d === 2024) // Default to 2024
-    .text(d => d);
+      const years = d3.range(2009, 2025);  // [2009, 2010, ..., 2024]
+      const yearSelect = d3.select("#flu-year-select");
 
-    const defaultYear = 2024;
-    yearSelect.property("value", defaultYear);
-    window.updateRadialFluCharts(defaultYear);
+      yearSelect.selectAll("option")
+      .data(years)
+      .enter()
+      .append("option")
+      .attr("value", d => d)
+      .property("selected", d => d === 2024) // Default to 2024
+      .text(d => d);
 
-    yearSelect.on("change", function () {
-    const selectedYear = +this.value;
-    window.updateRadialFluCharts(selectedYear);
-    });
+      const defaultYear = 2024;
+      yearSelect.property("value", defaultYear);
+      window.updateRadialFluCharts(defaultYear);
 
-    d3.select("#hemisphere-select").on("change", function () {
-    const selectedYear = +d3.select("#flu-year-select").property("value");
-    window.updateRadialFluCharts(selectedYear);
-    });
-});
-</script>
+      yearSelect.on("change", function () {
+      const selectedYear = +this.value;
+      window.updateRadialFluCharts(selectedYear);
+      });
+
+      d3.select("#hemisphere-select").on("change", function () {
+      const selectedYear = +d3.select("#flu-year-select").property("value");
+      window.updateRadialFluCharts(selectedYear);
+      });
+  });
+
+
+  </script>
+
 
 
 </body>

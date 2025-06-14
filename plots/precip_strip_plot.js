@@ -1,7 +1,10 @@
 function renderPrecipStripChart(containerSelector, csvPath) {
-  const width = 900;
+  const container = document.querySelector(containerSelector);
+  const containerWidth = container.clientWidth;
+  const margin = { top: 30, right: 30, bottom: 30, left: 30 };
+  const width = containerWidth - margin.left - margin.right;
   const height = 500;
-  const margin = { top: 50, right: 60, bottom: 50, left: 150 };
+
 
   d3.select(containerSelector).selectAll("*").remove();
 

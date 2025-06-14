@@ -1,5 +1,7 @@
 function renderYearlyChoropleth(containerSelector, geoJsonPath, dataPath) {
-  const width = 960;
+  const container = document.querySelector(containerSelector);
+  const width = container.clientWidth;  // ← grabs section's actual width
+
   const height = 500;
 
   const svg = d3.select(containerSelector)

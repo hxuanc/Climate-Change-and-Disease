@@ -1,0 +1,4930 @@
+Entity,month_year,total_cases,avg_temp,hemisphere
+Afghanistan,2020-01,11,-2.5605452,Northern
+Armenia,2020-01,113,-5.9329987,Northern
+Australia,2020-01,135,28.809507,Southern
+Austria,2020-01,696,-1.510167,Northern
+Bangladesh,2020-01,11,17.682123,Northern
+Belgium,2020-01,377,5.3011007,Northern
+Bhutan,2020-01,11,-0.26419616,Northern
+Bolivia,2020-01,5,22.752026,Southern
+Brazil,2020-01,29,25.832697,Southern
+Bulgaria,2020-01,46,1.7432321,Northern
+Burkina Faso,2020-01,4,25.500517,Southern
+Cambodia,2020-01,12,26.685623,Southern
+Cameroon,2020-01,1,24.663048,Southern
+Canada,2020-01,9356,-20.058325,Northern
+Chile,2020-01,1,13.897099,Southern
+China,2020-01,7984,-6.585061,Northern
+Colombia,2020-01,73,25.121561,Southern
+Cote d'Ivoire,2020-01,10,26.667675,Southern
+Denmark,2020-01,799,5.747676,Northern
+Egypt,2020-01,275,11.898429,Northern
+Finland,2020-01,17,-3.1125417,Northern
+France,2020-01,2381,8.540905,Northern
+Germany,2020-01,296,3.5324316,Northern
+Ghana,2020-01,1,27.982698,Southern
+Guatemala,2020-01,1,21.884094,Southern
+Honduras,2020-01,5,22.387714,Southern
+Hong Kong,2020-01,4554,17.723202,Southern
+Hungary,2020-01,58,-0.4631633,Northern
+Iceland,2020-01,82,-2.719782,Northern
+India,2020-01,34,16.763756,Northern
+Indonesia,2020-01,352,25.891323,Southern
+Iran,2020-01,195,5.043538,Northern
+Ireland,2020-01,430,6.4367666,Northern
+Italy,2020-01,3050,5.425879,Northern
+Japan,2020-01,1741,2.8248024,Northern
+Kazakhstan,2020-01,335,-6.484623,Northern
+Kenya,2020-01,1,25.930132,Southern
+Kosovo,2020-01,44,0.4692292,Southern
+Latvia,2020-01,33,2.7471402,Northern
+Lebanon,2020-01,34,6.5546336,Northern
+Lithuania,2020-01,50,2.6751933,Northern
+Luxembourg,2020-01,134,3.848341,Northern
+Malaysia,2020-01,108,25.987356,Southern
+Mali,2020-01,28,21.151176,Southern
+Mauritius,2020-01,9,25.847921,Southern
+Moldova,2020-01,40,0.80477697,Northern
+Mongolia,2020-01,516,-17.04487,Northern
+Montenegro,2020-01,8,1.0831853,Northern
+Nepal,2020-01,110,2.826171,Northern
+Netherlands,2020-01,135,6.1047864,Northern
+Nicaragua,2020-01,5,24.736795,Southern
+Niger,2020-01,13,18.305616,Southern
+North Korea,2020-01,12,-6.023394,Northern
+Norway,2020-01,2048,-4.2383256,Northern
+Pakistan,2020-01,3,7.544641,Northern
+Paraguay,2020-01,18,28.533644,Southern
+Poland,2020-01,55,2.2464514,Northern
+Portugal,2020-01,761,9.292788,Northern
+Qatar,2020-01,548,17.803816,Northern
+Romania,2020-01,402,-0.5288708,Northern
+Russia,2020-01,2984,-18.036057,Northern
+Saudi Arabia,2020-01,137,14.80973,Northern
+Senegal,2020-01,38,25.841911,Southern
+Serbia,2020-01,190,-0.05324316,Northern
+Slovakia,2020-01,36,-1.2999797,Northern
+Slovenia,2020-01,462,1.2039297,Northern
+South Africa,2020-01,8,23.69937,Southern
+Spain,2020-01,2598,6.507159,Northern
+Sri Lanka,2020-01,53,25.601809,Southern
+Sweden,2020-01,719,-0.5118693,Northern
+Switzerland,2020-01,785,-2.117217,Northern
+Thailand,2020-01,91,25.127329,Southern
+Togo,2020-01,1,27.373259,Southern
+Ukraine,2020-01,260,0.5052088,Northern
+United Arab Emirates,2020-01,40,18.33017,Northern
+United Kingdom,2020-01,1494,6.23792,Northern
+United States,2020-01,47460,-1.7636682,Northern
+Vietnam,2020-01,2,21.063263,Southern
+Afghanistan,2020-02,6,2.880046,Northern
+Argentina,2020-02,13,20.49269,Southern
+Armenia,2020-02,85,-3.9801886,Northern
+Australia,2020-02,121,27.9413,Southern
+Austria,2020-02,853,1.7826616,Northern
+Bangladesh,2020-02,50,19.936495,Northern
+Belgium,2020-02,593,6.5434947,Northern
+Bhutan,2020-02,26,1.3634351,Northern
+Bolivia,2020-02,27,21.980833,Southern
+Brazil,2020-02,49,25.5942,Southern
+Bulgaria,2020-02,51,4.8162465,Northern
+Burkina Faso,2020-02,14,27.956703,Southern
+Cambodia,2020-02,15,27.126392,Southern
+Cameroon,2020-02,8,26.324968,Southern
+Canada,2020-02,8468,-19.268824,Northern
+Chile,2020-02,3,13.822464,Southern
+China,2020-02,664,-2.8763916,Northern
+Colombia,2020-02,33,25.793184,Southern
+Cote d'Ivoire,2020-02,14,28.600615,Southern
+Denmark,2020-02,1209,4.9289904,Northern
+East Timor,2020-02,2,25.68037,Southern
+Egypt,2020-02,166,14.469186,Northern
+Finland,2020-02,21,-4.104153,Northern
+France,2020-02,4877,10.374497,Northern
+Germany,2020-02,402,5.34397,Northern
+Ghana,2020-02,4,29.910522,Southern
+Guatemala,2020-02,7,23.02304,Southern
+Honduras,2020-02,2,23.279184,Southern
+Hong Kong,2020-02,454,18.041765,Southern
+Hungary,2020-02,132,5.752003,Northern
+Iceland,2020-02,136,-3.3239808,Northern
+India,2020-02,330,19.42699,Northern
+Indonesia,2020-02,244,25.875904,Southern
+Iran,2020-02,375,9.176353,Northern
+Ireland,2020-02,272,5.920071,Northern
+Italy,2020-02,3464,7.8003764,Northern
+Japan,2020-02,880,2.8085897,Northern
+Kazakhstan,2020-02,204,-3.653288,Northern
+Kenya,2020-02,1,26.758404,Southern
+Kosovo,2020-02,125,4.211086,Southern
+Latvia,2020-02,14,2.0004497,Northern
+Lebanon,2020-02,48,7.672719,Northern
+Lithuania,2020-02,45,2.2803485,Northern
+Luxembourg,2020-02,313,5.3733683,Northern
+Malaysia,2020-02,48,25.915045,Southern
+Mali,2020-02,47,25.194336,Southern
+Mauritius,2020-02,39,25.942575,Southern
+Moldova,2020-02,49,3.9582634,Northern
+Mongolia,2020-02,202,-11.894161,Northern
+Montenegro,2020-02,93,3.9229326,Northern
+Nepal,2020-02,296,5.7071652,Northern
+Netherlands,2020-02,121,6.942955,Northern
+Nicaragua,2020-02,9,25.535183,Southern
+Niger,2020-02,15,20.755484,Southern
+North Korea,2020-02,12,-4.064983,Northern
+Norway,2020-02,3143,-5.9213243,Northern
+Paraguay,2020-02,24,27.75928,Southern
+Poland,2020-02,69,3.9540074,Northern
+Portugal,2020-02,530,12.265731,Northern
+Qatar,2020-02,729,19.054592,Northern
+Romania,2020-02,617,3.4999743,Northern
+Russia,2020-02,6969,-15.558847,Northern
+Saudi Arabia,2020-02,105,18.171888,Northern
+Senegal,2020-02,55,29.665926,Southern
+Serbia,2020-02,342,4.8826957,Northern
+Slovakia,2020-02,119,3.0823002,Northern
+Slovenia,2020-02,736,5.3763146,Northern
+South Africa,2020-02,77,23.277996,Southern
+Spain,2020-02,1851,10.231395,Northern
+Sri Lanka,2020-02,22,26.220415,Southern
+Sweden,2020-02,1472,-2.590163,Northern
+Switzerland,2020-02,1679,1.0499874,Northern
+Thailand,2020-02,110,25.845448,Southern
+Togo,2020-02,9,29.376516,Southern
+Ukraine,2020-02,280,1.8074998,Northern
+United Arab Emirates,2020-02,31,20.316776,Northern
+United Kingdom,2020-02,1342,5.4749494,Northern
+United States,2020-02,37730,-0.8965415,Northern
+Vietnam,2020-02,1,21.245981,Southern
+Afghanistan,2020-03,2,6.9167314,Northern
+Argentina,2020-03,60,20.51552,Southern
+Armenia,2020-03,21,3.2931688,Northern
+Australia,2020-03,127,25.910303,Southern
+Austria,2020-03,313,2.7452714,Northern
+Bangladesh,2020-03,37,24.90944,Northern
+Belgium,2020-03,325,6.5932302,Northern
+Bhutan,2020-03,22,4.588126,Northern
+Bolivia,2020-03,88,22.578543,Southern
+Brazil,2020-03,36,25.524702,Southern
+Bulgaria,2020-03,13,7.2175894,Northern
+Cambodia,2020-03,18,29.652248,Southern
+Canada,2020-03,4298,-15.06395,Northern
+Chile,2020-03,3,13.1916065,Southern
+China,2020-03,305,3.0306067,Northern
+Colombia,2020-03,53,25.75189,Southern
+Cote d'Ivoire,2020-03,14,29.013117,Southern
+Denmark,2020-03,704,4.6693397,Northern
+Egypt,2020-03,67,18.874104,Northern
+Finland,2020-03,11,-2.0932417,Northern
+France,2020-03,1958,10.487412,Northern
+Germany,2020-03,249,5.380081,Northern
+Ghana,2020-03,3,30.576977,Southern
+Guatemala,2020-03,33,23.86927,Southern
+Honduras,2020-03,22,24.008068,Southern
+Hong Kong,2020-03,60,21.090258,Southern
+Hungary,2020-03,86,7.1584334,Northern
+Iceland,2020-03,117,-3.5693846,Northern
+India,2020-03,144,23.207102,Northern
+Indonesia,2020-03,141,25.950125,Southern
+Iran,2020-03,35,12.611171,Northern
+Ireland,2020-03,140,6.353078,Northern
+Italy,2020-03,326,8.197907,Northern
+Japan,2020-03,180,6.617863,Northern
+Kazakhstan,2020-03,46,1.6325153,Northern
+Kosovo,2020-03,10,6.1351814,Southern
+Latvia,2020-03,13,2.7572958,Northern
+Lebanon,2020-03,2,11.110507,Northern
+Lithuania,2020-03,36,3.2716336,Northern
+Luxembourg,2020-03,88,5.9001765,Northern
+Malaysia,2020-03,37,26.51992,Southern
+Mali,2020-03,52,28.156721,Southern
+Mauritius,2020-03,38,25.834166,Southern
+Moldova,2020-03,10,7.6063824,Northern
+Mongolia,2020-03,5,-4.4062967,Northern
+Montenegro,2020-03,56,5.592618,Northern
+Nepal,2020-03,277,9.396913,Northern
+Netherlands,2020-03,138,6.69535,Northern
+Nicaragua,2020-03,7,25.634872,Southern
+Niger,2020-03,4,27.248499,Southern
+North Korea,2020-03,9,1.6291332,Northern
+Norway,2020-03,1513,-5.38564,Northern
+Paraguay,2020-03,39,28.465643,Southern
+Poland,2020-03,78,4.550062,Northern
+Portugal,2020-03,101,12.373099,Northern
+Qatar,2020-03,213,22.365084,Northern
+Romania,2020-03,161,6.4513226,Northern
+Russia,2020-03,5094,-8.9732,Northern
+Saudi Arabia,2020-03,72,22.104067,Northern
+Senegal,2020-03,31,30.52467,Southern
+Serbia,2020-03,25,6.828279,Northern
+Slovakia,2020-03,41,4.5724864,Northern
+Slovenia,2020-03,165,6.024234,Northern
+South Africa,2020-03,64,21.556423,Southern
+Spain,2020-03,442,10.200531,Northern
+Sri Lanka,2020-03,25,27.444092,Southern
+Sweden,2020-03,981,-0.80732065,Northern
+Switzerland,2020-03,393,1.6538051,Northern
+Thailand,2020-03,61,28.623714,Southern
+Togo,2020-03,26,30.289906,Southern
+Ukraine,2020-03,201,6.1561065,Northern
+United Arab Emirates,2020-03,7,23.241827,Northern
+United Kingdom,2020-03,1238,5.859787,Northern
+United States,2020-03,12291,4.787855,Northern
+Argentina,2020-04,9,15.342332,Southern
+Australia,2020-04,4,23.478853,Southern
+Belgium,2020-04,11,11.832262,Northern
+Bolivia,2020-04,2,20.898361,Southern
+Brazil,2020-04,18,24.761528,Southern
+Cameroon,2020-04,1,26.999237,Southern
+Canada,2020-04,65,-6.770076,Northern
+Chile,2020-04,2,10.76271,Southern
+China,2020-04,32,8.353897,Northern
+Colombia,2020-04,27,24.932493,Southern
+Cote d'Ivoire,2020-04,1,28.383541,Southern
+Denmark,2020-04,1,7.8287883,Northern
+Egypt,2020-04,5,22.487514,Northern
+France,2020-04,5,14.721012,Northern
+Hong Kong,2020-04,1,21.6142,Southern
+Iceland,2020-04,2,-0.062228628,Northern
+India,2020-04,1,27.552195,Northern
+Indonesia,2020-04,4,25.971636,Southern
+Italy,2020-04,1,12.05716,Northern
+Japan,2020-04,5,8.968996,Northern
+Lebanon,2020-04,1,13.586896,Northern
+Mali,2020-04,4,32.563427,Southern
+Netherlands,2020-04,2,10.7492485,Northern
+Nicaragua,2020-04,1,27.426964,Southern
+North Korea,2020-04,9,6.5875573,Northern
+Norway,2020-04,9,-1.5206994,Northern
+Paraguay,2020-04,1,23.995123,Southern
+Qatar,2020-04,1,28.02428,Northern
+Romania,2020-04,20,10.099706,Northern
+Russia,2020-04,355,-0.80386704,Northern
+South Africa,2020-04,1,17.861137,Southern
+Spain,2020-04,1,12.7174015,Northern
+Sweden,2020-04,23,2.7378345,Northern
+Thailand,2020-04,6,29.117516,Southern
+Togo,2020-04,3,29.224173,Southern
+United Kingdom,2020-04,38,9.152877,Northern
+United States,2020-04,206,8.6912365,Northern
+Argentina,2020-05,3,11.526834,Southern
+Belgium,2020-05,3,13.325485,Northern
+Brazil,2020-05,4,23.716488,Southern
+Canada,2020-05,37,1.9587669,Northern
+Chile,2020-05,3,8.54778,Southern
+China,2020-05,13,14.2127,Northern
+Colombia,2020-05,9,24.477257,Southern
+Cote d'Ivoire,2020-05,1,27.73887,Southern
+Egypt,2020-05,11,27.270346,Northern
+Honduras,2020-05,2,25.858665,Southern
+Hong Kong,2020-05,1,27.155966,Southern
+Indonesia,2020-05,1,26.18626,Southern
+Norway,2020-05,4,2.7250893,Northern
+Russia,2020-05,9,7.301519,Northern
+Spain,2020-05,2,17.79055,Northern
+Ukraine,2020-05,2,12.977061,Northern
+United Kingdom,2020-05,2,11.607975,Northern
+United States,2020-05,95,14.967557,Northern
+Argentina,2020-06,3,8.320133,Southern
+Australia,2020-06,1,15.833414,Southern
+Bangladesh,2020-06,1,28.851341,Northern
+Belgium,2020-06,6,16.834513,Northern
+Brazil,2020-06,9,23.836222,Southern
+Cambodia,2020-06,1,28.34488,Southern
+Canada,2020-06,9,10.25601,Northern
+Chile,2020-06,1,4.888356,Southern
+China,2020-06,20,18.108988,Northern
+Colombia,2020-06,1,23.973854,Southern
+Cote d'Ivoire,2020-06,3,26.262638,Southern
+Egypt,2020-06,14,29.879642,Northern
+Nicaragua,2020-06,1,26.026428,Southern
+North Korea,2020-06,12,19.420212,Northern
+Paraguay,2020-06,2,20.81544,Southern
+Russia,2020-06,2,14.034348,Northern
+South Africa,2020-06,1,11.731973,Southern
+Spain,2020-06,1,19.631968,Northern
+Sweden,2020-06,1,15.810503,Northern
+United Kingdom,2020-06,1,13.987011,Northern
+United States,2020-06,47,20.20941,Northern
+Argentina,2020-07,2,6.350594,Southern
+Australia,2020-07,1,14.912343,Southern
+Brazil,2020-07,1,23.758776,Southern
+Cambodia,2020-07,4,28.075586,Southern
+Canada,2020-07,7,14.790606,Northern
+China,2020-07,17,20.015999,Northern
+Cote d'Ivoire,2020-07,5,25.141945,Southern
+East Timor,2020-07,2,22.881727,Southern
+Egypt,2020-07,8,30.66666,Northern
+Nicaragua,2020-07,1,26.153822,Southern
+North Korea,2020-07,5,20.914518,Northern
+Norway,2020-07,1,9.810694,Northern
+Senegal,2020-07,1,29.061882,Southern
+United Kingdom,2020-07,10,14.4201145,Northern
+United States,2020-07,27,22.808058,Northern
+Argentina,2020-08,2,10.034422,Southern
+Bangladesh,2020-08,45,29.253572,Northern
+Belgium,2020-08,1,20.32585,Northern
+Brazil,2020-08,1,24.738237,Southern
+Cambodia,2020-08,31,27.65347,Southern
+Cameroon,2020-08,3,23.900991,Southern
+Canada,2020-08,5,12.764393,Northern
+China,2020-08,7,19.498716,Northern
+Cote d'Ivoire,2020-08,16,24.910023,Southern
+East Timor,2020-08,2,23.90411,Southern
+Egypt,2020-08,20,31.046015,Northern
+France,2020-08,2,21.658741,Northern
+Honduras,2020-08,4,24.857183,Southern
+Indonesia,2020-08,4,25.461786,Southern
+Kenya,2020-08,2,24.19162,Southern
+Laos,2020-08,1,25.04992,Southern
+Malaysia,2020-08,1,26.278605,Southern
+Mali,2020-08,4,31.439371,Southern
+North Korea,2020-08,8,22.573463,Northern
+Russia,2020-08,1,13.803064,Northern
+Senegal,2020-08,1,28.582216,Southern
+Sri Lanka,2020-08,1,27.72236,Southern
+United Kingdom,2020-08,6,15.84854,Northern
+United States,2020-08,36,22.287207,Northern
+Argentina,2020-09,2,12.660718,Southern
+Bangladesh,2020-09,135,28.937922,Northern
+Belgium,2020-09,2,15.876871,Northern
+Burkina Faso,2020-09,5,26.966663,Southern
+Cambodia,2020-09,47,27.433409,Southern
+Cameroon,2020-09,5,23.510248,Southern
+China,2020-09,10,15.095594,Northern
+Cote d'Ivoire,2020-09,30,25.237303,Southern
+East Timor,2020-09,3,24.857237,Southern
+Egypt,2020-09,5,30.224878,Northern
+France,2020-09,1,18.67952,Northern
+Germany,2020-09,2,14.998709,Northern
+Hong Kong,2020-09,1,27.715752,Southern
+Indonesia,2020-09,1,25.396498,Southern
+Iran,2020-09,5,24.866533,Northern
+Kenya,2020-09,1,24.839928,Southern
+Laos,2020-09,16,25.526907,Southern
+Mali,2020-09,11,31.509918,Southern
+Nepal,2020-09,2,18.92942,Northern
+Niger,2020-09,2,31.184599,Southern
+North Korea,2020-09,12,16.272568,Northern
+Pakistan,2020-09,3,26.206047,Northern
+Saudi Arabia,2020-09,1,33.04611,Northern
+Senegal,2020-09,57,27.943993,Southern
+Sri Lanka,2020-09,1,26.85027,Southern
+Switzerland,2020-09,1,12.050248,Northern
+Thailand,2020-09,3,27.385736,Southern
+United Kingdom,2020-09,16,13.058012,Northern
+United States,2020-09,58,17.145977,Northern
+Vietnam,2020-09,3,26.32259,Southern
+Afghanistan,2020-10,3,11.602096,Northern
+Bangladesh,2020-10,26,28.498688,Northern
+Belgium,2020-10,2,11.012828,Northern
+Burkina Faso,2020-10,12,28.359758,Southern
+Cambodia,2020-10,24,25.881073,Southern
+Cameroon,2020-10,10,24.23152,Southern
+Canada,2020-10,3,-2.067818,Northern
+China,2020-10,15,7.9672604,Northern
+Cote d'Ivoire,2020-10,65,26.155817,Southern
+Denmark,2020-10,1,10.741582,Northern
+East Timor,2020-10,6,26.158405,Southern
+Egypt,2020-10,2,26.353502,Northern
+France,2020-10,4,13.650805,Northern
+Guatemala,2020-10,2,23.353556,Southern
+Hong Kong,2020-10,7,24.900656,Southern
+India,2020-10,9,25.321135,Northern
+Iran,2020-10,1,18.011623,Northern
+Japan,2020-10,2,14.550332,Northern
+Kenya,2020-10,2,25.91641,Southern
+Laos,2020-10,13,22.852934,Southern
+Mali,2020-10,2,30.206379,Southern
+Nicaragua,2020-10,1,25.67794,Southern
+Niger,2020-10,21,29.17952,Southern
+Norway,2020-10,5,2.5075166,Northern
+Pakistan,2020-10,17,20.946619,Northern
+Portugal,2020-10,2,15.301086,Northern
+Romania,2020-10,1,12.34445,Northern
+Saudi Arabia,2020-10,4,26.796423,Northern
+Senegal,2020-10,120,29.26094,Southern
+Slovakia,2020-10,4,9.737014,Northern
+Togo,2020-10,4,26.425903,Southern
+United Kingdom,2020-10,45,9.78566,Northern
+United States,2020-10,133,10.388611,Northern
+Vietnam,2020-10,48,23.623001,Southern
+Afghanistan,2020-11,13,5.030137,Northern
+Bangladesh,2020-11,1,23.698017,Northern
+Belgium,2020-11,4,8.397283,Northern
+Burkina Faso,2020-11,4,27.803574,Southern
+Cambodia,2020-11,1,26.362692,Southern
+Cameroon,2020-11,11,24.936342,Southern
+Canada,2020-11,17,-10.812866,Northern
+China,2020-11,38,1.1515797,Northern
+Cote d'Ivoire,2020-11,44,27.102724,Southern
+Denmark,2020-11,1,8.024467,Northern
+East Timor,2020-11,10,27.178377,Southern
+Egypt,2020-11,22,18.36464,Northern
+France,2020-11,4,11.334583,Northern
+Ghana,2020-11,16,28.133978,Southern
+Guatemala,2020-11,1,22.252483,Southern
+Honduras,2020-11,1,22.942167,Southern
+Hong Kong,2020-11,23,22.444183,Southern
+India,2020-11,2,20.812206,Northern
+Kazakhstan,2020-11,4,-3.8895414,Northern
+Kenya,2020-11,9,25.166761,Southern
+Laos,2020-11,50,22.019444,Southern
+Luxembourg,2020-11,1,6.5096393,Northern
+Nicaragua,2020-11,3,24.990349,Southern
+Niger,2020-11,24,23.010704,Southern
+North Korea,2020-11,5,2.4256425,Northern
+Norway,2020-11,2,0.35150698,Northern
+Pakistan,2020-11,37,14.1225605,Northern
+Portugal,2020-11,1,13.361186,Northern
+Russia,2020-11,2,-10.1004715,Northern
+Saudi Arabia,2020-11,22,22.01569,Northern
+Senegal,2020-11,35,27.861181,Southern
+Slovakia,2020-11,4,3.6125886,Northern
+Sri Lanka,2020-11,4,25.922808,Southern
+Sweden,2020-11,8,2.4618254,Northern
+Switzerland,2020-11,4,2.778455,Northern
+Thailand,2020-11,8,25.557398,Southern
+Togo,2020-11,20,27.779228,Southern
+Ukraine,2020-11,4,3.9141285,Northern
+United Kingdom,2020-11,103,8.309141,Northern
+United States,2020-11,265,5.0629487,Northern
+Vietnam,2020-11,56,22.87052,Southern
+Afghanistan,2020-12,4,-1.0244669,Northern
+Belgium,2020-12,7,5.190766,Northern
+Burkina Faso,2020-12,1,27.704966,Southern
+Cameroon,2020-12,6,25.220415,Southern
+Canada,2020-12,3,-14.832384,Northern
+China,2020-12,179,-6.697887,Northern
+Cote d'Ivoire,2020-12,22,26.838875,Southern
+Denmark,2020-12,11,4.5707483,Northern
+East Timor,2020-12,4,25.576218,Southern
+Egypt,2020-12,1,16.359072,Northern
+France,2020-12,4,8.457329,Northern
+Ghana,2020-12,7,28.258959,Southern
+Hong Kong,2020-12,28,16.9105,Southern
+India,2020-12,5,17.59349,Northern
+Iran,2020-12,4,6.5951676,Northern
+Kenya,2020-12,3,25.900087,Southern
+Laos,2020-12,42,18.852903,Southern
+Luxembourg,2020-12,1,3.9878376,Northern
+Nepal,2020-12,2,5.8302274,Northern
+Niger,2020-12,9,21.797117,Southern
+Norway,2020-12,2,-3.2294903,Northern
+Pakistan,2020-12,42,9.682619,Northern
+Portugal,2020-12,2,9.8458,Northern
+Saudi Arabia,2020-12,9,17.38597,Northern
+Senegal,2020-12,8,26.775427,Southern
+Switzerland,2020-12,5,-1.9812155,Northern
+Thailand,2020-12,3,23.504679,Southern
+Togo,2020-12,23,27.903566,Southern
+United Kingdom,2020-12,54,5.067062,Northern
+United States,2020-12,317,-0.41147608,Northern
+Vietnam,2020-12,16,19.750566,Southern
+Bangladesh,2021-01,1,18.224745,Northern
+Cameroon,2021-01,18,25.480206,Southern
+Canada,2021-01,2,-15.882717,Northern
+China,2021-01,556,-7.1413617,Northern
+Cote d'Ivoire,2021-01,5,27.05275,Southern
+Denmark,2021-01,7,1.1698015,Northern
+Egypt,2021-01,1,14.650086,Northern
+Ethiopia,2021-01,9,22.763964,Southern
+France,2021-01,5,6.440046,Northern
+Ghana,2021-01,14,28.527264,Southern
+Guinea,2021-01,8,26.626478,Southern
+Hong Kong,2021-01,8,15.43499,Southern
+India,2021-01,18,17.52434,Northern
+Kenya,2021-01,5,25.817884,Southern
+Laos,2021-01,18,17.613403,Southern
+Niger,2021-01,24,20.988825,Southern
+North Korea,2021-01,31,-10.196696,Northern
+Norway,2021-01,1,-9.406672,Northern
+Pakistan,2021-01,63,8.199904,Northern
+Russia,2021-01,4,-25.805536,Northern
+Saudi Arabia,2021-01,15,16.312271,Northern
+Sweden,2021-01,4,-8.328553,Northern
+Switzerland,2021-01,2,-4.181765,Northern
+Tanzania,2021-01,4,22.887718,Southern
+Togo,2021-01,55,28.383902,Southern
+United Arab Emirates,2021-01,2,18.515953,Northern
+United Kingdom,2021-01,30,2.8672254,Northern
+United States,2021-01,267,-0.9636785,Northern
+Afghanistan,2021-02,1,5.688,Northern
+Belgium,2021-02,9,4.7193727,Northern
+Cameroon,2021-02,31,26.122879,Southern
+Canada,2021-02,3,-20.864138,Northern
+China,2021-02,307,-1.36292,Northern
+Cote d'Ivoire,2021-02,5,28.17107,Southern
+Denmark,2021-02,3,0.37775582,Northern
+Egypt,2021-02,2,15.296794,Northern
+Ethiopia,2021-02,44,23.758276,Southern
+France,2021-02,5,9.502581,Northern
+Ghana,2021-02,1,29.657785,Southern
+Hong Kong,2021-02,2,18.866543,Southern
+India,2021-02,22,20.280195,Northern
+Indonesia,2021-02,1,25.490536,Southern
+Kenya,2021-02,31,26.694359,Southern
+Laos,2021-02,46,20.83002,Southern
+Mali,2021-02,1,24.853111,Southern
+Nepal,2021-02,3,7.276369,Northern
+Niger,2021-02,28,20.88783,Southern
+North Korea,2021-02,25,-4.3535414,Northern
+Pakistan,2021-02,64,14.380524,Northern
+Qatar,2021-02,1,19.707043,Northern
+Russia,2021-02,4,-23.087358,Northern
+Saudi Arabia,2021-02,13,18.357096,Northern
+Sweden,2021-02,4,-6.754336,Northern
+Switzerland,2021-02,2,0.14313239,Northern
+Tanzania,2021-02,9,23.18983,Southern
+Togo,2021-02,60,29.606085,Southern
+Uganda,2021-02,2,24.933905,Southern
+United Arab Emirates,2021-02,2,20.983313,Northern
+United Kingdom,2021-02,26,4.503456,Northern
+United States,2021-02,146,-3.6209807,Northern
+Zambia,2021-02,10,22.343836,Southern
+Afghanistan,2021-03,6,9.777976,Northern
+Bangladesh,2021-03,2,26.487516,Northern
+Belgium,2021-03,13,6.412233,Northern
+Burkina Faso,2021-03,4,32.01429,Southern
+Cameroon,2021-03,15,26.580523,Southern
+China,2021-03,811,4.027128,Northern
+Cote d'Ivoire,2021-03,11,28.210684,Southern
+Denmark,2021-03,5,4.1024117,Northern
+Egypt,2021-03,5,19.07594,Northern
+Ethiopia,2021-03,35,25.308273,Southern
+France,2021-03,1,9.965654,Northern
+Ghana,2021-03,3,30.03661,Southern
+Hong Kong,2021-03,4,21.614563,Southern
+India,2021-03,44,25.103937,Northern
+Indonesia,2021-03,1,25.372879,Southern
+Iraq,2021-03,8,17.798609,Northern
+Kenya,2021-03,38,27.223011,Southern
+Laos,2021-03,64,24.334068,Southern
+Nepal,2021-03,32,11.535715,Northern
+Netherlands,2021-03,1,6.3227262,Northern
+Niger,2021-03,1,26.796368,Southern
+North Korea,2021-03,22,3.0918021,Northern
+Pakistan,2021-03,54,19.182568,Northern
+Qatar,2021-03,8,23.999283,Northern
+Russia,2021-03,9,-13.488527,Northern
+Saudi Arabia,2021-03,3,23.835243,Northern
+South Africa,2021-03,1,21.096754,Southern
+Sweden,2021-03,4,-0.47637355,Northern
+Switzerland,2021-03,1,0.8517889,Northern
+Syria,2021-03,1,13.59665,Northern
+Tanzania,2021-03,11,23.334959,Southern
+Togo,2021-03,69,29.816504,Southern
+Uganda,2021-03,1,24.860495,Southern
+United Arab Emirates,2021-03,1,25.898762,Northern
+United Kingdom,2021-03,23,6.5833874,Northern
+United States,2021-03,90,4.219833,Northern
+Zambia,2021-03,7,22.051613,Southern
+Afghanistan,2021-04,2,15.168276,Northern
+Bangladesh,2021-04,17,28.889553,Northern
+Belgium,2021-04,1,6.4626727,Northern
+Burkina Faso,2021-04,3,33.5763,Southern
+Cameroon,2021-04,12,26.679989,Southern
+China,2021-04,1140,7.9786825,Northern
+Cote d'Ivoire,2021-04,14,28.421484,Southern
+Denmark,2021-04,2,5.701273,Northern
+Egypt,2021-04,15,23.438639,Northern
+Ethiopia,2021-04,17,25.046988,Southern
+Ghana,2021-04,17,30.302223,Southern
+Guinea,2021-04,1,29.731161,Southern
+Hong Kong,2021-04,2,23.724918,Southern
+India,2021-04,37,27.86504,Northern
+Indonesia,2021-04,3,25.624323,Southern
+Iran,2021-04,1,21.417204,Northern
+Kenya,2021-04,8,26.419968,Southern
+Laos,2021-04,12,25.236246,Southern
+Nepal,2021-04,18,13.898576,Northern
+North Korea,2021-04,17,8.882263,Northern
+Norway,2021-04,1,-1.5827345,Northern
+Pakistan,2021-04,37,22.840286,Northern
+Peru,2021-04,1,18.933817,Southern
+Qatar,2021-04,8,28.116999,Northern
+Russia,2021-04,2,-2.516309,Northern
+Saudi Arabia,2021-04,1,27.548826,Northern
+South Africa,2021-04,2,19.536287,Southern
+Sweden,2021-04,2,1.8667626,Northern
+Syria,2021-04,2,19.898674,Northern
+Tanzania,2021-04,20,22.551476,Southern
+Togo,2021-04,2,29.83274,Southern
+Uganda,2021-04,10,23.379618,Southern
+United Kingdom,2021-04,19,5.987359,Northern
+United States,2021-04,59,8.859586,Northern
+Zambia,2021-04,11,21.629568,Southern
+Bangladesh,2021-05,63,28.772554,Northern
+Cameroon,2021-05,5,25.66723,Southern
+Canada,2021-05,1,2.555224,Northern
+China,2021-05,1776,13.9451,Northern
+Cote d'Ivoire,2021-05,27,27.690022,Southern
+Denmark,2021-05,4,9.980622,Northern
+Egypt,2021-05,17,29.262663,Northern
+Ethiopia,2021-05,13,24.114939,Southern
+France,2021-05,1,14.076462,Northern
+Ghana,2021-05,11,29.271755,Southern
+India,2021-05,32,28.381512,Northern
+Indonesia,2021-05,2,25.855373,Southern
+Kenya,2021-05,12,25.513683,Southern
+Malaysia,2021-05,1,26.300907,Southern
+Nepal,2021-05,5,15.949001,Northern
+North Korea,2021-05,12,13.156007,Northern
+Pakistan,2021-05,26,26.90619,Northern
+Philippines,2021-05,6,27.470903,Southern
+Qatar,2021-05,18,33.089256,Northern
+Russia,2021-05,2,6.8902917,Northern
+Saudi Arabia,2021-05,1,32.587765,Northern
+South Africa,2021-05,16,14.723225,Southern
+Sweden,2021-05,1,6.95904,Northern
+Syria,2021-05,2,26.079855,Northern
+Tanzania,2021-05,34,21.805128,Southern
+Uganda,2021-05,55,22.958643,Southern
+United Arab Emirates,2021-05,1,33.25135,Northern
+United Kingdom,2021-05,19,9.247331,Northern
+United States,2021-05,94,14.416773,Northern
+Zambia,2021-05,18,19.325594,Southern
+Bangladesh,2021-06,87,28.3621,Northern
+Cameroon,2021-06,1,24.785652,Southern
+Canada,2021-06,1,11.050996,Northern
+China,2021-06,1027,18.255543,Northern
+Cote d'Ivoire,2021-06,19,26.2873,Southern
+Denmark,2021-06,4,16.08718,Northern
+Egypt,2021-06,6,29.737429,Northern
+Ethiopia,2021-06,5,24.399467,Southern
+Ghana,2021-06,89,27.3734,Southern
+Guinea,2021-06,5,26.388752,Southern
+India,2021-06,49,27.918377,Northern
+Indonesia,2021-06,1,25.43297,Southern
+Kenya,2021-06,41,24.702267,Southern
+Mali,2021-06,3,34.820023,Southern
+Nepal,2021-06,5,18.880556,Northern
+North Korea,2021-06,7,18.145441,Northern
+Oman,2021-06,1,34.08194,Southern
+Pakistan,2021-06,17,29.503977,Northern
+Philippines,2021-06,15,27.040958,Southern
+Qatar,2021-06,17,34.94115,Northern
+Saudi Arabia,2021-06,41,34.8177,Northern
+South Africa,2021-06,22,12.7985935,Southern
+Sweden,2021-06,1,14.907632,Northern
+Tanzania,2021-06,16,21.143671,Southern
+Uganda,2021-06,6,23.17462,Southern
+United Kingdom,2021-06,3,14.354982,Northern
+United States,2021-06,61,21.323225,Northern
+Zambia,2021-06,9,18.071596,Southern
+Bangladesh,2021-07,28,28.919718,Northern
+Cameroon,2021-07,7,23.807533,Southern
+Canada,2021-07,2,14.065857,Northern
+China,2021-07,870,21.010496,Northern
+Cote d'Ivoire,2021-07,5,25.26504,Southern
+Egypt,2021-07,3,31.640984,Northern
+Ethiopia,2021-07,20,22.161774,Southern
+France,2021-07,1,19.911558,Northern
+Ghana,2021-07,125,26.313295,Southern
+Guinea,2021-07,8,24.754007,Southern
+Honduras,2021-07,1,25.01997,Southern
+Hong Kong,2021-07,1,29.102306,Southern
+India,2021-07,439,27.453527,Northern
+Kenya,2021-07,34,24.087154,Southern
+Madagascar,2021-07,2,19.588959,Southern
+Malaysia,2021-07,1,26.19998,Southern
+Mali,2021-07,3,33.359947,Southern
+Nepal,2021-07,144,19.972406,Northern
+North Korea,2021-07,4,23.786343,Northern
+Pakistan,2021-07,2,29.762373,Northern
+Philippines,2021-07,21,26.902561,Southern
+Qatar,2021-07,23,36.864285,Northern
+Russia,2021-07,1,16.769133,Northern
+Saudi Arabia,2021-07,12,35.961018,Northern
+South Africa,2021-07,7,10.392638,Southern
+Sweden,2021-07,1,17.459482,Northern
+Tanzania,2021-07,18,20.771763,Southern
+Uganda,2021-07,6,22.590748,Southern
+United Kingdom,2021-07,5,16.548029,Northern
+United States,2021-07,63,22.683842,Northern
+Zambia,2021-07,5,17.452736,Southern
+Bangladesh,2021-08,26,28.792305,Northern
+Burkina Faso,2021-08,3,26.552986,Southern
+Cameroon,2021-08,3,23.70876,Southern
+Canada,2021-08,2,12.577584,Northern
+China,2021-08,1152,18.919851,Northern
+Cote d'Ivoire,2021-08,3,25.07038,Southern
+Croatia,2021-08,3,21.86938,Northern
+Denmark,2021-08,3,15.974861,Northern
+Egypt,2021-08,31,31.690722,Northern
+Ethiopia,2021-08,21,23.318804,Southern
+France,2021-08,3,19.473299,Northern
+Ghana,2021-08,11,25.86521,Southern
+Guinea,2021-08,22,24.225523,Southern
+India,2021-08,1902,26.935783,Northern
+Kenya,2021-08,98,24.785408,Southern
+Madagascar,2021-08,13,20.452713,Southern
+Mali,2021-08,4,32.10126,Southern
+Nepal,2021-08,495,19.55939,Northern
+Netherlands,2021-08,2,16.991005,Northern
+Niger,2021-08,2,31.90428,Southern
+North Korea,2021-08,2,21.039099,Northern
+Norway,2021-08,6,9.759197,Northern
+Oman,2021-08,2,32.126534,Southern
+Peru,2021-08,2,18.73794,Southern
+Philippines,2021-08,26,26.74827,Southern
+Qatar,2021-08,193,36.772476,Northern
+Russia,2021-08,6,14.72337,Northern
+Saudi Arabia,2021-08,1,35.695354,Northern
+Senegal,2021-08,7,28.130463,Southern
+Somalia,2021-08,1,27.417648,Southern
+South Africa,2021-08,22,13.241021,Southern
+Sweden,2021-08,4,12.738034,Northern
+Tanzania,2021-08,6,22.195107,Southern
+Togo,2021-08,2,25.46673,Southern
+United Kingdom,2021-08,4,15.057541,Northern
+United States,2021-08,75,21.578009,Northern
+Zambia,2021-08,7,21.011229,Southern
+Afghanistan,2021-09,1,21.51636,Northern
+Bangladesh,2021-09,168,28.978237,Northern
+Burkina Faso,2021-09,17,28.01077,Southern
+Cameroon,2021-09,38,24.002642,Southern
+Canada,2021-09,3,7.4915667,Northern
+China,2021-09,1658,15.977393,Northern
+Croatia,2021-09,111,17.97146,Northern
+Denmark,2021-09,13,14.821202,Northern
+Egypt,2021-09,47,28.623678,Northern
+Ethiopia,2021-09,16,23.694183,Southern
+France,2021-09,7,18.78511,Northern
+Germany,2021-09,2,15.28287,Northern
+Ghana,2021-09,26,26.297434,Southern
+Guinea,2021-09,21,24.975151,Southern
+Honduras,2021-09,1,24.931915,Southern
+Hong Kong,2021-09,1,28.81547,Southern
+India,2021-09,1317,26.332817,Northern
+Indonesia,2021-09,1,25.293154,Southern
+Kenya,2021-09,76,25.45796,Southern
+Kyrgyzstan,2021-09,12,9.721113,Northern
+Lebanon,2021-09,18,22.057796,Northern
+Madagascar,2021-09,56,21.885221,Southern
+Mali,2021-09,2,32.448494,Southern
+Nepal,2021-09,275,18.978872,Northern
+Netherlands,2021-09,15,16.154196,Northern
+Niger,2021-09,5,31.411945,Southern
+North Korea,2021-09,7,17.711954,Northern
+Norway,2021-09,2,7.0471206,Northern
+Oman,2021-09,15,32.047222,Southern
+Pakistan,2021-09,17,27.409666,Northern
+Peru,2021-09,3,19.191526,Southern
+Philippines,2021-09,4,26.484875,Southern
+Qatar,2021-09,119,33.98854,Northern
+Russia,2021-09,26,6.3257866,Northern
+Saudi Arabia,2021-09,4,32.52685,Northern
+Senegal,2021-09,45,28.943926,Southern
+Somalia,2021-09,20,28.01485,Southern
+South Africa,2021-09,47,17.282394,Southern
+Sweden,2021-09,3,8.958556,Northern
+Tanzania,2021-09,16,23.335125,Southern
+Togo,2021-09,48,25.86815,Southern
+Uganda,2021-09,4,22.537527,Southern
+United Kingdom,2021-09,30,14.775286,Northern
+United States,2021-09,78,17.846388,Northern
+Zambia,2021-09,10,24.621576,Southern
+Afghanistan,2021-10,7,12.373524,Northern
+Bangladesh,2021-10,139,28.118942,Northern
+Cameroon,2021-10,63,24.73333,Southern
+Canada,2021-10,13,2.180898,Northern
+China,2021-10,1869,8.046045,Northern
+Cote d'Ivoire,2021-10,1,26.580704,Southern
+Croatia,2021-10,50,10.719249,Northern
+Denmark,2021-10,17,10.97673,Northern
+Egypt,2021-10,3,24.911732,Northern
+Ethiopia,2021-10,16,23.724644,Southern
+France,2021-10,21,13.913076,Northern
+Germany,2021-10,3,9.726297,Northern
+Ghana,2021-10,34,27.453072,Southern
+Guinea,2021-10,7,25.524176,Southern
+Honduras,2021-10,7,24.627947,Southern
+Hong Kong,2021-10,16,25.244566,Southern
+India,2021-10,955,24.979954,Northern
+Indonesia,2021-10,1,25.868187,Southern
+Iran,2021-10,15,19.125168,Northern
+Kazakhstan,2021-10,5,5.8494177,Northern
+Kenya,2021-10,16,26.436867,Southern
+Kyrgyzstan,2021-10,72,-1.8657776,Northern
+Lebanon,2021-10,10,18.778555,Northern
+Madagascar,2021-10,68,23.454256,Southern
+Malaysia,2021-10,2,26.155369,Southern
+Nepal,2021-10,91,15.933653,Northern
+Netherlands,2021-10,122,11.825157,Northern
+North Korea,2021-10,15,9.60746,Northern
+Norway,2021-10,16,2.5414798,Northern
+Oman,2021-10,59,28.998373,Southern
+Pakistan,2021-10,37,21.407038,Northern
+Qatar,2021-10,63,30.48798,Northern
+Russia,2021-10,138,-1.8186668,Northern
+Senegal,2021-10,149,29.719555,Southern
+Somalia,2021-10,9,27.31429,Southern
+South Africa,2021-10,71,18.296436,Southern
+Spain,2021-10,6,15.38696,Northern
+Sweden,2021-10,29,5.1916966,Northern
+Tanzania,2021-10,24,24.505835,Southern
+Togo,2021-10,46,27.024965,Southern
+Uganda,2021-10,4,23.392416,Southern
+United Arab Emirates,2021-10,3,30.413647,Northern
+United Kingdom,2021-10,390,11.336705,Northern
+United States,2021-10,458,11.455544,Northern
+Zambia,2021-10,4,26.046276,Southern
+Afghanistan,2021-11,39,5.9508095,Northern
+Bangladesh,2021-11,22,23.39276,Northern
+Belgium,2021-11,2,5.8763876,Northern
+Burkina Faso,2021-11,1,29.285435,Southern
+Cameroon,2021-11,31,25.14119,Southern
+Canada,2021-11,112,-8.618769,Northern
+China,2021-11,5286,-0.33402696,Northern
+Cote d'Ivoire,2021-11,5,27.082184,Southern
+Croatia,2021-11,10,7.6806254,Northern
+Denmark,2021-11,38,7.1346016,Northern
+Egypt,2021-11,23,20.957764,Northern
+Ethiopia,2021-11,60,23.627874,Southern
+France,2021-11,111,8.973423,Northern
+Germany,2021-11,7,4.942429,Northern
+Ghana,2021-11,44,28.222614,Southern
+Guinea,2021-11,7,26.238867,Southern
+Honduras,2021-11,8,22.411701,Southern
+Hong Kong,2021-11,28,21.449268,Southern
+India,2021-11,242,20.849045,Northern
+Indonesia,2021-11,11,25.588242,Southern
+Iran,2021-11,781,12.450892,Northern
+Kazakhstan,2021-11,48,-2.8413916,Northern
+Kenya,2021-11,17,26.70008,Southern
+Kyrgyzstan,2021-11,29,-8.604814,Northern
+Lebanon,2021-11,81,14.960745,Northern
+Madagascar,2021-11,168,25.291374,Southern
+Malaysia,2021-11,82,25.52345,Southern
+Nepal,2021-11,54,10.194164,Northern
+Netherlands,2021-11,103,7.4828334,Northern
+Niger,2021-11,9,26.469803,Southern
+North Korea,2021-11,27,2.070981,Northern
+Norway,2021-11,52,-3.739202,Northern
+Oman,2021-11,573,24.935728,Southern
+Pakistan,2021-11,162,14.923903,Northern
+Peru,2021-11,6,19.504955,Southern
+Philippines,2021-11,11,26.366257,Southern
+Qatar,2021-11,71,25.208223,Northern
+Russia,2021-11,1524,-12.120232,Northern
+Saudi Arabia,2021-11,6,22.29258,Northern
+Senegal,2021-11,88,29.27823,Southern
+Somalia,2021-11,13,26.462559,Southern
+South Africa,2021-11,174,20.416307,Southern
+Spain,2021-11,24,8.371018,Northern
+Sweden,2021-11,236,-1.481362,Northern
+Switzerland,2021-11,9,0.13452677,Northern
+Syria,2021-11,52,15.762429,Northern
+Tanzania,2021-11,43,25.27201,Southern
+Togo,2021-11,12,27.823746,Southern
+Uganda,2021-11,4,24.059143,Southern
+United Arab Emirates,2021-11,27,25.382788,Northern
+United Kingdom,2021-11,366,7.637161,Northern
+United States,2021-11,2473,3.639175,Northern
+Zambia,2021-11,2,25.807802,Southern
+Afghanistan,2021-12,15,2.9651203,Northern
+Bangladesh,2021-12,2,20.010977,Northern
+Belgium,2021-12,6,5.230418,Northern
+Canada,2021-12,61,-19.04704,Northern
+China,2021-12,9603,-5.444379,Northern
+Cote d'Ivoire,2021-12,12,27.007118,Southern
+Croatia,2021-12,14,4.2332096,Northern
+Denmark,2021-12,71,2.46248,Northern
+Egypt,2021-12,80,14.196404,Northern
+Ethiopia,2021-12,56,23.003473,Southern
+France,2021-12,445,8.316175,Northern
+Germany,2021-12,14,2.626202,Northern
+Ghana,2021-12,14,28.010666,Southern
+Guinea,2021-12,1,26.120235,Southern
+Honduras,2021-12,10,22.516205,Southern
+Hong Kong,2021-12,7,17.814554,Southern
+India,2021-12,68,17.502928,Northern
+Indonesia,2021-12,11,25.561136,Southern
+Iran,2021-12,1330,8.933562,Northern
+Kazakhstan,2021-12,52,-5.3184443,Northern
+Kenya,2021-12,15,25.579594,Southern
+Kyrgyzstan,2021-12,1,-10.17274,Northern
+Lebanon,2021-12,84,9.582508,Northern
+Madagascar,2021-12,39,25.816559,Southern
+Malaysia,2021-12,160,25.422075,Southern
+Nepal,2021-12,11,4.9507327,Northern
+Netherlands,2021-12,58,5.2254286,Northern
+Niger,2021-12,17,19.523697,Southern
+North Korea,2021-12,31,-6.5484376,Northern
+Norway,2021-12,168,-7.097076,Northern
+Oman,2021-12,224,21.822926,Southern
+Pakistan,2021-12,120,10.160914,Northern
+Peru,2021-12,444,19.776962,Southern
+Philippines,2021-12,7,25.194386,Southern
+Qatar,2021-12,53,20.857826,Northern
+Russia,2021-12,3910,-21.720985,Northern
+Saudi Arabia,2021-12,8,17.503815,Northern
+Senegal,2021-12,10,27.383406,Southern
+South Africa,2021-12,34,21.00943,Southern
+Spain,2021-12,43,8.559363,Northern
+Sweden,2021-12,553,-6.745193,Northern
+Switzerland,2021-12,4,-2.5195286,Northern
+Syria,2021-12,9,10.184578,Northern
+Tanzania,2021-12,21,24.801008,Southern
+Togo,2021-12,3,27.585304,Southern
+Uganda,2021-12,4,24.562344,Southern
+United Arab Emirates,2021-12,19,21.391113,Northern
+United Kingdom,2021-12,207,5.9535565,Northern
+United States,2021-12,4402,1.1913205,Northern
+Afghanistan,2022-01,6,-0.32285905,Northern
+Algeria,2022-01,60,11.541724,Northern
+Argentina,2022-01,109,22.577938,Southern
+Australia,2022-01,97,28.59443,Southern
+Austria,2022-01,27,-1.3342084,Northern
+Bahrain,2022-01,3,17.305847,Southern
+Belgium,2022-01,1,3.7118416,Northern
+Belize,2022-01,11,23.463385,Southern
+Bolivia,2022-01,53,22.521524,Southern
+Brazil,2022-01,2512,25.326487,Southern
+Bulgaria,2022-01,14,1.2550802,Northern
+Canada,2022-01,27,-22.231203,Northern
+Chile,2022-01,288,13.102018,Southern
+China,2022-01,13009,-6.93264,Northern
+Colombia,2022-01,110,24.61467,Southern
+Costa Rica,2022-01,6,22.007135,Southern
+Cote d'Ivoire,2022-01,1,26.694067,Southern
+Croatia,2022-01,130,2.3341436,Northern
+Czechia,2022-01,5,0.7730596,Northern
+Denmark,2022-01,93,4.330156,Northern
+Dominican Republic,2022-01,5,22.905544,Southern
+East Timor,2022-01,29,25.235195,Southern
+Ecuador,2022-01,8,21.500978,Southern
+Egypt,2022-01,56,11.601421,Northern
+El Salvador,2022-01,8,25.916086,Southern
+Estonia,2022-01,26,-2.0932858,Northern
+Ethiopia,2022-01,20,23.361753,Southern
+France,2022-01,471,6.500154,Northern
+Georgia,2022-01,16,-2.6909797,Northern
+Germany,2022-01,74,2.8063452,Northern
+Ghana,2022-01,2,27.987572,Southern
+Greece,2022-01,1,5.5022483,Northern
+Guatemala,2022-01,58,21.029001,Southern
+Haiti,2022-01,12,23.620518,Southern
+Honduras,2022-01,85,22.09884,Southern
+Hungary,2022-01,50,1.0069913,Northern
+Iceland,2022-01,3,-2.5082169,Northern
+India,2022-01,29,16.411985,Northern
+Indonesia,2022-01,88,25.374182,Southern
+Iran,2022-01,1314,6.1919866,Northern
+Iraq,2022-01,4,9.422897,Northern
+Ireland,2022-01,14,6.4478498,Northern
+Israel,2022-01,327,11.029788,Northern
+Italy,2022-01,41,4.746814,Northern
+Jordan,2022-01,39,7.983595,Northern
+Kazakhstan,2022-01,16,-7.980785,Northern
+Kenya,2022-01,11,26.195986,Southern
+Kyrgyzstan,2022-01,3,-10.862477,Northern
+Latvia,2022-01,15,-1.2011914,Northern
+Lebanon,2022-01,13,5.7632413,Northern
+Lithuania,2022-01,46,-0.4050656,Northern
+Luxembourg,2022-01,4,2.1455562,Northern
+Madagascar,2022-01,65,24.53321,Southern
+Malaysia,2022-01,232,25.250458,Southern
+Mexico,2022-01,476,15.54777,Northern
+Moldova,2022-01,46,0.1709747,Northern
+Mongolia,2022-01,2,-17.071125,Northern
+Montenegro,2022-01,14,-0.43402407,Northern
+Morocco,2022-01,16,11.168479,Northern
+Mozambique,2022-01,131,25.63927,Southern
+Namibia,2022-01,1,25.000362,Southern
+Nepal,2022-01,2,2.8274312,Northern
+Netherlands,2022-01,122,5.264944,Northern
+Nicaragua,2022-01,18,24.230766,Southern
+Niger,2022-01,5,17.058382,Southern
+Norway,2022-01,192,-5.5959206,Northern
+Oman,2022-01,12,20.154362,Southern
+Pakistan,2022-01,136,8.900854,Northern
+Palestine,2022-01,2,11.23966,Northern
+Panama,2022-01,22,24.413294,Southern
+Paraguay,2022-01,293,30.593283,Southern
+Peru,2022-01,1003,19.63349,Southern
+Poland,2022-01,2,0.9495057,Northern
+Portugal,2022-01,23,9.224324,Northern
+Qatar,2022-01,10,17.84856,Northern
+Romania,2022-01,31,-0.3626587,Northern
+Russia,2022-01,2003,-20.334112,Northern
+Saudi Arabia,2022-01,5,15.682985,Northern
+Senegal,2022-01,7,27.344488,Southern
+Serbia,2022-01,67,0.059685674,Northern
+Slovenia,2022-01,116,0.62227744,Northern
+South Africa,2022-01,4,23.221727,Southern
+Spain,2022-01,41,6.1054068,Northern
+Sri Lanka,2022-01,6,25.165474,Southern
+Sweden,2022-01,109,-3.9813974,Northern
+Switzerland,2022-01,83,-3.1926265,Northern
+Tanzania,2022-01,8,23.662613,Southern
+Thailand,2022-01,6,24.351727,Southern
+Togo,2022-01,3,27.383486,Southern
+Tunisia,2022-01,41,9.735805,Northern
+Turkey,2022-01,155,-0.8187424,Northern
+Uganda,2022-01,7,24.536512,Southern
+Ukraine,2022-01,31,-1.4945062,Northern
+United Arab Emirates,2022-01,10,19.36492,Northern
+United Kingdom,2022-01,165,5.2237587,Northern
+United States,2022-01,3089,-3.3727252,Northern
+Uruguay,2022-01,1,25.512094,Southern
+Zambia,2022-01,2,22.150879,Southern
+Algeria,2022-02,2,16.002228,Northern
+Argentina,2022-02,1164,20.362423,Southern
+Australia,2022-02,161,27.191254,Southern
+Austria,2022-02,19,0.55703413,Northern
+Belgium,2022-02,6,6.004298,Northern
+Belize,2022-02,3,24.193922,Southern
+Bhutan,2022-02,44,-0.43541476,Northern
+Bolivia,2022-02,4,21.759115,Southern
+Brazil,2022-02,76,25.304464,Southern
+Bulgaria,2022-02,15,3.96194,Northern
+Burkina Faso,2022-02,2,28.228672,Southern
+Cameroon,2022-02,5,25.74231,Southern
+Canada,2022-02,13,-21.801727,Northern
+Chile,2022-02,72,13.258447,Southern
+China,2022-02,8479,-6.0921063,Northern
+Costa Rica,2022-02,23,22.149256,Southern
+Cote d'Ivoire,2022-02,3,28.378214,Southern
+Croatia,2022-02,300,5.7866373,Northern
+Czechia,2022-02,10,3.121403,Northern
+Denmark,2022-02,366,4.320281,Northern
+Dominican Republic,2022-02,4,22.681942,Southern
+East Timor,2022-02,56,24.731512,Southern
+Ecuador,2022-02,14,21.202322,Southern
+Egypt,2022-02,37,13.777727,Northern
+El Salvador,2022-02,14,26.554962,Southern
+Estonia,2022-02,18,-0.62048626,Northern
+Ethiopia,2022-02,30,24.293661,Southern
+Fiji,2022-02,110,25.82798,Southern
+France,2022-02,566,9.2128935,Northern
+Georgia,2022-02,3,0.7154854,Northern
+Germany,2022-02,47,4.532697,Northern
+Ghana,2022-02,3,29.555483,Southern
+Greece,2022-02,1,7.7297115,Northern
+Guatemala,2022-02,4,21.604868,Southern
+Haiti,2022-02,14,23.498623,Southern
+Honduras,2022-02,1,22.481476,Southern
+Hungary,2022-02,110,4.9222746,Northern
+Iceland,2022-02,21,-5.3331127,Northern
+India,2022-02,2,19.228895,Northern
+Indonesia,2022-02,6,25.29991,Southern
+Iran,2022-02,63,9.658636,Northern
+Ireland,2022-02,125,7.135337,Northern
+Israel,2022-02,7,12.934719,Northern
+Italy,2022-02,138,6.683433,Northern
+Jordan,2022-02,1,11.123905,Northern
+Kazakhstan,2022-02,3,-6.2765784,Northern
+Kenya,2022-02,16,27.03589,Southern
+Latvia,2022-02,6,0.18030572,Northern
+Lebanon,2022-02,2,7.980576,Northern
+Lithuania,2022-02,5,1.0805844,Northern
+Luxembourg,2022-02,34,4.6602435,Northern
+Madagascar,2022-02,14,24.754524,Southern
+Malaysia,2022-02,68,25.332039,Southern
+Mali,2022-02,3,24.33951,Southern
+Mexico,2022-02,135,16.014658,Northern
+Moldova,2022-02,16,3.3198278,Northern
+Mongolia,2022-02,3,-16.592016,Northern
+Morocco,2022-02,2,13.892899,Northern
+Mozambique,2022-02,88,25.74689,Southern
+Netherlands,2022-02,258,6.5512905,Northern
+Nicaragua,2022-02,10,24.638891,Southern
+Niger,2022-02,1,20.113682,Southern
+Norway,2022-02,151,-6.59127,Northern
+Oman,2022-02,2,21.60105,Southern
+Pakistan,2022-02,125,12.709525,Northern
+Panama,2022-02,86,24.610622,Southern
+Paraguay,2022-02,20,28.62304,Southern
+Peru,2022-02,55,19.147923,Southern
+Poland,2022-02,2,3.2396858,Northern
+Portugal,2022-02,50,11.078812,Northern
+Qatar,2022-02,11,19.061203,Northern
+Romania,2022-02,63,2.7060716,Northern
+Russia,2022-02,92,-17.2838,Northern
+Saudi Arabia,2022-02,4,17.9169,Northern
+Senegal,2022-02,2,27.915636,Southern
+Serbia,2022-02,71,4.3038483,Northern
+Slovenia,2022-02,161,3.7782323,Northern
+South Africa,2022-02,6,23.30377,Southern
+Spain,2022-02,69,8.792772,Northern
+Sri Lanka,2022-02,2,25.430902,Southern
+Sweden,2022-02,22,-4.452271,Northern
+Switzerland,2022-02,80,-0.6598392,Northern
+Tanzania,2022-02,10,22.615953,Southern
+Togo,2022-02,8,29.21871,Southern
+Tunisia,2022-02,29,12.805996,Northern
+Turkey,2022-02,10,2.7942922,Northern
+Uganda,2022-02,48,24.73824,Southern
+Ukraine,2022-02,3,1.7896587,Northern
+United Arab Emirates,2022-02,13,20.11624,Northern
+United Kingdom,2022-02,237,6.1707807,Northern
+United States,2022-02,1942,-1.6219887,Northern
+Zambia,2022-02,7,22.155066,Southern
+Argentina,2022-03,1843,17.367535,Southern
+Australia,2022-03,340,26.76206,Southern
+Austria,2022-03,82,2.1976397,Northern
+Belgium,2022-03,45,7.5680227,Northern
+Belize,2022-03,4,25.655134,Southern
+Brazil,2022-03,21,25.060286,Southern
+Bulgaria,2022-03,59,3.1357086,Northern
+Cameroon,2022-03,2,27.306421,Southern
+Canada,2022-03,101,-13.499313,Northern
+Chile,2022-03,79,11.412586,Southern
+China,2022-03,5331,4.4264293,Northern
+Colombia,2022-03,3,24.227581,Southern
+Costa Rica,2022-03,47,22.98868,Southern
+Croatia,2022-03,78,6.1426044,Northern
+Czechia,2022-03,37,3.7139347,Northern
+Denmark,2022-03,1520,3.9371486,Northern
+Dominican Republic,2022-03,17,23.460585,Southern
+East Timor,2022-03,57,25.159323,Southern
+Ecuador,2022-03,38,21.321781,Southern
+Egypt,2022-03,75,16.348831,Northern
+El Salvador,2022-03,21,27.525782,Southern
+Estonia,2022-03,12,0.22938582,Northern
+Ethiopia,2022-03,56,25.713076,Southern
+Fiji,2022-03,97,25.799221,Southern
+Finland,2022-03,1,-2.3620024,Northern
+France,2022-03,921,10.895903,Northern
+Georgia,2022-03,37,-1.3470234,Northern
+Germany,2022-03,97,5.241647,Northern
+Ghana,2022-03,1,30.26508,Southern
+Greece,2022-03,22,6.6383185,Northern
+Guatemala,2022-03,1,23.53286,Southern
+Hungary,2022-03,192,5.539385,Northern
+Iceland,2022-03,343,-0.88851416,Northern
+India,2022-03,129,25.520405,Northern
+Iran,2022-03,23,14.763256,Northern
+Ireland,2022-03,147,7.164796,Northern
+Israel,2022-03,5,13.0516,Northern
+Italy,2022-03,845,7.112372,Northern
+Jordan,2022-03,1,11.639675,Northern
+Kazakhstan,2022-03,1,-2.3948457,Northern
+Kenya,2022-03,4,27.743748,Southern
+Kyrgyzstan,2022-03,1,-2.8592649,Northern
+Latvia,2022-03,11,0.79636514,Northern
+Lebanon,2022-03,1,6.5821824,Northern
+Libya,2022-03,5,16.547504,Southern
+Lithuania,2022-03,24,1.415183,Northern
+Luxembourg,2022-03,36,6.5853276,Northern
+Madagascar,2022-03,24,24.34074,Southern
+Malaysia,2022-03,34,25.815523,Southern
+Mali,2022-03,2,28.191477,Southern
+Mauritania,2022-03,1,23.93923,Southern
+Mexico,2022-03,164,19.088524,Northern
+Moldova,2022-03,17,3.0141368,Northern
+Mongolia,2022-03,41,-4.5589375,Northern
+Montenegro,2022-03,32,2.548075,Northern
+Mozambique,2022-03,12,25.165842,Southern
+Netherlands,2022-03,644,7.0395083,Northern
+New Caledonia,2022-03,232,25.470663,Southern
+Nicaragua,2022-03,35,25.680086,Southern
+Norway,2022-03,779,-2.6402528,Northern
+Pakistan,2022-03,56,20.464823,Northern
+Panama,2022-03,4,25.05965,Southern
+Paraguay,2022-03,34,26.125319,Southern
+Peru,2022-03,137,19.083946,Southern
+Poland,2022-03,12,3.193433,Northern
+Portugal,2022-03,506,11.813046,Northern
+Qatar,2022-03,29,23.05506,Northern
+Romania,2022-03,189,2.8087482,Northern
+Russia,2022-03,48,-12.156426,Northern
+Saudi Arabia,2022-03,2,21.932236,Northern
+Senegal,2022-03,1,29.474573,Southern
+Serbia,2022-03,249,4.258661,Northern
+Slovenia,2022-03,404,4.744225,Northern
+South Africa,2022-03,21,20.80382,Southern
+Spain,2022-03,306,9.448018,Northern
+Sweden,2022-03,72,-0.23735744,Northern
+Switzerland,2022-03,267,1.7902032,Northern
+Tanzania,2022-03,40,23.665339,Southern
+Togo,2022-03,45,30.148111,Southern
+Tunisia,2022-03,39,14.764619,Northern
+Turkey,2022-03,3,1.426789,Northern
+Uganda,2022-03,113,25.30153,Southern
+Ukraine,2022-03,2,1.6411352,Northern
+United Arab Emirates,2022-03,2,25.030771,Northern
+United Kingdom,2022-03,480,6.899704,Northern
+United States,2022-03,2496,4.2809362,Northern
+Uruguay,2022-03,12,19.686548,Southern
+Zambia,2022-03,6,22.430311,Southern
+Argentina,2022-04,612,14.150208,Southern
+Australia,2022-04,478,23.3146,Southern
+Austria,2022-04,71,5.6282625,Northern
+Bahrain,2022-04,38,24.594849,Southern
+Belgium,2022-04,26,9.324351,Northern
+Belize,2022-04,4,27.103502,Southern
+Bhutan,2022-04,8,9.751256,Northern
+Bolivia,2022-04,2,20.958794,Southern
+Brazil,2022-04,12,24.973469,Southern
+Bulgaria,2022-04,7,10.703247,Northern
+Burkina Faso,2022-04,1,32.775055,Southern
+Cameroon,2022-04,1,26.277048,Southern
+Canada,2022-04,808,-6.9430213,Northern
+Chile,2022-04,182,8.820022,Southern
+China,2022-04,1157,9.488052,Northern
+Colombia,2022-04,16,24.046516,Southern
+Costa Rica,2022-04,74,23.447985,Southern
+Croatia,2022-04,252,10.683117,Northern
+Czechia,2022-04,104,6.622612,Northern
+Denmark,2022-04,759,6.6974735,Northern
+Dominican Republic,2022-04,2,23.652964,Southern
+East Timor,2022-04,34,25.284178,Southern
+Ecuador,2022-04,19,21.419312,Southern
+Egypt,2022-04,155,25.786722,Northern
+El Salvador,2022-04,17,27.837378,Southern
+Estonia,2022-04,20,4.1482625,Northern
+Ethiopia,2022-04,44,25.840326,Southern
+Fiji,2022-04,2,25.482561,Southern
+Finland,2022-04,62,0.9635799,Northern
+France,2022-04,975,12.49326,Northern
+Georgia,2022-04,74,8.933524,Northern
+Germany,2022-04,130,7.8288937,Northern
+Ghana,2022-04,17,28.966116,Southern
+Greece,2022-04,3,13.30598,Northern
+Haiti,2022-04,3,24.494152,Southern
+Hungary,2022-04,28,10.009188,Northern
+Iceland,2022-04,297,1.1370305,Northern
+India,2022-04,33,29.37969,Northern
+Indonesia,2022-04,2,25.773087,Southern
+Iran,2022-04,13,21.416061,Northern
+Ireland,2022-04,52,8.810754,Northern
+Israel,2022-04,7,21.040548,Northern
+Italy,2022-04,505,11.056617,Northern
+Jordan,2022-04,6,22.14045,Northern
+Kazakhstan,2022-04,3,12.512663,Northern
+Kenya,2022-04,3,26.89039,Southern
+Latvia,2022-04,21,5.1460633,Northern
+Lebanon,2022-04,2,16.253822,Northern
+Libya,2022-04,2,25.724998,Southern
+Lithuania,2022-04,71,5.742982,Northern
+Luxembourg,2022-04,15,8.549116,Northern
+Madagascar,2022-04,33,23.792313,Southern
+Malaysia,2022-04,53,25.927258,Southern
+Mauritius,2022-04,4,24.625433,Southern
+Mexico,2022-04,114,22.81558,Northern
+Moldova,2022-04,18,10.367309,Northern
+Mongolia,2022-04,101,4.3527026,Northern
+Montenegro,2022-04,12,7.780781,Northern
+Namibia,2022-04,1,21.469097,Southern
+Netherlands,2022-04,597,9.113988,Northern
+New Caledonia,2022-04,72,23.939198,Southern
+Nicaragua,2022-04,13,26.623644,Southern
+Norway,2022-04,910,-1.8803847,Northern
+Oman,2022-04,2,31.031784,Southern
+Pakistan,2022-04,29,25.759697,Northern
+Panama,2022-04,4,25.147202,Southern
+Paraguay,2022-04,59,24.900314,Southern
+Peru,2022-04,277,18.98376,Southern
+Poland,2022-04,30,6.801726,Northern
+Portugal,2022-04,1011,13.179543,Northern
+Qatar,2022-04,127,28.067966,Northern
+Romania,2022-04,73,9.188206,Northern
+Russia,2022-04,66,-2.4193103,Northern
+Saudi Arabia,2022-04,9,28.289846,Northern
+Senegal,2022-04,5,31.678074,Southern
+Serbia,2022-04,97,10.135418,Northern
+Slovenia,2022-04,208,8.867349,Northern
+South Africa,2022-04,37,16.53748,Southern
+Spain,2022-04,120,11.375488,Northern
+Sweden,2022-04,184,1.8358686,Northern
+Switzerland,2022-04,129,4.7344146,Northern
+Tanzania,2022-04,65,23.345095,Southern
+Thailand,2022-04,1,27.7934,Southern
+Togo,2022-04,37,28.21084,Southern
+Tunisia,2022-04,7,18.620998,Northern
+Turkey,2022-04,4,12.31458,Northern
+Uganda,2022-04,65,23.917513,Southern
+United Arab Emirates,2022-04,3,29.858166,Northern
+United Kingdom,2022-04,460,8.312384,Northern
+United States,2022-04,2874,8.488442,Northern
+Uruguay,2022-04,29,17.230389,Southern
+Zambia,2022-04,28,21.85527,Southern
+Argentina,2022-05,393,9.680323,Southern
+Australia,2022-05,1080,18.64853,Southern
+Bahrain,2022-05,161,27.887604,Southern
+Bangladesh,2022-05,2,28.477968,Northern
+Belgium,2022-05,17,14.59844,Northern
+Belize,2022-05,20,27.885,Southern
+Bhutan,2022-05,3,11.985553,Northern
+Bolivia,2022-05,11,18.053171,Southern
+Brazil,2022-05,43,23.611048,Southern
+Bulgaria,2022-05,1,16.156837,Northern
+Burkina Faso,2022-05,1,32.21558,Southern
+Cameroon,2022-05,15,25.53481,Southern
+Canada,2022-05,2613,2.9068413,Northern
+Chile,2022-05,589,6.658822,Southern
+China,2022-05,2162,14.218539,Northern
+Colombia,2022-05,34,23.776085,Southern
+Costa Rica,2022-05,23,23.538263,Southern
+Cote d'Ivoire,2022-05,34,27.193462,Southern
+Croatia,2022-05,9,18.09233,Northern
+Czechia,2022-05,32,14.542518,Northern
+Denmark,2022-05,126,11.634873,Northern
+East Timor,2022-05,58,25.130623,Southern
+Ecuador,2022-05,24,20.778393,Southern
+Egypt,2022-05,263,27.077381,Northern
+El Salvador,2022-05,33,26.661762,Southern
+Estonia,2022-05,3,9.843167,Northern
+Ethiopia,2022-05,86,25.910055,Southern
+Finland,2022-05,30,7.6818943,Northern
+France,2022-05,96,17.631325,Northern
+Georgia,2022-05,35,10.259898,Northern
+Germany,2022-05,148,14.56676,Northern
+Ghana,2022-05,788,28.256805,Southern
+Greece,2022-05,2,18.071095,Northern
+Guatemala,2022-05,1,25.730282,Southern
+Honduras,2022-05,1,25.10469,Southern
+Hong Kong,2022-05,4,24.582304,Southern
+Iceland,2022-05,34,3.4506092,Northern
+India,2022-05,60,29.970669,Northern
+Indonesia,2022-05,2,25.922485,Southern
+Iran,2022-05,6,23.728739,Northern
+Ireland,2022-05,10,12.0058155,Northern
+Israel,2022-05,2,23.022873,Northern
+Italy,2022-05,54,17.613398,Northern
+Jordan,2022-05,28,23.769533,Northern
+Kenya,2022-05,71,25.94345,Southern
+Latvia,2022-05,30,10.144567,Northern
+Lebanon,2022-05,1,18.31154,Northern
+Libya,2022-05,6,26.446096,Southern
+Lithuania,2022-05,5,10.727085,Northern
+Luxembourg,2022-05,1,14.822567,Northern
+Madagascar,2022-05,23,21.665579,Southern
+Malaysia,2022-05,166,26.479486,Southern
+Mauritania,2022-05,3,32.600044,Southern
+Mauritius,2022-05,57,23.398005,Southern
+Mexico,2022-05,338,25.13033,Northern
+Moldova,2022-05,3,16.451218,Northern
+Mongolia,2022-05,35,12.886796,Northern
+Namibia,2022-05,12,18.31587,Southern
+Nepal,2022-05,1,17.358372,Northern
+Netherlands,2022-05,285,13.954321,Northern
+New Caledonia,2022-05,5,23.100039,Southern
+Nicaragua,2022-05,61,26.278877,Southern
+Niger,2022-05,2,33.347435,Southern
+Norway,2022-05,441,3.7176187,Northern
+Oman,2022-05,5,32.797287,Southern
+Pakistan,2022-05,21,28.645155,Northern
+Palestine,2022-05,2,22.939024,Northern
+Panama,2022-05,26,25.271084,Southern
+Paraguay,2022-05,168,18.910873,Southern
+Peru,2022-05,198,18.243797,Southern
+Philippines,2022-05,1,26.959003,Southern
+Poland,2022-05,15,13.598378,Northern
+Portugal,2022-05,658,19.2409,Northern
+Qatar,2022-05,390,31.989317,Northern
+Romania,2022-05,8,15.814106,Northern
+Russia,2022-05,103,6.3463373,Northern
+Saudi Arabia,2022-05,34,31.340609,Northern
+Senegal,2022-05,50,31.970686,Southern
+Serbia,2022-05,14,17.25693,Northern
+Slovenia,2022-05,15,16.29589,Northern
+South Africa,2022-05,107,14.289025,Southern
+South Korea,2022-05,1,17.890581,Northern
+Spain,2022-05,293,18.405014,Northern
+Sri Lanka,2022-05,11,27.744108,Southern
+Sweden,2022-05,132,8.164349,Northern
+Switzerland,2022-05,32,11.564457,Northern
+Tanzania,2022-05,25,22.57124,Southern
+Thailand,2022-05,5,27.255306,Southern
+Togo,2022-05,24,27.593058,Southern
+Tunisia,2022-05,1,24.021059,Northern
+Turkey,2022-05,1,14.662788,Northern
+Uganda,2022-05,46,23.426092,Southern
+United Arab Emirates,2022-05,20,31.903776,Northern
+United Kingdom,2022-05,335,11.8460655,Northern
+United States,2022-05,3238,15.128978,Northern
+Uruguay,2022-05,66,12.674119,Southern
+Zambia,2022-05,9,20.241587,Southern
+Argentina,2022-06,201,6.7550597,Southern
+Australia,2022-06,1601,15.200676,Southern
+Bahrain,2022-06,572,31.710205,Southern
+Bangladesh,2022-06,98,28.655684,Northern
+Belgium,2022-06,10,17.261066,Northern
+Belize,2022-06,29,27.008266,Southern
+Bolivia,2022-06,35,16.829718,Southern
+Brazil,2022-06,45,23.136229,Southern
+Burkina Faso,2022-06,2,29.39598,Southern
+Cambodia,2022-06,3,28.533846,Southern
+Cameroon,2022-06,11,24.280748,Southern
+Canada,2022-06,1023,10.836867,Northern
+Chile,2022-06,581,4.20939,Southern
+China,2022-06,6000,18.92377,Northern
+Colombia,2022-06,62,23.082653,Southern
+Costa Rica,2022-06,2,22.733612,Southern
+Cote d'Ivoire,2022-06,34,25.97821,Southern
+Croatia,2022-06,2,22.923412,Northern
+Czechia,2022-06,2,18.855963,Northern
+Denmark,2022-06,19,15.172185,Northern
+East Timor,2022-06,38,24.14696,Southern
+Ecuador,2022-06,27,20.047407,Southern
+Egypt,2022-06,144,30.09315,Northern
+El Salvador,2022-06,15,25.295698,Southern
+Ethiopia,2022-06,69,24.237549,Southern
+Fiji,2022-06,1,24.102455,Southern
+Finland,2022-06,2,14.857914,Northern
+France,2022-06,16,20.416801,Northern
+Georgia,2022-06,15,17.083368,Northern
+Germany,2022-06,41,18.45498,Northern
+Ghana,2022-06,191,26.763517,Southern
+Guatemala,2022-06,1,23.873056,Southern
+Hong Kong,2022-06,17,27.964678,Southern
+Iceland,2022-06,1,6.543701,Northern
+India,2022-06,41,29.324764,Northern
+Indonesia,2022-06,16,25.21873,Southern
+Iran,2022-06,1,29.905146,Northern
+Iraq,2022-06,1,34.610424,Northern
+Ireland,2022-06,6,13.366361,Northern
+Italy,2022-06,1,23.056236,Northern
+Jamaica,2022-06,8,26.985394,Southern
+Japan,2022-06,1,19.56637,Northern
+Jordan,2022-06,10,27.699606,Northern
+Kenya,2022-06,147,24.643896,Southern
+Laos,2022-06,4,26.072063,Southern
+Latvia,2022-06,1,17.152443,Northern
+Lebanon,2022-06,1,22.001245,Northern
+Libya,2022-06,22,30.507566,Southern
+Luxembourg,2022-06,1,17.63677,Northern
+Madagascar,2022-06,9,19.609896,Southern
+Malaysia,2022-06,598,25.774374,Southern
+Mauritania,2022-06,2,33.268517,Southern
+Mauritius,2022-06,97,21.481668,Southern
+Mexico,2022-06,267,25.188423,Northern
+Mongolia,2022-06,1,18.529177,Northern
+Namibia,2022-06,16,15.690397,Southern
+Nepal,2022-06,22,19.56472,Northern
+Netherlands,2022-06,39,16.861408,Northern
+Nicaragua,2022-06,174,25.18016,Southern
+Niger,2022-06,3,33.460213,Southern
+Norway,2022-06,54,9.783023,Northern
+Oman,2022-06,19,33.87952,Southern
+Pakistan,2022-06,16,29.25113,Northern
+Panama,2022-06,20,24.547543,Southern
+Paraguay,2022-06,168,17.45567,Southern
+Peru,2022-06,37,17.50308,Southern
+Philippines,2022-06,6,26.98488,Southern
+Poland,2022-06,8,18.892555,Northern
+Portugal,2022-06,112,20.158318,Northern
+Qatar,2022-06,557,35.46879,Northern
+Russia,2022-06,31,13.915151,Northern
+Saudi Arabia,2022-06,71,35.10714,Northern
+Senegal,2022-06,103,30.406622,Southern
+Somalia,2022-06,1,27.931602,Southern
+South Africa,2022-06,251,11.551118,Southern
+Spain,2022-06,182,22.054106,Northern
+Sri Lanka,2022-06,42,27.62861,Southern
+Sweden,2022-06,45,14.382753,Northern
+Switzerland,2022-06,3,15.62114,Northern
+Tanzania,2022-06,30,21.2579,Southern
+Thailand,2022-06,18,27.968061,Southern
+Togo,2022-06,6,26.196266,Southern
+Uganda,2022-06,47,22.86479,Southern
+United Arab Emirates,2022-06,39,35.729774,Northern
+United Kingdom,2022-06,137,14.074509,Northern
+United States,2022-06,1061,20.608007,Northern
+Uruguay,2022-06,36,9.593561,Southern
+Zambia,2022-06,24,17.639946,Southern
+Argentina,2022-07,130,8.1921625,Southern
+Australia,2022-07,906,13.766142,Southern
+Bahrain,2022-07,393,33.043976,Southern
+Bangladesh,2022-07,268,29.726677,Northern
+Belgium,2022-07,10,19.02568,Northern
+Belize,2022-07,49,27.097279,Southern
+Bolivia,2022-07,17,19.586802,Southern
+Brazil,2022-07,61,24.171156,Southern
+Burkina Faso,2022-07,5,27.75449,Southern
+Cambodia,2022-07,9,27.369255,Southern
+Cameroon,2022-07,9,23.580912,Southern
+Canada,2022-07,155,14.591425,Northern
+Chile,2022-07,455,3.845197,Southern
+China,2022-07,6817,21.055056,Northern
+Colombia,2022-07,49,23.55381,Southern
+Costa Rica,2022-07,58,23.125824,Southern
+Cote d'Ivoire,2022-07,29,25.060408,Southern
+Croatia,2022-07,2,23.868216,Northern
+Denmark,2022-07,21,16.56951,Northern
+East Timor,2022-07,80,22.61212,Southern
+Ecuador,2022-07,12,20.0583,Southern
+Egypt,2022-07,58,30.466726,Northern
+El Salvador,2022-07,2,26.81087,Southern
+Ethiopia,2022-07,56,22.402405,Southern
+France,2022-07,15,22.427254,Northern
+Georgia,2022-07,1,18.645174,Northern
+Germany,2022-07,14,19.26845,Northern
+Ghana,2022-07,42,25.871557,Southern
+Guatemala,2022-07,3,24.342413,Southern
+Guinea,2022-07,5,24.605663,Southern
+Hong Kong,2022-07,6,29.606956,Southern
+Iceland,2022-07,1,8.062544,Northern
+India,2022-07,220,26.968025,Northern
+Indonesia,2022-07,24,25.18641,Southern
+Iran,2022-07,16,30.388514,Northern
+Ireland,2022-07,5,15.821091,Northern
+Israel,2022-07,2,27.598337,Northern
+Jamaica,2022-07,8,27.69273,Southern
+Japan,2022-07,25,24.053616,Northern
+Jordan,2022-07,3,28.855082,Northern
+Kenya,2022-07,49,23.76452,Southern
+Laos,2022-07,13,26.034143,Southern
+Libya,2022-07,4,30.333124,Southern
+Luxembourg,2022-07,1,19.28748,Northern
+Madagascar,2022-07,26,19.360146,Southern
+Malaysia,2022-07,1034,26.095144,Southern
+Mauritania,2022-07,1,34.13566,Southern
+Mauritius,2022-07,47,20.524422,Southern
+Mexico,2022-07,150,25.377792,Northern
+Namibia,2022-07,2,16.698084,Southern
+Nepal,2022-07,102,20.525093,Northern
+Netherlands,2022-07,24,18.475077,Northern
+Nicaragua,2022-07,12,25.693592,Southern
+Niger,2022-07,9,32.379574,Southern
+Norway,2022-07,53,11.170268,Northern
+Oman,2022-07,31,31.001118,Southern
+Pakistan,2022-07,23,27.58661,Northern
+Panama,2022-07,56,24.97795,Southern
+Paraguay,2022-07,50,22.732718,Southern
+Peru,2022-07,112,18.308844,Southern
+Philippines,2022-07,8,26.76073,Southern
+Poland,2022-07,3,18.987406,Northern
+Portugal,2022-07,18,24.993986,Northern
+Qatar,2022-07,147,36.20701,Northern
+Russia,2022-07,4,16.809994,Northern
+Saudi Arabia,2022-07,18,35.068794,Northern
+Senegal,2022-07,48,28.990181,Southern
+Slovenia,2022-07,4,22.07302,Northern
+Somalia,2022-07,3,26.5072,Southern
+South Africa,2022-07,105,12.356091,Southern
+South Korea,2022-07,17,25.802982,Northern
+Spain,2022-07,60,25.783007,Northern
+Sri Lanka,2022-07,22,27.398294,Southern
+Sweden,2022-07,19,14.833955,Northern
+Switzerland,2022-07,3,17.296513,Northern
+Tanzania,2022-07,45,20.920439,Southern
+Thailand,2022-07,41,27.561165,Southern
+Togo,2022-07,9,25.365055,Southern
+Uganda,2022-07,25,23.112955,Southern
+United Arab Emirates,2022-07,48,35.545025,Northern
+United Kingdom,2022-07,138,16.623417,Northern
+United States,2022-07,432,23.184889,Northern
+Uruguay,2022-07,10,12.90482,Southern
+Vietnam,2022-07,36,27.009512,Southern
+Zambia,2022-07,28,18.484673,Southern
+Afghanistan,2022-08,1,22.888775,Northern
+Argentina,2022-08,96,9.612975,Southern
+Australia,2022-08,423,16.4195,Southern
+Bahrain,2022-08,738,34.27481,Southern
+Bangladesh,2022-08,65,29.502687,Northern
+Belgium,2022-08,3,20.463215,Northern
+Belize,2022-08,30,26.857653,Southern
+Bolivia,2022-08,12,18.654852,Southern
+Brazil,2022-08,72,24.370962,Southern
+Burkina Faso,2022-08,16,26.409313,Southern
+Cambodia,2022-08,42,27.13188,Southern
+Cameroon,2022-08,11,23.427658,Southern
+Canada,2022-08,56,13.54346,Northern
+Chile,2022-08,520,5.2883005,Southern
+China,2022-08,5597,20.109926,Northern
+Colombia,2022-08,46,23.635088,Southern
+Costa Rica,2022-08,34,23.21072,Southern
+Cote d'Ivoire,2022-08,1,24.668802,Southern
+Croatia,2022-08,13,23.097265,Northern
+Czechia,2022-08,1,19.562254,Northern
+Denmark,2022-08,42,18.128906,Northern
+Dominican Republic,2022-08,1,26.005823,Southern
+East Timor,2022-08,48,23.699656,Southern
+Ecuador,2022-08,2,20.183138,Southern
+Egypt,2022-08,61,31.31828,Northern
+El Salvador,2022-08,3,26.283342,Southern
+Ethiopia,2022-08,69,22.480507,Southern
+Finland,2022-08,2,15.900022,Northern
+France,2022-08,36,22.634382,Northern
+Germany,2022-08,20,20.381433,Northern
+Ghana,2022-08,28,25.336617,Southern
+Guatemala,2022-08,8,24.102484,Southern
+Guinea,2022-08,10,24.14646,Southern
+Hong Kong,2022-08,3,28.463547,Southern
+Iceland,2022-08,2,7.2947545,Northern
+India,2022-08,862,26.71649,Northern
+Indonesia,2022-08,62,25.17338,Southern
+Iran,2022-08,3,28.791046,Northern
+Iraq,2022-08,1,36.53503,Northern
+Ireland,2022-08,6,16.000725,Northern
+Israel,2022-08,2,28.436737,Northern
+Italy,2022-08,36,23.45665,Northern
+Jamaica,2022-08,2,27.434017,Southern
+Japan,2022-08,23,24.523834,Northern
+Kenya,2022-08,14,23.793098,Southern
+Laos,2022-08,105,25.20579,Southern
+Madagascar,2022-08,36,20.21862,Southern
+Malaysia,2022-08,892,25.835955,Southern
+Mali,2022-08,9,31.260069,Southern
+Mauritania,2022-08,1,32.78492,Southern
+Mauritius,2022-08,2,20.724653,Southern
+Mexico,2022-08,389,24.437166,Northern
+Moldova,2022-08,1,23.408474,Northern
+Mozambique,2022-08,4,22.031017,Southern
+Namibia,2022-08,3,17.862099,Southern
+Nepal,2022-08,221,20.417627,Northern
+Netherlands,2022-08,84,20.097141,Northern
+Nicaragua,2022-08,18,25.492197,Southern
+Niger,2022-08,1,31.331076,Southern
+Norway,2022-08,83,10.893452,Northern
+Oman,2022-08,48,32.804546,Southern
+Pakistan,2022-08,82,26.647755,Northern
+Panama,2022-08,168,24.890457,Southern
+Paraguay,2022-08,17,20.85646,Southern
+Peru,2022-08,58,18.035437,Southern
+Philippines,2022-08,70,26.42448,Southern
+Portugal,2022-08,15,22.972672,Northern
+Qatar,2022-08,159,36.46306,Northern
+Romania,2022-08,1,22.184353,Northern
+Russia,2022-08,3,14.0360155,Northern
+Saudi Arabia,2022-08,53,35.584198,Northern
+Senegal,2022-08,87,27.97143,Southern
+Slovenia,2022-08,7,21.290201,Northern
+Somalia,2022-08,43,26.976574,Southern
+South Africa,2022-08,158,13.421547,Southern
+South Korea,2022-08,20,25.087225,Northern
+Spain,2022-08,150,24.710863,Northern
+Sri Lanka,2022-08,8,26.958693,Southern
+Sweden,2022-08,40,14.873616,Northern
+Switzerland,2022-08,5,16.400833,Northern
+Tanzania,2022-08,27,21.889233,Southern
+Thailand,2022-08,132,27.069426,Southern
+Togo,2022-08,11,24.884743,Southern
+Uganda,2022-08,30,22.436962,Southern
+United Arab Emirates,2022-08,45,36.733967,Northern
+United Kingdom,2022-08,177,16.783302,Northern
+United States,2022-08,545,21.801897,Northern
+Uruguay,2022-08,5,11.866286,Southern
+Vietnam,2022-08,12,26.51259,Southern
+Zambia,2022-08,40,21.156189,Southern
+Afghanistan,2022-09,1,20.439955,Northern
+Argentina,2022-09,68,11.825745,Southern
+Australia,2022-09,118,19.616165,Southern
+Bahrain,2022-09,542,32.930267,Southern
+Bangladesh,2022-09,1,28.7828,Northern
+Belgium,2022-09,7,14.463042,Northern
+Bhutan,2022-09,35,14.202392,Northern
+Bolivia,2022-09,3,20.343264,Southern
+Brazil,2022-09,216,25.577557,Southern
+Brunei,2022-09,25,26.422089,Southern
+Burkina Faso,2022-09,10,26.53666,Southern
+Cambodia,2022-09,70,26.654917,Southern
+Cameroon,2022-09,25,23.570236,Southern
+Canada,2022-09,123,8.174666,Northern
+Chile,2022-09,274,6.448194,Southern
+China,2022-09,2601,15.667524,Northern
+Colombia,2022-09,22,23.982447,Southern
+Costa Rica,2022-09,19,23.121208,Southern
+Cote d'Ivoire,2022-09,1,25.053427,Southern
+Croatia,2022-09,12,17.079565,Northern
+Denmark,2022-09,42,13.549991,Northern
+Dominican Republic,2022-09,2,25.783283,Southern
+East Timor,2022-09,20,25.137878,Southern
+Ecuador,2022-09,1,20.780088,Southern
+Egypt,2022-09,143,29.589294,Northern
+El Salvador,2022-09,4,25.316505,Southern
+Estonia,2022-09,1,9.81566,Northern
+Ethiopia,2022-09,20,23.642672,Southern
+Finland,2022-09,5,7.6945653,Northern
+France,2022-09,75,17.860697,Northern
+Germany,2022-09,18,13.433877,Northern
+Ghana,2022-09,109,25.388998,Southern
+Guatemala,2022-09,17,23.695335,Southern
+Guinea,2022-09,9,24.42497,Southern
+Honduras,2022-09,5,24.297691,Southern
+Hong Kong,2022-09,1,28.714718,Southern
+Iceland,2022-09,1,6.5084834,Northern
+India,2022-09,302,26.403416,Northern
+Indonesia,2022-09,98,25.330408,Southern
+Iran,2022-09,79,26.64589,Northern
+Ireland,2022-09,16,13.495501,Northern
+Israel,2022-09,2,26.79173,Northern
+Japan,2022-09,8,21.704378,Northern
+Kazakhstan,2022-09,5,17.086788,Northern
+Kenya,2022-09,10,24.878157,Southern
+Laos,2022-09,196,24.79058,Southern
+Luxembourg,2022-09,1,13.615056,Northern
+Madagascar,2022-09,16,21.329855,Southern
+Malaysia,2022-09,343,25.55335,Southern
+Mali,2022-09,3,31.475967,Southern
+Mauritania,2022-09,8,32.13321,Southern
+Mexico,2022-09,475,23.175903,Northern
+Moldova,2022-09,1,15.792261,Northern
+Mozambique,2022-09,4,23.89152,Southern
+Namibia,2022-09,8,22.001959,Southern
+Nepal,2022-09,257,18.652922,Northern
+Netherlands,2022-09,34,14.983569,Northern
+Nicaragua,2022-09,16,25.736734,Southern
+Niger,2022-09,9,31.449352,Southern
+Norway,2022-09,42,6.639913,Northern
+Oman,2022-09,78,30.81882,Southern
+Pakistan,2022-09,92,26.483332,Northern
+Palestine,2022-09,1,27.046236,Northern
+Panama,2022-09,34,24.90657,Southern
+Paraguay,2022-09,12,21.229347,Southern
+Peru,2022-09,21,19.252365,Southern
+Philippines,2022-09,69,26.675592,Southern
+Portugal,2022-09,21,19.962093,Northern
+Qatar,2022-09,268,33.970142,Northern
+Saudi Arabia,2022-09,101,32.66237,Northern
+Senegal,2022-09,50,27.898342,Southern
+Slovenia,2022-09,6,14.913644,Northern
+Somalia,2022-09,20,27.604424,Southern
+South Africa,2022-09,241,17.806707,Southern
+South Korea,2022-09,13,20.871365,Northern
+Spain,2022-09,244,19.818802,Northern
+Sri Lanka,2022-09,8,27.056376,Southern
+Sweden,2022-09,18,8.813407,Northern
+Switzerland,2022-09,4,10.436036,Northern
+Tanzania,2022-09,7,22.959967,Southern
+Thailand,2022-09,146,26.609291,Southern
+Togo,2022-09,57,24.879774,Southern
+Uganda,2022-09,5,22.673973,Southern
+United Arab Emirates,2022-09,84,33.724857,Northern
+United Kingdom,2022-09,296,13.584761,Northern
+United States,2022-09,643,18.170912,Northern
+Vietnam,2022-09,50,25.727407,Southern
+Zambia,2022-09,31,24.021997,Southern
+Afghanistan,2022-10,19,13.644796,Northern
+Argentina,2022-10,354,15.03204,Southern
+Australia,2022-10,143,22.415787,Southern
+Bahrain,2022-10,642,29.806366,Southern
+Belgium,2022-10,32,13.6558695,Northern
+Belize,2022-10,10,26.301966,Southern
+Bhutan,2022-10,140,10.277312,Northern
+Bolivia,2022-10,6,21.143093,Southern
+Brazil,2022-10,345,25.976566,Southern
+Brunei,2022-10,57,26.307251,Southern
+Burkina Faso,2022-10,14,28.532253,Southern
+Cambodia,2022-10,190,26.551727,Southern
+Cameroon,2022-10,12,24.087208,Southern
+Canada,2022-10,2246,0.84041667,Northern
+Chile,2022-10,207,8.494249,Southern
+China,2022-10,2844,7.66864,Northern
+Colombia,2022-10,15,24.011713,Southern
+Costa Rica,2022-10,10,23.06275,Southern
+Cote d'Ivoire,2022-10,2,26.07485,Southern
+Croatia,2022-10,22,14.625253,Northern
+Czechia,2022-10,5,11.079181,Northern
+Denmark,2022-10,84,12.015762,Northern
+Dominican Republic,2022-10,37,25.250814,Southern
+Ecuador,2022-10,7,20.824802,Southern
+Egypt,2022-10,491,24.152374,Northern
+El Salvador,2022-10,6,25.779173,Southern
+Ethiopia,2022-10,26,23.362001,Southern
+Finland,2022-10,21,4.4932857,Northern
+France,2022-10,215,17.310883,Northern
+Georgia,2022-10,3,10.169811,Northern
+Germany,2022-10,153,12.620206,Northern
+Ghana,2022-10,237,26.746552,Southern
+Greece,2022-10,5,16.651316,Northern
+Guatemala,2022-10,27,23.382792,Southern
+Guinea,2022-10,3,25.271557,Southern
+Haiti,2022-10,1,25.80871,Southern
+Honduras,2022-10,6,23.90161,Southern
+Hong Kong,2022-10,18,25.351452,Southern
+Iceland,2022-10,59,1.2950734,Northern
+India,2022-10,112,24.216114,Northern
+Indonesia,2022-10,136,25.40676,Southern
+Iran,2022-10,3815,21.123608,Northern
+Iraq,2022-10,9,26.78505,Northern
+Ireland,2022-10,73,12.0557,Northern
+Jamaica,2022-10,8,26.284666,Southern
+Japan,2022-10,5,14.587957,Northern
+Jordan,2022-10,10,22.606947,Northern
+Kazakhstan,2022-10,459,7.519005,Northern
+Kenya,2022-10,61,25.825338,Southern
+Kyrgyzstan,2022-10,4,0.69815373,Northern
+Laos,2022-10,223,23.310535,Southern
+Latvia,2022-10,2,8.897447,Northern
+Lebanon,2022-10,3,19.120764,Northern
+Lithuania,2022-10,8,9.661712,Northern
+Luxembourg,2022-10,12,12.761486,Northern
+Madagascar,2022-10,17,23.371225,Southern
+Malaysia,2022-10,275,25.482346,Southern
+Mauritania,2022-10,1,30.060156,Southern
+Mauritius,2022-10,3,21.98215,Southern
+Mexico,2022-10,1036,20.864182,Northern
+Moldova,2022-10,2,11.786125,Northern
+Morocco,2022-10,1,22.004215,Northern
+Mozambique,2022-10,25,26.681509,Southern
+Namibia,2022-10,7,25.240871,Southern
+Nepal,2022-10,55,14.090438,Northern
+Netherlands,2022-10,140,13.4079075,Northern
+Nicaragua,2022-10,106,25.676056,Southern
+Niger,2022-10,16,28.132607,Southern
+Norway,2022-10,174,2.757306,Northern
+Oman,2022-10,397,28.215073,Southern
+Pakistan,2022-10,108,21.493948,Northern
+Palestine,2022-10,16,23.824373,Northern
+Panama,2022-10,16,24.679564,Southern
+Paraguay,2022-10,24,23.29731,Southern
+Peru,2022-10,15,19.461739,Southern
+Philippines,2022-10,37,26.407764,Southern
+Poland,2022-10,1,11.185025,Northern
+Portugal,2022-10,237,18.409967,Northern
+Qatar,2022-10,1598,30.185501,Northern
+Russia,2022-10,16,-1.1151564,Northern
+Saudi Arabia,2022-10,405,27.784351,Northern
+Senegal,2022-10,83,28.825523,Southern
+Slovenia,2022-10,11,13.376679,Northern
+Somalia,2022-10,8,26.644094,Southern
+South Africa,2022-10,107,21.585922,Southern
+South Korea,2022-10,15,13.849585,Northern
+Spain,2022-10,1049,17.78129,Northern
+Sri Lanka,2022-10,21,26.132374,Southern
+Sweden,2022-10,41,5.6785474,Northern
+Switzerland,2022-10,22,10.193775,Northern
+Tanzania,2022-10,5,24.221313,Southern
+Thailand,2022-10,108,25.87915,Southern
+Togo,2022-10,92,26.226175,Southern
+Turkey,2022-10,15,13.98459,Northern
+Uganda,2022-10,17,23.629509,Southern
+Ukraine,2022-10,4,10.5067005,Northern
+United Arab Emirates,2022-10,384,29.879717,Northern
+United Kingdom,2022-10,1354,11.974861,Northern
+United States,2022-10,4039,10.723488,Northern
+Uruguay,2022-10,2,16.12832,Southern
+Vietnam,2022-10,160,24.00984,Southern
+Zambia,2022-10,46,26.576883,Southern
+Afghanistan,2022-11,74,7.2230663,Northern
+Algeria,2022-11,23,18.530478,Northern
+Argentina,2022-11,422,19.782984,Southern
+Australia,2022-11,137,23.848492,Southern
+Austria,2022-11,155,3.4285479,Northern
+Bahrain,2022-11,190,26.516266,Southern
+Belgium,2022-11,111,8.527805,Northern
+Belize,2022-11,1,25.462069,Southern
+Bhutan,2022-11,71,5.813806,Northern
+Brazil,2022-11,65,24.935368,Southern
+Brunei,2022-11,13,26.386541,Southern
+Burkina Faso,2022-11,7,27.624895,Southern
+Cambodia,2022-11,66,27.074997,Southern
+Cameroon,2022-11,5,24.803705,Southern
+Canada,2022-11,10482,-11.012223,Northern
+Chile,2022-11,98,11.839492,Southern
+China,2022-11,1611,1.543234,Northern
+Colombia,2022-11,93,23.76022,Southern
+Cote d'Ivoire,2022-11,1,26.146381,Southern
+Croatia,2022-11,24,8.562805,Northern
+Czechia,2022-11,53,4.3937073,Northern
+Denmark,2022-11,198,7.854984,Northern
+Dominican Republic,2022-11,44,24.526533,Southern
+Ecuador,2022-11,103,20.796894,Southern
+Egypt,2022-11,720,18.949636,Northern
+El Salvador,2022-11,4,26.00909,Southern
+Estonia,2022-11,105,2.32139,Northern
+Ethiopia,2022-11,17,23.183668,Southern
+Finland,2022-11,38,-1.6551543,Northern
+France,2022-11,659,11.594934,Northern
+Georgia,2022-11,91,5.2535477,Northern
+Germany,2022-11,570,6.417493,Northern
+Ghana,2022-11,72,27.569948,Southern
+Greece,2022-11,35,13.073051,Northern
+Guatemala,2022-11,26,22.864746,Southern
+Guinea,2022-11,1,25.176096,Southern
+Haiti,2022-11,15,25.188051,Southern
+Hong Kong,2022-11,25,22.801527,Southern
+Hungary,2022-11,6,6.859105,Northern
+Iceland,2022-11,126,2.143299,Northern
+India,2022-11,50,20.72971,Northern
+Indonesia,2022-11,24,25.465786,Southern
+Iran,2022-11,1869,13.945292,Northern
+Iraq,2022-11,249,18.102448,Northern
+Ireland,2022-11,156,9.026627,Northern
+Israel,2022-11,6,18.724577,Northern
+Italy,2022-11,1260,10.507581,Northern
+Jamaica,2022-11,25,26.129152,Southern
+Japan,2022-11,29,10.525162,Northern
+Jordan,2022-11,51,15.967749,Northern
+Kazakhstan,2022-11,154,-1.9642572,Northern
+Kenya,2022-11,40,25.466343,Southern
+Kyrgyzstan,2022-11,20,-6.2429786,Northern
+Laos,2022-11,71,23.111364,Southern
+Latvia,2022-11,1,2.2567184,Northern
+Lebanon,2022-11,19,13.568306,Northern
+Lithuania,2022-11,257,2.6461365,Northern
+Luxembourg,2022-11,28,7.397135,Northern
+Madagascar,2022-11,14,23.999714,Southern
+Malaysia,2022-11,511,25.369678,Southern
+Mauritius,2022-11,3,23.43489,Southern
+Moldova,2022-11,19,5.651127,Northern
+Montenegro,2022-11,1,7.6275253,Northern
+Morocco,2022-11,4,16.971039,Northern
+Mozambique,2022-11,63,26.728151,Southern
+Namibia,2022-11,1,24.371416,Southern
+Nepal,2022-11,20,10.27105,Northern
+Netherlands,2022-11,235,8.731432,Northern
+New Caledonia,2022-11,1,24.337065,Southern
+Nicaragua,2022-11,35,25.092937,Southern
+Niger,2022-11,24,22.48949,Southern
+Norway,2022-11,379,-0.30717736,Northern
+Oman,2022-11,184,25.973265,Southern
+Pakistan,2022-11,234,15.727745,Northern
+Palestine,2022-11,155,18.842806,Northern
+Paraguay,2022-11,53,25.147823,Southern
+Peru,2022-11,8,19.544355,Southern
+Philippines,2022-11,27,26.337105,Southern
+Poland,2022-11,14,4.2296543,Northern
+Portugal,2022-11,556,13.2053,Northern
+Qatar,2022-11,950,26.661594,Northern
+Russia,2022-11,1589,-14.549047,Northern
+Saudi Arabia,2022-11,254,22.809145,Northern
+Senegal,2022-11,44,26.857037,Southern
+Serbia,2022-11,2,7.8251505,Northern
+Slovenia,2022-11,66,6.712169,Northern
+Somalia,2022-11,7,25.84337,Southern
+South Africa,2022-11,16,20.566969,Southern
+South Korea,2022-11,85,9.460378,Northern
+Spain,2022-11,1434,11.519048,Northern
+Sri Lanka,2022-11,62,25.430883,Southern
+Sweden,2022-11,140,0.70700216,Northern
+Switzerland,2022-11,80,2.7109785,Northern
+Tanzania,2022-11,12,24.37494,Southern
+Thailand,2022-11,74,25.908909,Southern
+Togo,2022-11,26,27.228588,Southern
+Tunisia,2022-11,39,17.293612,Northern
+Turkey,2022-11,94,8.921244,Northern
+Uganda,2022-11,10,22.865522,Southern
+Ukraine,2022-11,22,4.0383263,Northern
+United Arab Emirates,2022-11,600,26.631512,Northern
+United Kingdom,2022-11,2197,8.764224,Northern
+United States,2022-11,9299,2.6808946,Northern
+Vietnam,2022-11,74,23.860651,Southern
+Zambia,2022-11,30,23.781702,Southern
+Afghanistan,2022-12,66,1.250607,Northern
+Algeria,2022-12,17,16.84366,Northern
+Argentina,2022-12,99,21.788864,Southern
+Australia,2022-12,101,26.711527,Southern
+Austria,2022-12,858,-0.8831945,Northern
+Bahrain,2022-12,158,21.4292,Southern
+Belgium,2022-12,2213,3.5393953,Northern
+Bhutan,2022-12,32,3.594337,Northern
+Bolivia,2022-12,1,22.036959,Southern
+Brazil,2022-12,38,25.081274,Southern
+Bulgaria,2022-12,28,4.715662,Northern
+Burkina Faso,2022-12,8,26.228916,Southern
+Cambodia,2022-12,22,25.25222,Southern
+Canada,2022-12,4816,-18.289179,Northern
+Chile,2022-12,32,12.796072,Southern
+China,2022-12,725,-6.6612062,Northern
+Colombia,2022-12,42,24.125082,Southern
+Cote d'Ivoire,2022-12,11,25.797466,Southern
+Croatia,2022-12,381,5.886277,Northern
+Czechia,2022-12,547,0.3925295,Northern
+Denmark,2022-12,2186,1.8619571,Northern
+Dominican Republic,2022-12,8,22.846405,Southern
+Ecuador,2022-12,112,21.274956,Southern
+Egypt,2022-12,506,16.274855,Northern
+El Salvador,2022-12,1,25.614628,Southern
+Estonia,2022-12,334,-3.1351418,Northern
+Ethiopia,2022-12,95,23.041527,Southern
+Finland,2022-12,86,-6.5101867,Northern
+France,2022-12,5556,8.152835,Northern
+Georgia,2022-12,114,0.12568134,Northern
+Germany,2022-12,609,1.8380822,Northern
+Ghana,2022-12,27,27.259335,Southern
+Greece,2022-12,147,10.350557,Northern
+Guatemala,2022-12,1,21.318798,Southern
+Haiti,2022-12,56,23.633995,Southern
+Hong Kong,2022-12,24,15.275391,Southern
+Hungary,2022-12,26,3.0022852,Northern
+Iceland,2022-12,277,-7.033278,Northern
+India,2022-12,92,18.373375,Northern
+Indonesia,2022-12,20,25.291067,Southern
+Iran,2022-12,418,7.792683,Northern
+Iraq,2022-12,81,12.842486,Northern
+Ireland,2022-12,1073,4.4825673,Northern
+Israel,2022-12,33,15.091716,Northern
+Italy,2022-12,2210,7.788112,Northern
+Jamaica,2022-12,7,25.050152,Southern
+Japan,2022-12,171,2.6688933,Northern
+Jordan,2022-12,72,11.507843,Northern
+Kazakhstan,2022-12,157,-11.692806,Northern
+Kenya,2022-12,13,25.705936,Southern
+Kyrgyzstan,2022-12,22,-12.859912,Northern
+Laos,2022-12,22,18.96342,Southern
+Latvia,2022-12,90,-3.3276286,Northern
+Lebanon,2022-12,43,10.114278,Northern
+Libya,2022-12,5,16.395802,Southern
+Lithuania,2022-12,302,-2.6583183,Northern
+Luxembourg,2022-12,286,2.6499665,Northern
+Madagascar,2022-12,5,24.49101,Southern
+Malaysia,2022-12,783,24.82016,Southern
+Mauritius,2022-12,9,24.732552,Southern
+Moldova,2022-12,139,1.4090649,Northern
+Mongolia,2022-12,1,-18.873747,Northern
+Montenegro,2022-12,6,5.610624,Northern
+Morocco,2022-12,11,13.6699915,Northern
+Mozambique,2022-12,33,26.068035,Southern
+Nepal,2022-12,20,7.1612873,Northern
+Netherlands,2022-12,1265,3.9458814,Northern
+Nicaragua,2022-12,11,24.430092,Southern
+Niger,2022-12,42,20.652306,Southern
+Norway,2022-12,899,-8.163945,Northern
+Oman,2022-12,20,22.64085,Southern
+Pakistan,2022-12,427,10.652929,Northern
+Palestine,2022-12,124,15.29309,Northern
+Panama,2022-12,1,24.509039,Southern
+Paraguay,2022-12,53,28.599417,Southern
+Philippines,2022-12,24,25.385586,Southern
+Poland,2022-12,109,0.42282152,Northern
+Portugal,2022-12,620,12.476156,Northern
+Qatar,2022-12,518,21.23179,Northern
+Russia,2022-12,9534,-19.86686,Northern
+Saudi Arabia,2022-12,43,17.789877,Northern
+Senegal,2022-12,10,25.979176,Southern
+Serbia,2022-12,88,4.5024586,Northern
+Slovenia,2022-12,865,2.797901,Northern
+Somalia,2022-12,2,25.481215,Southern
+South Africa,2022-12,7,22.015827,Southern
+South Korea,2022-12,143,-1.5366856,Northern
+Spain,2022-12,1494,9.643373,Northern
+Sri Lanka,2022-12,23,24.796713,Southern
+Sweden,2022-12,881,-6.6104527,Northern
+Switzerland,2022-12,619,-1.5227109,Northern
+Tanzania,2022-12,64,23.536104,Southern
+Thailand,2022-12,38,23.382895,Southern
+Togo,2022-12,8,26.863672,Southern
+Tunisia,2022-12,214,15.339045,Northern
+Turkey,2022-12,341,5.403489,Northern
+Uganda,2022-12,3,23.110607,Southern
+Ukraine,2022-12,115,0.5233606,Northern
+United Arab Emirates,2022-12,111,21.962015,Northern
+United Kingdom,2022-12,9827,3.6747591,Northern
+United States,2022-12,8540,-1.6682689,Northern
+Vietnam,2022-12,31,19.339176,Southern
+Zambia,2022-12,3,22.524113,Southern
+Afghanistan,2023-01,92,-4.335608,Northern
+Albania,2023-01,190,5.506792,Northern
+Algeria,2023-01,6,12.240073,Northern
+Argentina,2023-01,60,22.81284,Southern
+Armenia,2023-01,261,-4.6095943,Northern
+Australia,2023-01,123,27.327576,Southern
+Austria,2023-01,309,-0.4018411,Northern
+Bahrain,2023-01,140,17.409576,Southern
+Bangladesh,2023-01,6,18.2696,Northern
+Belarus,2023-01,260,-0.6730446,Northern
+Belgium,2023-01,1668,4.651892,Northern
+Bhutan,2023-01,25,1.8234136,Northern
+Brazil,2023-01,100,24.774004,Southern
+Brunei,2023-01,15,25.964426,Southern
+Bulgaria,2023-01,479,4.576469,Northern
+Burkina Faso,2023-01,11,25.95759,Southern
+Cambodia,2023-01,12,24.996891,Southern
+Cameroon,2023-01,11,25.053923,Southern
+Canada,2023-01,957,-17.393269,Northern
+Chile,2023-01,10,13.704947,Southern
+China,2023-01,148,-7.0017796,Northern
+Colombia,2023-01,16,23.788654,Southern
+Costa Rica,2023-01,6,22.090235,Southern
+Cote d'Ivoire,2023-01,33,26.730566,Southern
+Croatia,2023-01,487,5.033002,Northern
+Czechia,2023-01,339,2.1997519,Northern
+Democratic Republic of Congo,2023-01,3,24.572355,Southern
+Denmark,2023-01,3567,4.0694976,Northern
+Dominican Republic,2023-01,13,22.396652,Southern
+East Timor,2023-01,27,25.22184,Southern
+Ecuador,2023-01,35,21.146172,Southern
+Egypt,2023-01,203,14.337647,Northern
+El Salvador,2023-01,1,25.986494,Southern
+Estonia,2023-01,157,-1.4607122,Northern
+Ethiopia,2023-01,91,23.268892,Southern
+Fiji,2023-01,119,26.330687,Southern
+France,2023-01,3633,7.5844464,Northern
+Georgia,2023-01,34,-2.301658,Northern
+Germany,2023-01,130,3.6264935,Northern
+Ghana,2023-01,13,27.892776,Southern
+Greece,2023-01,69,8.228981,Northern
+Guinea,2023-01,8,25.55323,Southern
+Haiti,2023-01,108,23.182856,Southern
+Honduras,2023-01,1,22.15183,Southern
+Hong Kong,2023-01,118,15.980258,Southern
+Hungary,2023-01,177,4.3665476,Northern
+Iceland,2023-01,180,-4.223938,Northern
+India,2023-01,254,16.848139,Northern
+Indonesia,2023-01,12,25.244205,Southern
+Iran,2023-01,614,3.9954731,Northern
+Iraq,2023-01,114,10.040422,Northern
+Ireland,2023-01,369,6.2135477,Northern
+Israel,2023-01,352,13.46393,Northern
+Italy,2023-01,854,5.7933664,Northern
+Jamaica,2023-01,6,24.721252,Southern
+Japan,2023-01,1105,0.6136255,Northern
+Jordan,2023-01,25,9.934958,Northern
+Kazakhstan,2023-01,179,-11.232504,Northern
+Kenya,2023-01,18,26.188604,Southern
+Kosovo,2023-01,12,3.2524667,Southern
+Laos,2023-01,12,18.135687,Southern
+Latvia,2023-01,92,-0.868131,Northern
+Lebanon,2023-01,61,8.663258,Northern
+Libya,2023-01,9,12.78471,Southern
+Lithuania,2023-01,116,0.20863463,Northern
+Luxembourg,2023-01,82,3.4619203,Northern
+Madagascar,2023-01,86,24.110868,Southern
+Malaysia,2023-01,1337,24.939266,Southern
+Mali,2023-01,5,21.579308,Southern
+Mauritius,2023-01,56,25.231155,Southern
+Moldova,2023-01,120,2.299464,Northern
+Mongolia,2023-01,624,-18.19419,Northern
+Montenegro,2023-01,14,2.843863,Northern
+Morocco,2023-01,58,10.146535,Northern
+Mozambique,2023-01,56,25.65507,Southern
+Nepal,2023-01,152,4.7942934,Northern
+Netherlands,2023-01,1442,5.6425934,Northern
+New Zealand,2023-01,12,16.387474,Southern
+Nicaragua,2023-01,14,24.170605,Southern
+Niger,2023-01,64,19.323536,Southern
+North Macedonia,2023-01,109,3.5595229,Northern
+Norway,2023-01,1360,-4.784663,Northern
+Oman,2023-01,13,20.64096,Southern
+Pakistan,2023-01,600,7.471253,Northern
+Palestine,2023-01,78,13.586484,Northern
+Panama,2023-01,1,24.33982,Southern
+Paraguay,2023-01,20,28.345264,Southern
+Philippines,2023-01,22,24.727709,Southern
+Poland,2023-01,141,2.8647914,Northern
+Portugal,2023-01,328,8.808451,Northern
+Qatar,2023-01,689,18.006691,Northern
+Romania,2023-01,44,3.3422933,Northern
+Russia,2023-01,5970,-23.923557,Northern
+Rwanda,2023-01,12,19.640875,Southern
+Saudi Arabia,2023-01,138,15.821692,Northern
+Senegal,2023-01,3,25.68879,Southern
+Serbia,2023-01,303,3.8386388,Northern
+Slovakia,2023-01,75,2.069052,Northern
+Slovenia,2023-01,902,2.8041296,Northern
+Somalia,2023-01,2,25.050936,Southern
+South Africa,2023-01,8,23.99788,Southern
+South Korea,2023-01,225,-0.71625036,Northern
+Spain,2023-01,1447,6.03373,Northern
+Sri Lanka,2023-01,18,24.4946,Southern
+Sweden,2023-01,1135,-3.6156561,Northern
+Switzerland,2023-01,1029,-2.4825993,Northern
+Syria,2023-01,2,8.36082,Northern
+Tajikistan,2023-01,70,-15.303718,Northern
+Tanzania,2023-01,54,23.293196,Southern
+Thailand,2023-01,67,22.913641,Southern
+Togo,2023-01,2,27.596159,Southern
+Tunisia,2023-01,244,10.649592,Northern
+Turkey,2023-01,344,2.7311885,Northern
+Uganda,2023-01,21,24.489191,Southern
+Ukraine,2023-01,135,0.1472043,Northern
+United Arab Emirates,2023-01,97,19.516415,Northern
+United Kingdom,2023-01,4790,5.014927,Northern
+United States,2023-01,3941,-0.5443969,Northern
+Uzbekistan,2023-01,2,-4.7312202,Northern
+Vietnam,2023-01,43,19.04905,Southern
+Zambia,2023-01,20,21.62373,Southern
+Afghanistan,2023-02,28,4.187041,Northern
+Albania,2023-02,102,4.614709,Northern
+Algeria,2023-02,10,15.030638,Northern
+Argentina,2023-02,8,21.23649,Southern
+Armenia,2023-02,189,-5.2804093,Northern
+Australia,2023-02,195,27.50566,Southern
+Austria,2023-02,405,-0.17812088,Northern
+Bahrain,2023-02,16,18.370544,Southern
+Bangladesh,2023-02,9,22.073067,Northern
+Belarus,2023-02,568,-1.2682304,Northern
+Belgium,2023-02,912,5.101356,Northern
+Bhutan,2023-02,38,3.7427456,Northern
+Brunei,2023-02,14,26.132906,Southern
+Bulgaria,2023-02,79,3.3717048,Northern
+Burkina Faso,2023-02,49,29.178848,Southern
+Cambodia,2023-02,13,27.326,Southern
+Cameroon,2023-02,4,26.53514,Southern
+Canada,2023-02,656,-21.792387,Northern
+Chile,2023-02,15,13.571747,Southern
+China,2023-02,24926,-2.2746537,Northern
+Colombia,2023-02,24,24.632982,Southern
+Costa Rica,2023-02,9,22.513838,Southern
+Cote d'Ivoire,2023-02,30,28.764458,Southern
+Croatia,2023-02,612,4.1608934,Northern
+Czechia,2023-02,446,1.4262125,Northern
+Denmark,2023-02,4079,3.9518988,Northern
+Dominican Republic,2023-02,20,22.847315,Southern
+East Timor,2023-02,9,24.814384,Southern
+Egypt,2023-02,62,13.76603,Northern
+Estonia,2023-02,96,-1.7154628,Northern
+Ethiopia,2023-02,70,24.542608,Southern
+Fiji,2023-02,86,26.102663,Southern
+France,2023-02,4546,7.9128017,Northern
+Georgia,2023-02,7,-2.5109785,Northern
+Germany,2023-02,150,3.2825785,Northern
+Ghana,2023-02,219,29.692947,Southern
+Greece,2023-02,8,6.882348,Northern
+Guinea,2023-02,10,28.095053,Southern
+Haiti,2023-02,34,23.932674,Southern
+Hong Kong,2023-02,77,18.252947,Southern
+Hungary,2023-02,456,3.2620153,Northern
+Iceland,2023-02,178,-1.0521309,Northern
+India,2023-02,409,20.908218,Northern
+Indonesia,2023-02,14,25.314196,Southern
+Iran,2023-02,423,8.943079,Northern
+Iraq,2023-02,23,11.347137,Northern
+Ireland,2023-02,71,7.6179194,Northern
+Israel,2023-02,251,12.24208,Northern
+Italy,2023-02,687,5.973035,Northern
+Japan,2023-02,780,1.9740827,Northern
+Jordan,2023-02,36,9.896109,Northern
+Kazakhstan,2023-02,44,-7.7997394,Northern
+Kenya,2023-02,29,27.174566,Southern
+Kosovo,2023-02,48,2.2960773,Southern
+Laos,2023-02,11,21.520914,Southern
+Latvia,2023-02,32,-1.225484,Northern
+Lebanon,2023-02,2,5.8239884,Northern
+Libya,2023-02,10,13.679072,Southern
+Lithuania,2023-02,58,-0.24758525,Northern
+Luxembourg,2023-02,123,3.8991432,Northern
+Madagascar,2023-02,18,24.603832,Southern
+Malaysia,2023-02,873,25.183651,Southern
+Mali,2023-02,7,25.136251,Southern
+Mauritius,2023-02,38,25.666113,Southern
+Moldova,2023-02,61,1.661441,Northern
+Mongolia,2023-02,301,-12.028113,Northern
+Montenegro,2023-02,199,0.773859,Northern
+Morocco,2023-02,7,10.848293,Northern
+Mozambique,2023-02,27,25.65867,Southern
+Nepal,2023-02,166,8.195179,Northern
+Netherlands,2023-02,1177,5.62727,Northern
+New Zealand,2023-02,7,15.791383,Southern
+Nicaragua,2023-02,5,24.664062,Southern
+Niger,2023-02,85,21.938194,Southern
+North Macedonia,2023-02,102,2.8596182,Northern
+Norway,2023-02,2170,-3.9808662,Northern
+Oman,2023-02,3,22.855019,Southern
+Pakistan,2023-02,137,14.957743,Northern
+Palestine,2023-02,31,12.152613,Northern
+Paraguay,2023-02,5,26.721048,Southern
+Philippines,2023-02,16,25.14726,Southern
+Poland,2023-02,185,1.3893466,Northern
+Portugal,2023-02,378,9.510382,Northern
+Qatar,2023-02,704,20.434734,Northern
+Romania,2023-02,30,1.0946804,Northern
+Russia,2023-02,3484,-18.89194,Northern
+Rwanda,2023-02,13,20.260548,Southern
+Saudi Arabia,2023-02,186,18.159618,Northern
+Senegal,2023-02,1,28.039167,Southern
+Serbia,2023-02,277,2.6103017,Northern
+Seychelles,2023-02,42,27.069775,Southern
+Slovakia,2023-02,142,0.44562358,Northern
+Slovenia,2023-02,628,2.0936244,Northern
+Somalia,2023-02,2,25.593332,Southern
+South Africa,2023-02,11,22.611479,Southern
+South Korea,2023-02,73,2.3988373,Northern
+Spain,2023-02,2438,6.573299,Northern
+Sri Lanka,2023-02,22,25.213654,Southern
+Sweden,2023-02,1601,-3.0289433,Northern
+Switzerland,2023-02,2623,-0.7769583,Northern
+Syria,2023-02,4,8.234816,Northern
+Tajikistan,2023-02,23,-8.410044,Northern
+Tanzania,2023-02,134,24.039717,Southern
+Thailand,2023-02,115,25.499731,Southern
+Togo,2023-02,9,29.52535,Southern
+Tunisia,2023-02,58,12.3661585,Northern
+Turkey,2023-02,81,0.34642318,Northern
+Uganda,2023-02,10,25.678398,Southern
+Ukraine,2023-02,203,-0.38966337,Northern
+United Arab Emirates,2023-02,106,21.56788,Northern
+United Kingdom,2023-02,2461,6.284178,Northern
+United States,2023-02,1735,-0.4384129,Northern
+Uzbekistan,2023-02,3,2.420342,Northern
+Venezuela,2023-02,198,25.30392,Southern
+Vietnam,2023-02,70,21.472895,Southern
+Zambia,2023-02,25,22.9028,Southern
+Afghanistan,2023-03,14,10.105444,Northern
+Albania,2023-03,91,8.6395855,Northern
+Algeria,2023-03,9,21.617002,Northern
+Argentina,2023-03,18,20.506323,Southern
+Armenia,2023-03,125,5.0756335,Northern
+Australia,2023-03,405,26.325169,Southern
+Austria,2023-03,465,3.8744369,Northern
+Bahrain,2023-03,9,21.72934,Southern
+Bangladesh,2023-03,14,25.318563,Northern
+Belarus,2023-03,338,2.7748423,Northern
+Belgium,2023-03,384,6.898397,Northern
+Bhutan,2023-03,39,5.3849735,Northern
+Brunei,2023-03,32,26.28224,Southern
+Bulgaria,2023-03,73,7.335908,Northern
+Burkina Faso,2023-03,60,31.956636,Southern
+Cambodia,2023-03,11,28.400537,Southern
+Cameroon,2023-03,12,26.786093,Southern
+Canada,2023-03,1368,-14.551365,Northern
+Chile,2023-03,2,12.174436,Southern
+China,2023-03,55952,4.0252867,Northern
+Colombia,2023-03,42,24.489712,Southern
+Costa Rica,2023-03,16,22.901093,Southern
+Cote d'Ivoire,2023-03,12,28.532978,Southern
+Croatia,2023-03,484,8.912658,Northern
+Czechia,2023-03,425,4.9956484,Northern
+Denmark,2023-03,2776,3.7876813,Northern
+Dominican Republic,2023-03,16,23.589666,Southern
+East Timor,2023-03,21,24.865057,Southern
+Ecuador,2023-03,17,21.455452,Southern
+Egypt,2023-03,56,19.65805,Northern
+Estonia,2023-03,93,0.19239642,Northern
+Ethiopia,2023-03,32,24.308794,Southern
+Fiji,2023-03,168,26.038153,Southern
+France,2023-03,2477,11.026612,Northern
+Georgia,2023-03,2,5.7800274,Northern
+Germany,2023-03,172,5.780346,Northern
+Ghana,2023-03,170,29.681623,Southern
+Greece,2023-03,17,10.391018,Northern
+Guinea,2023-03,50,28.783587,Southern
+Haiti,2023-03,4,24.448631,Southern
+Honduras,2023-03,1,24.385633,Southern
+Hong Kong,2023-03,609,20.526442,Southern
+Hungary,2023-03,334,7.983866,Northern
+Iceland,2023-03,163,-6.318836,Northern
+India,2023-03,425,23.710804,Northern
+Indonesia,2023-03,82,25.380865,Southern
+Iran,2023-03,426,15.481587,Northern
+Iraq,2023-03,9,18.016579,Northern
+Ireland,2023-03,112,7.0831847,Northern
+Israel,2023-03,105,16.713715,Northern
+Italy,2023-03,581,9.648842,Northern
+Japan,2023-03,612,8.029429,Northern
+Jordan,2023-03,56,15.037661,Northern
+Kazakhstan,2023-03,1,3.0324457,Northern
+Kenya,2023-03,75,26.452549,Southern
+Kosovo,2023-03,96,6.768114,Southern
+Laos,2023-03,42,23.751743,Southern
+Latvia,2023-03,18,1.5307292,Northern
+Lebanon,2023-03,2,11.160604,Northern
+Libya,2023-03,11,19.36267,Southern
+Lithuania,2023-03,160,2.5822136,Northern
+Luxembourg,2023-03,146,6.15608,Northern
+Madagascar,2023-03,13,24.080124,Southern
+Malaysia,2023-03,561,25.55446,Southern
+Mali,2023-03,2,29.16652,Southern
+Mauritius,2023-03,18,25.66942,Southern
+Moldova,2023-03,35,6.5479717,Northern
+Mongolia,2023-03,119,-2.6701512,Northern
+Montenegro,2023-03,87,5.885227,Northern
+Morocco,2023-03,1,17.80531,Northern
+Mozambique,2023-03,84,24.650658,Southern
+Nepal,2023-03,121,10.544318,Northern
+Netherlands,2023-03,489,6.7706704,Northern
+New Caledonia,2023-03,29,25.16364,Southern
+New Zealand,2023-03,18,13.468633,Southern
+Nicaragua,2023-03,3,25.484814,Southern
+Niger,2023-03,75,27.759933,Southern
+North Macedonia,2023-03,22,7.0942435,Northern
+Norway,2023-03,2789,-7.9989448,Northern
+Oman,2023-03,12,26.218176,Southern
+Pakistan,2023-03,51,17.776724,Northern
+Palestine,2023-03,18,16.581951,Northern
+Paraguay,2023-03,12,27.202377,Southern
+Peru,2023-03,71,19.54347,Southern
+Philippines,2023-03,34,25.669134,Southern
+Poland,2023-03,305,4.52643,Northern
+Portugal,2023-03,426,12.950822,Northern
+Qatar,2023-03,439,23.64604,Northern
+Romania,2023-03,20,6.2394214,Northern
+Russia,2023-03,1584,-10.223772,Northern
+Rwanda,2023-03,21,19.593431,Southern
+Saudi Arabia,2023-03,140,22.476562,Northern
+Senegal,2023-03,5,30.192753,Southern
+Serbia,2023-03,92,7.692059,Northern
+Seychelles,2023-03,10,27.698095,Southern
+Slovakia,2023-03,125,5.158708,Northern
+Slovenia,2023-03,497,6.951206,Northern
+Somalia,2023-03,8,27.0901,Southern
+South Africa,2023-03,10,21.15732,Southern
+South Korea,2023-03,53,9.201517,Northern
+Spain,2023-03,2004,11.793431,Northern
+Sri Lanka,2023-03,21,26.4917,Southern
+Sweden,2023-03,1737,-4.723593,Northern
+Switzerland,2023-03,1606,2.5508103,Northern
+Syria,2023-03,6,14.542776,Northern
+Tajikistan,2023-03,8,-2.9168265,Northern
+Tanzania,2023-03,92,23.401545,Southern
+Thailand,2023-03,84,27.463602,Southern
+Togo,2023-03,16,29.2272,Southern
+Tunisia,2023-03,15,16.76047,Northern
+Turkey,2023-03,91,7.5648847,Northern
+Uganda,2023-03,16,23.526564,Southern
+Ukraine,2023-03,229,5.199868,Northern
+United Arab Emirates,2023-03,94,24.569326,Northern
+United Kingdom,2023-03,2326,6.001016,Northern
+United States,2023-03,1765,2.3750653,Northern
+Venezuela,2023-03,22,26.158781,Southern
+Vietnam,2023-03,54,22.954094,Southern
+Zambia,2023-03,28,22.517044,Southern
+Afghanistan,2023-04,1,14.2771635,Northern
+Albania,2023-04,42,9.973794,Northern
+Algeria,2023-04,3,25.114582,Northern
+Argentina,2023-04,23,15.263306,Southern
+Armenia,2023-04,25,7.467879,Northern
+Australia,2023-04,584,21.60709,Southern
+Austria,2023-04,30,4.990133,Northern
+Bahrain,2023-04,16,24.00946,Southern
+Bangladesh,2023-04,25,28.696838,Northern
+Belarus,2023-04,19,8.95292,Northern
+Belgium,2023-04,78,8.299892,Northern
+Bhutan,2023-04,101,8.430091,Northern
+Brazil,2023-04,1208,24.7977,Southern
+Brunei,2023-04,13,27.143656,Southern
+Bulgaria,2023-04,8,9.633695,Northern
+Burkina Faso,2023-04,3,33.02669,Southern
+Cambodia,2023-04,18,29.959167,Southern
+Cameroon,2023-04,15,26.35962,Southern
+Canada,2023-04,1788,-4.9413996,Northern
+Chile,2023-04,17,10.111925,Southern
+China,2023-04,26499,8.306581,Northern
+Colombia,2023-04,49,24.448082,Southern
+Costa Rica,2023-04,28,23.712606,Southern
+Cote d'Ivoire,2023-04,6,28.599356,Southern
+Croatia,2023-04,260,10.509371,Northern
+Czechia,2023-04,130,6.7058325,Northern
+Denmark,2023-04,625,7.0920076,Northern
+Dominican Republic,2023-04,3,24.321142,Southern
+East Timor,2023-04,15,24.70931,Southern
+Ecuador,2023-04,28,21.666986,Southern
+Egypt,2023-04,136,23.278383,Northern
+Estonia,2023-04,65,6.564519,Northern
+Ethiopia,2023-04,14,24.538685,Southern
+Fiji,2023-04,84,25.904985,Southern
+France,2023-04,716,12.329675,Northern
+Germany,2023-04,59,7.5862093,Northern
+Ghana,2023-04,77,29.478567,Southern
+Greece,2023-04,18,12.21123,Northern
+Guinea,2023-04,35,29.357756,Southern
+Honduras,2023-04,6,25.602886,Southern
+Hong Kong,2023-04,3718,23.327219,Southern
+Hungary,2023-04,93,9.909482,Northern
+Iceland,2023-04,41,1.1446339,Northern
+India,2023-04,206,27.0374,Northern
+Indonesia,2023-04,76,25.814302,Southern
+Iran,2023-04,277,19.262545,Northern
+Ireland,2023-04,32,9.145574,Northern
+Italy,2023-04,177,10.895106,Northern
+Japan,2023-04,322,11.6785345,Northern
+Jordan,2023-04,31,18.957415,Northern
+Kenya,2023-04,41,25.420364,Southern
+Kosovo,2023-04,45,7.9916577,Southern
+Laos,2023-04,82,26.877247,Southern
+Latvia,2023-04,6,7.6787553,Northern
+Lebanon,2023-04,2,13.658074,Northern
+Libya,2023-04,2,22.900684,Southern
+Lithuania,2023-04,43,8.147386,Northern
+Luxembourg,2023-04,31,7.8443556,Northern
+Madagascar,2023-04,16,23.745272,Southern
+Malaysia,2023-04,374,26.539154,Southern
+Mauritius,2023-04,12,25.372053,Southern
+Moldova,2023-04,13,9.1674595,Northern
+Mongolia,2023-04,27,1.6412063,Northern
+Montenegro,2023-04,41,7.0654716,Northern
+Morocco,2023-04,1,20.420624,Northern
+Mozambique,2023-04,99,23.954397,Southern
+Namibia,2023-04,1,23.293764,Southern
+Nepal,2023-04,61,13.730148,Northern
+Netherlands,2023-04,68,8.539954,Northern
+New Caledonia,2023-04,78,24.068056,Southern
+New Zealand,2023-04,50,12.205252,Southern
+Nicaragua,2023-04,1,26.665733,Southern
+Niger,2023-04,16,30.897831,Southern
+North Macedonia,2023-04,18,8.565072,Northern
+Norway,2023-04,1409,-0.60002947,Northern
+Oman,2023-04,15,28.91153,Southern
+Pakistan,2023-04,7,21.630358,Northern
+Palestine,2023-04,1,19.051983,Northern
+Panama,2023-04,50,25.630316,Southern
+Paraguay,2023-04,17,23.31709,Southern
+Peru,2023-04,136,19.452768,Southern
+Philippines,2023-04,12,26.914385,Southern
+Poland,2023-04,73,7.915475,Northern
+Portugal,2023-04,150,16.59019,Northern
+Qatar,2023-04,100,26.156206,Northern
+Romania,2023-04,5,8.494876,Northern
+Russia,2023-04,510,-3.7421985,Northern
+Rwanda,2023-04,3,19.538715,Southern
+Saudi Arabia,2023-04,75,25.172106,Northern
+Senegal,2023-04,1,31.770288,Southern
+Serbia,2023-04,17,9.121816,Northern
+Seychelles,2023-04,11,27.570992,Southern
+Slovakia,2023-04,133,7.4256363,Northern
+Slovenia,2023-04,164,8.566007,Northern
+Somalia,2023-04,42,27.543379,Southern
+South Africa,2023-04,70,18.120775,Southern
+South Korea,2023-04,99,12.884025,Northern
+Spain,2023-04,467,15.228792,Northern
+Sri Lanka,2023-04,46,27.410221,Southern
+Sweden,2023-04,1105,2.3278794,Northern
+Switzerland,2023-04,454,4.031043,Northern
+Syria,2023-04,1,17.919182,Northern
+Tajikistan,2023-04,3,0.6012227,Northern
+Tanzania,2023-04,49,22.750814,Southern
+Thailand,2023-04,54,30.1663,Southern
+Togo,2023-04,15,28.885914,Southern
+Turkey,2023-04,83,10.181031,Northern
+Uganda,2023-04,25,23.517424,Southern
+Ukraine,2023-04,113,9.495136,Northern
+United Arab Emirates,2023-04,117,26.678413,Northern
+United Kingdom,2023-04,998,7.9935822,Northern
+United States,2023-04,1726,7.91962,Northern
+Venezuela,2023-04,12,26.29628,Southern
+Vietnam,2023-04,50,25.963251,Southern
+Zambia,2023-04,48,21.97971,Southern
+Afghanistan,2023-05,1,19.07817,Northern
+Albania,2023-05,14,15.474109,Northern
+Argentina,2023-05,542,12.320389,Southern
+Armenia,2023-05,5,11.232369,Northern
+Australia,2023-05,1387,16.736212,Southern
+Bahrain,2023-05,10,28.706177,Southern
+Bangladesh,2023-05,45,28.985796,Northern
+Belgium,2023-05,51,13.21248,Northern
+Bhutan,2023-05,61,10.560998,Northern
+Brazil,2023-05,6128,24.428762,Southern
+Brunei,2023-05,16,27.751001,Southern
+Bulgaria,2023-05,2,14.45706,Northern
+Cambodia,2023-05,106,29.462069,Southern
+Cameroon,2023-05,22,26.268038,Southern
+Canada,2023-05,1396,6.060223,Northern
+Chile,2023-05,149,8.0898285,Southern
+China,2023-05,4311,13.228718,Northern
+Colombia,2023-05,111,24.723919,Southern
+Costa Rica,2023-05,67,24.926863,Southern
+Cote d'Ivoire,2023-05,1,28.086948,Southern
+Croatia,2023-05,37,16.192688,Northern
+Czechia,2023-05,20,12.650582,Northern
+Denmark,2023-05,175,11.285957,Northern
+Dominican Republic,2023-05,2,25.681316,Southern
+East Timor,2023-05,21,23.92846,Southern
+Ecuador,2023-05,54,22.06178,Southern
+Egypt,2023-05,143,26.872387,Northern
+Estonia,2023-05,13,10.931562,Northern
+Ethiopia,2023-05,6,24.639273,Southern
+Fiji,2023-05,5,24.85829,Southern
+France,2023-05,98,16.107021,Northern
+Germany,2023-05,25,13.187914,Northern
+Ghana,2023-05,75,28.911417,Southern
+Greece,2023-05,7,16.261452,Northern
+Guatemala,2023-05,7,26.136679,Southern
+Guinea,2023-05,14,28.06823,Southern
+Honduras,2023-05,13,26.400717,Southern
+Hong Kong,2023-05,1787,26.305746,Southern
+Hungary,2023-05,8,16.35623,Northern
+Iceland,2023-05,8,4.0817103,Northern
+India,2023-05,162,28.71921,Northern
+Indonesia,2023-05,72,26.085264,Southern
+Iran,2023-05,268,24.563719,Northern
+Ireland,2023-05,21,12.542774,Northern
+Japan,2023-05,238,15.591828,Northern
+Jordan,2023-05,11,23.163982,Northern
+Kenya,2023-05,35,25.51084,Southern
+Kosovo,2023-05,7,13.917285,Southern
+Laos,2023-05,86,27.126642,Southern
+Latvia,2023-05,8,11.562742,Northern
+Lebanon,2023-05,6,17.95819,Northern
+Lithuania,2023-05,11,12.244481,Northern
+Luxembourg,2023-05,3,13.510007,Northern
+Madagascar,2023-05,13,22.148344,Southern
+Malaysia,2023-05,497,27.117336,Southern
+Mauritius,2023-05,35,24.036228,Southern
+Moldova,2023-05,2,16.247461,Northern
+Mongolia,2023-05,4,9.475114,Northern
+Montenegro,2023-05,11,13.270619,Northern
+Mozambique,2023-05,17,22.984516,Southern
+Nepal,2023-05,37,15.994586,Northern
+Netherlands,2023-05,30,13.06391,Northern
+New Caledonia,2023-05,34,21.735514,Southern
+New Zealand,2023-05,42,10.490516,Southern
+Nicaragua,2023-05,43,28.128286,Southern
+Niger,2023-05,1,33.800694,Southern
+North Macedonia,2023-05,4,13.847518,Northern
+Norway,2023-05,806,3.9460602,Northern
+Oman,2023-05,8,32.690372,Southern
+Pakistan,2023-05,1,25.636436,Northern
+Panama,2023-05,14,26.346077,Southern
+Paraguay,2023-05,114,21.059303,Southern
+Peru,2023-05,46,19.244516,Southern
+Philippines,2023-05,64,27.455389,Southern
+Poland,2023-05,23,12.971094,Northern
+Portugal,2023-05,120,17.957287,Northern
+Qatar,2023-05,74,32.07536,Northern
+Romania,2023-05,1,14.788847,Northern
+Russia,2023-05,158,5.924967,Northern
+Rwanda,2023-05,4,20.681095,Southern
+Saudi Arabia,2023-05,192,30.795504,Northern
+Senegal,2023-05,1,32.723175,Southern
+Seychelles,2023-05,1,27.623177,Southern
+Slovakia,2023-05,19,13.534658,Northern
+Slovenia,2023-05,31,14.345652,Northern
+Somalia,2023-05,46,28.33737,Southern
+South Africa,2023-05,583,14.386218,Southern
+South Korea,2023-05,203,17.806526,Northern
+South Sudan,2023-05,17,30.987263,Southern
+Spain,2023-05,159,16.286396,Northern
+Sri Lanka,2023-05,93,27.925587,Southern
+Sweden,2023-05,391,8.630743,Northern
+Switzerland,2023-05,56,9.656842,Northern
+Syria,2023-05,1,23.110132,Northern
+Tanzania,2023-05,109,22.755444,Southern
+Thailand,2023-05,44,29.531336,Southern
+Togo,2023-05,15,28.379456,Southern
+Tunisia,2023-05,1,21.750628,Northern
+Turkey,2023-05,29,14.480531,Northern
+Uganda,2023-05,14,24.065584,Southern
+Ukraine,2023-05,39,15.173717,Northern
+United Arab Emirates,2023-05,163,32.732693,Northern
+United Kingdom,2023-05,502,11.7354965,Northern
+United States,2023-05,2215,15.296378,Northern
+Venezuela,2023-05,9,26.165684,Southern
+Vietnam,2023-05,10,27.301893,Southern
+Zambia,2023-05,17,21.391163,Southern
+Albania,2023-06,2,19.908949,Northern
+Argentina,2023-06,913,9.359149,Southern
+Australia,2023-06,2282,15.621491,Southern
+Bahrain,2023-06,9,32.284393,Southern
+Bangladesh,2023-06,104,29.445051,Northern
+Belgium,2023-06,5,19.401173,Northern
+Bhutan,2023-06,47,13.988743,Northern
+Brazil,2023-06,1967,23.522646,Southern
+Brunei,2023-06,15,27.624619,Southern
+Cambodia,2023-06,125,28.270712,Southern
+Cameroon,2023-06,24,24.538462,Southern
+Canada,2023-06,381,11.910072,Northern
+Chile,2023-06,38,6.340692,Southern
+China,2023-06,274,18.535868,Northern
+Colombia,2023-06,21,24.092749,Southern
+Costa Rica,2023-06,5,24.365253,Southern
+Czechia,2023-06,3,17.419693,Northern
+Denmark,2023-06,25,16.528109,Northern
+Dominican Republic,2023-06,9,26.883953,Southern
+East Timor,2023-06,8,23.722933,Southern
+Ecuador,2023-06,39,21.30873,Southern
+Egypt,2023-06,107,30.699558,Northern
+Estonia,2023-06,4,16.553457,Northern
+Ethiopia,2023-06,1,24.53859,Southern
+Fiji,2023-06,1,22.789438,Southern
+France,2023-06,33,20.817442,Northern
+Germany,2023-06,3,18.705862,Northern
+Ghana,2023-06,110,27.020834,Southern
+Greece,2023-06,4,21.301285,Northern
+Guatemala,2023-06,17,26.622597,Southern
+Guinea,2023-06,23,26.201939,Southern
+Guyana,2023-06,3,25.519842,Southern
+Honduras,2023-06,46,26.000631,Southern
+Hong Kong,2023-06,417,28.397625,Southern
+Iceland,2023-06,7,8.467791,Northern
+India,2023-06,183,29.415731,Northern
+Indonesia,2023-06,40,25.737125,Southern
+Iran,2023-06,78,29.778425,Northern
+Ireland,2023-06,5,16.300089,Northern
+Japan,2023-06,150,20.055773,Northern
+Jordan,2023-06,2,26.73026,Northern
+Kenya,2023-06,17,25.148127,Southern
+Laos,2023-06,38,25.967958,Southern
+Latvia,2023-06,2,16.80234,Northern
+Libya,2023-06,1,30.207619,Southern
+Lithuania,2023-06,1,17.149424,Northern
+Madagascar,2023-06,21,20.184776,Southern
+Malaysia,2023-06,571,26.645891,Southern
+Mauritius,2023-06,30,22.394384,Southern
+Mongolia,2023-06,2,18.62228,Northern
+Mozambique,2023-06,2,22.113646,Southern
+Namibia,2023-06,9,15.907066,Southern
+Nepal,2023-06,39,19.946304,Northern
+Netherlands,2023-06,5,18.96126,Northern
+New Caledonia,2023-06,2,19.546982,Southern
+New Zealand,2023-06,55,7.102318,Southern
+Nicaragua,2023-06,276,26.901855,Southern
+Norway,2023-06,123,10.580869,Northern
+Pakistan,2023-06,9,28.907427,Northern
+Paraguay,2023-06,121,20.097229,Southern
+Peru,2023-06,21,18.201305,Southern
+Philippines,2023-06,94,27.039543,Southern
+Poland,2023-06,1,17.840433,Northern
+Portugal,2023-06,74,21.662502,Northern
+Qatar,2023-06,68,34.90428,Northern
+Russia,2023-06,13,13.328053,Northern
+Rwanda,2023-06,1,20.925234,Southern
+Saudi Arabia,2023-06,139,34.248337,Northern
+Senegal,2023-06,5,31.939522,Southern
+Slovakia,2023-06,1,17.550127,Northern
+Slovenia,2023-06,2,19.00708,Northern
+Somalia,2023-06,4,28.341398,Southern
+South Africa,2023-06,200,11.901787,Southern
+South Korea,2023-06,76,22.21185,Northern
+South Sudan,2023-06,10,27.612381,Southern
+Spain,2023-06,37,21.149483,Northern
+Sri Lanka,2023-06,29,28.62216,Southern
+Sweden,2023-06,51,14.90542,Northern
+Switzerland,2023-06,13,15.294492,Northern
+Tanzania,2023-06,80,22.095272,Southern
+Thailand,2023-06,46,28.302465,Southern
+Togo,2023-06,5,26.583555,Southern
+Turkey,2023-06,1,19.375454,Northern
+Uganda,2023-06,16,23.537422,Southern
+Ukraine,2023-06,7,19.194082,Northern
+United Arab Emirates,2023-06,103,35.06227,Northern
+United Kingdom,2023-06,146,15.938947,Northern
+United States,2023-06,1138,19.386423,Northern
+Venezuela,2023-06,27,25.353518,Southern
+Vietnam,2023-06,2,27.315763,Southern
+Zambia,2023-06,46,20.08817,Southern
+Afghanistan,2023-07,2,25.746904,Northern
+Albania,2023-07,8,24.521437,Northern
+Argentina,2023-07,711,8.657246,Southern
+Australia,2023-07,1952,15.003061,Southern
+Bahrain,2023-07,16,33.838715,Southern
+Bangladesh,2023-07,777,29.769775,Northern
+Belgium,2023-07,10,17.957485,Northern
+Bhutan,2023-07,55,15.398913,Northern
+Brazil,2023-07,908,24.20843,Southern
+Brunei,2023-07,20,26.953104,Southern
+Burkina Faso,2023-07,1,28.459461,Southern
+Cambodia,2023-07,101,27.815796,Southern
+Cameroon,2023-07,51,24.468803,Southern
+Canada,2023-07,230,15.227692,Northern
+Chile,2023-07,26,5.4711914,Southern
+China,2023-07,996,20.8551,Northern
+Colombia,2023-07,7,24.214163,Southern
+Cote d'Ivoire,2023-07,8,26.005817,Southern
+Croatia,2023-07,2,23.931973,Northern
+Denmark,2023-07,36,16.087502,Northern
+Dominican Republic,2023-07,5,27.039516,Southern
+East Timor,2023-07,30,23.17228,Southern
+Ecuador,2023-07,34,21.372267,Southern
+Egypt,2023-07,180,31.697948,Northern
+Estonia,2023-07,1,16.516706,Northern
+Ethiopia,2023-07,10,23.821718,Southern
+Fiji,2023-07,4,22.665224,Southern
+France,2023-07,24,21.100872,Northern
+Ghana,2023-07,171,26.51405,Southern
+Greece,2023-07,3,26.57018,Northern
+Guatemala,2023-07,9,24.912952,Southern
+Guinea,2023-07,28,25.377579,Southern
+Guyana,2023-07,6,25.66518,Southern
+Honduras,2023-07,39,25.349907,Southern
+Hong Kong,2023-07,1825,29.534557,Southern
+Iceland,2023-07,3,7.559722,Northern
+India,2023-07,253,27.233862,Northern
+Indonesia,2023-07,36,25.417826,Southern
+Iran,2023-07,198,31.376753,Northern
+Iraq,2023-07,1,36.59073,Northern
+Ireland,2023-07,9,14.616916,Northern
+Japan,2023-07,188,24.681385,Northern
+Kenya,2023-07,9,24.338427,Southern
+Laos,2023-07,21,26.098589,Southern
+Lebanon,2023-07,12,25.619247,Northern
+Lithuania,2023-07,1,17.521261,Northern
+Madagascar,2023-07,42,19.980043,Southern
+Malaysia,2023-07,1008,26.434504,Southern
+Mauritius,2023-07,41,21.866056,Southern
+Mozambique,2023-07,8,20.41288,Southern
+Namibia,2023-07,21,15.594472,Southern
+Nepal,2023-07,110,20.334679,Northern
+Netherlands,2023-07,4,18.06009,Northern
+New Zealand,2023-07,66,6.8355637,Southern
+Nicaragua,2023-07,103,26.543795,Southern
+Norway,2023-07,40,11.2532015,Northern
+Oman,2023-07,8,33.832417,Southern
+Pakistan,2023-07,5,28.608797,Northern
+Paraguay,2023-07,44,20.970703,Southern
+Philippines,2023-07,53,26.877666,Southern
+Poland,2023-07,2,19.5389,Northern
+Portugal,2023-07,36,22.318007,Northern
+Qatar,2023-07,32,36.40127,Northern
+Russia,2023-07,14,16.974432,Northern
+Rwanda,2023-07,1,20.969814,Southern
+Saudi Arabia,2023-07,126,36.2388,Northern
+Senegal,2023-07,65,29.74782,Southern
+Slovenia,2023-07,2,21.07113,Northern
+Somalia,2023-07,2,27.567978,Southern
+South Africa,2023-07,23,11.176994,Southern
+South Korea,2023-07,119,25.420603,Northern
+South Sudan,2023-07,9,27.28769,Southern
+Spain,2023-07,32,24.507416,Northern
+Sri Lanka,2023-07,27,28.375223,Southern
+Sweden,2023-07,31,14.601288,Northern
+Switzerland,2023-07,3,16.292385,Northern
+Tanzania,2023-07,92,21.582367,Southern
+Thailand,2023-07,108,28.071453,Southern
+Togo,2023-07,8,26.173367,Southern
+Uganda,2023-07,33,23.755215,Southern
+United Arab Emirates,2023-07,99,36.679554,Northern
+United Kingdom,2023-07,134,15.003788,Northern
+United States,2023-07,1057,23.168596,Northern
+Vietnam,2023-07,12,27.373201,Southern
+Zambia,2023-07,162,18.456379,Southern
+Afghanistan,2023-08,1,23.964037,Northern
+Argentina,2023-08,27,10.890883,Southern
+Australia,2023-08,894,18.12788,Southern
+Bahrain,2023-08,36,34.839386,Southern
+Bangladesh,2023-08,706,28.939266,Northern
+Belarus,2023-08,1,20.719109,Northern
+Bhutan,2023-08,146,15.470239,Northern
+Brazil,2023-08,303,25.705276,Southern
+Brunei,2023-08,15,27.562906,Southern
+Burkina Faso,2023-08,1,26.8951,Southern
+Cambodia,2023-08,37,28.250303,Southern
+Cameroon,2023-08,45,24.078686,Southern
+Canada,2023-08,212,13.244102,Northern
+China,2023-08,1947,19.862911,Northern
+Cote d'Ivoire,2023-08,6,25.551739,Southern
+Croatia,2023-08,22,22.750504,Northern
+Czechia,2023-08,2,19.017721,Northern
+Denmark,2023-08,43,16.362938,Northern
+Ecuador,2023-08,11,21.664526,Southern
+Egypt,2023-08,277,32.077274,Northern
+El Salvador,2023-08,5,27.672905,Southern
+Ethiopia,2023-08,14,23.993874,Southern
+Fiji,2023-08,2,22.983246,Southern
+France,2023-08,17,21.28012,Northern
+Germany,2023-08,8,18.335262,Northern
+Ghana,2023-08,187,25.936436,Southern
+Guatemala,2023-08,9,25.052496,Southern
+Guinea,2023-08,31,25.079111,Southern
+Guyana,2023-08,1,26.860235,Southern
+Honduras,2023-08,7,25.623678,Southern
+Hong Kong,2023-08,1851,28.881624,Southern
+Iceland,2023-08,5,8.677932,Northern
+India,2023-08,434,27.20354,Northern
+Indonesia,2023-08,52,25.487692,Southern
+Iran,2023-08,63,29.88756,Northern
+Iraq,2023-08,2,37.140827,Northern
+Ireland,2023-08,7,15.162482,Northern
+Jamaica,2023-08,1,28.66915,Southern
+Japan,2023-08,193,26.357111,Northern
+Kenya,2023-08,1,24.929558,Southern
+Laos,2023-08,24,25.16648,Southern
+Latvia,2023-08,1,18.741581,Northern
+Lebanon,2023-08,147,26.10133,Northern
+Luxembourg,2023-08,1,17.617508,Northern
+Madagascar,2023-08,56,21.264517,Southern
+Malaysia,2023-08,919,26.29772,Southern
+Mauritius,2023-08,23,21.938313,Southern
+Mozambique,2023-08,9,21.851414,Southern
+Namibia,2023-08,12,18.943804,Southern
+Nepal,2023-08,289,19.864298,Northern
+Netherlands,2023-08,7,17.557278,Northern
+New Zealand,2023-08,75,5.75931,Southern
+Nicaragua,2023-08,41,26.931597,Southern
+Niger,2023-08,1,32.47372,Southern
+Norway,2023-08,51,11.190589,Northern
+Oman,2023-08,50,32.55408,Southern
+Paraguay,2023-08,12,23.877975,Southern
+Philippines,2023-08,36,27.146557,Southern
+Portugal,2023-08,32,23.918938,Northern
+Qatar,2023-08,86,36.915188,Northern
+Russia,2023-08,5,15.026825,Northern
+Saudi Arabia,2023-08,124,36.162712,Northern
+Senegal,2023-08,136,28.896389,Southern
+Slovenia,2023-08,6,20.35019,Northern
+Somalia,2023-08,6,28.099787,Southern
+South Africa,2023-08,15,14.131887,Southern
+South Korea,2023-08,39,26.161472,Northern
+South Sudan,2023-08,5,27.756891,Southern
+Spain,2023-08,34,24.903215,Northern
+Sri Lanka,2023-08,3,28.750824,Southern
+Sweden,2023-08,19,14.2403755,Northern
+Switzerland,2023-08,9,15.787714,Northern
+Tanzania,2023-08,85,22.767338,Southern
+Thailand,2023-08,197,27.672049,Southern
+Togo,2023-08,18,25.463488,Southern
+Uganda,2023-08,26,24.336578,Southern
+United Arab Emirates,2023-08,166,36.913345,Northern
+United Kingdom,2023-08,107,15.336883,Northern
+United States,2023-08,872,22.189846,Northern
+Vietnam,2023-08,18,26.999153,Southern
+Zambia,2023-08,49,21.078897,Southern
+Afghanistan,2023-09,4,19.853016,Northern
+Argentina,2023-09,44,12.237228,Southern
+Australia,2023-09,451,21.803757,Southern
+Bahrain,2023-09,165,33.42282,Southern
+Bangladesh,2023-09,381,29.315342,Northern
+Belgium,2023-09,2,17.9622,Northern
+Bhutan,2023-09,177,14.569962,Northern
+Brazil,2023-09,226,27.089455,Southern
+Brunei,2023-09,17,27.146597,Southern
+Burkina Faso,2023-09,19,28.109175,Southern
+Cambodia,2023-09,25,27.24746,Southern
+Cameroon,2023-09,19,24.171556,Southern
+Canada,2023-09,299,8.797865,Northern
+China,2023-09,3672,15.957749,Northern
+Colombia,2023-09,5,25.313976,Southern
+Cote d'Ivoire,2023-09,28,26.027433,Southern
+Croatia,2023-09,20,20.274967,Northern
+Denmark,2023-09,37,16.526102,Northern
+East Timor,2023-09,2,23.791956,Southern
+Ecuador,2023-09,8,21.978962,Southern
+Egypt,2023-09,358,29.97633,Northern
+El Salvador,2023-09,15,27.627178,Southern
+Ethiopia,2023-09,28,24.704367,Southern
+Fiji,2023-09,6,23.885197,Southern
+France,2023-09,23,20.710371,Northern
+Germany,2023-09,5,17.431248,Northern
+Ghana,2023-09,206,26.556297,Southern
+Greece,2023-09,4,21.71136,Northern
+Guatemala,2023-09,8,24.838015,Southern
+Guinea,2023-09,17,25.377335,Southern
+Hong Kong,2023-09,3204,27.991743,Southern
+Iceland,2023-09,5,5.1253552,Northern
+India,2023-09,321,26.8837,Northern
+Indonesia,2023-09,138,25.681368,Southern
+Iran,2023-09,797,26.439516,Northern
+Iraq,2023-09,11,32.837708,Northern
+Ireland,2023-09,3,14.670357,Northern
+Jamaica,2023-09,2,28.365295,Southern
+Japan,2023-09,616,23.283716,Northern
+Jordan,2023-09,1,27.775055,Northern
+Kenya,2023-09,2,25.891718,Southern
+Laos,2023-09,67,25.109047,Southern
+Lebanon,2023-09,116,23.44358,Northern
+Lithuania,2023-09,1,16.468975,Northern
+Madagascar,2023-09,24,22.830198,Southern
+Malaysia,2023-09,724,26.14795,Southern
+Mauritius,2023-09,29,22.52045,Southern
+Mozambique,2023-09,16,25.219076,Southern
+Namibia,2023-09,4,20.958666,Southern
+Nepal,2023-09,576,19.370079,Northern
+Netherlands,2023-09,12,17.86649,Northern
+New Zealand,2023-09,46,9.256283,Southern
+Nicaragua,2023-09,23,26.933977,Southern
+Niger,2023-09,6,32.2629,Southern
+Norway,2023-09,33,7.8174424,Northern
+Oman,2023-09,197,31.735365,Southern
+Panama,2023-09,1,25.994215,Southern
+Paraguay,2023-09,2,26.259611,Southern
+Philippines,2023-09,94,26.826778,Southern
+Portugal,2023-09,61,20.128164,Northern
+Qatar,2023-09,201,34.71098,Northern
+Russia,2023-09,14,7.9842,Northern
+Rwanda,2023-09,3,20.492172,Southern
+Saudi Arabia,2023-09,351,33.95459,Northern
+Senegal,2023-09,174,29.11406,Southern
+Seychelles,2023-09,14,26.366182,Southern
+Slovenia,2023-09,3,17.920767,Northern
+Somalia,2023-09,31,28.687231,Southern
+South Africa,2023-09,25,16.367685,Southern
+South Korea,2023-09,141,22.408075,Northern
+South Sudan,2023-09,6,27.936558,Southern
+Spain,2023-09,51,20.100945,Northern
+Sri Lanka,2023-09,2,27.124098,Southern
+Sweden,2023-09,13,11.656549,Northern
+Switzerland,2023-09,9,14.277402,Northern
+Syria,2023-09,1,27.81499,Northern
+Tanzania,2023-09,53,23.94205,Southern
+Thailand,2023-09,267,27.03916,Southern
+Togo,2023-09,47,25.917912,Southern
+Turkey,2023-09,1,20.20942,Northern
+Uganda,2023-09,15,23.73633,Southern
+Ukraine,2023-09,1,18.2291,Northern
+United Arab Emirates,2023-09,420,34.782207,Northern
+United Kingdom,2023-09,168,15.263646,Northern
+United States,2023-09,1205,17.964678,Northern
+Vietnam,2023-09,30,26.192957,Southern
+Zambia,2023-09,25,25.408865,Southern
+Afghanistan,2023-10,19,14.7694025,Northern
+Argentina,2023-10,25,15.697751,Southern
+Australia,2023-10,253,23.872288,Southern
+Austria,2023-10,4,10.762318,Northern
+Bahrain,2023-10,211,30.812866,Southern
+Bangladesh,2023-10,66,27.482435,Northern
+Belarus,2023-10,1,8.119015,Northern
+Belgium,2023-10,8,13.000408,Northern
+Bhutan,2023-10,130,9.862075,Northern
+Brazil,2023-10,326,27.54982,Southern
+Brunei,2023-10,45,27.292519,Southern
+Burkina Faso,2023-10,80,29.89708,Southern
+Cambodia,2023-10,38,27.403055,Southern
+Cameroon,2023-10,70,24.725737,Southern
+Canada,2023-10,874,1.1737078,Northern
+Chile,2023-10,15,9.025736,Southern
+China,2023-10,14957,9.126206,Northern
+Colombia,2023-10,9,25.297085,Southern
+Cote d'Ivoire,2023-10,52,26.498007,Southern
+Croatia,2023-10,7,16.288746,Northern
+Czechia,2023-10,4,11.605999,Northern
+Democratic Republic of Congo,2023-10,14,25.264938,Southern
+Denmark,2023-10,123,10.3500805,Northern
+Dominican Republic,2023-10,7,26.390017,Southern
+Ecuador,2023-10,68,22.294907,Southern
+Egypt,2023-10,508,25.521925,Northern
+El Salvador,2023-10,14,26.420593,Southern
+Estonia,2023-10,2,5.8559036,Northern
+Ethiopia,2023-10,103,23.93316,Southern
+Fiji,2023-10,21,24.042332,Southern
+France,2023-10,46,16.693756,Northern
+Georgia,2023-10,2,10.49259,Northern
+Germany,2023-10,14,11.923129,Northern
+Ghana,2023-10,117,27.48044,Southern
+Greece,2023-10,14,18.24185,Northern
+Guatemala,2023-10,2,24.390797,Southern
+Guinea,2023-10,30,25.80754,Southern
+Guyana,2023-10,2,28.339893,Southern
+Haiti,2023-10,24,26.726725,Southern
+Honduras,2023-10,1,24.920818,Southern
+Hong Kong,2023-10,1860,25.656734,Southern
+Iceland,2023-10,23,1.2883542,Northern
+India,2023-10,482,25.150368,Northern
+Indonesia,2023-10,108,26.321615,Southern
+Iran,2023-10,4069,21.195625,Northern
+Iraq,2023-10,53,26.134674,Northern
+Ireland,2023-10,29,11.363974,Northern
+Israel,2023-10,17,24.393873,Northern
+Jamaica,2023-10,12,27.547457,Southern
+Japan,2023-10,1208,14.963955,Northern
+Jordan,2023-10,4,22.999296,Northern
+Kazakhstan,2023-10,7,8.982853,Northern
+Kenya,2023-10,2,26.093779,Southern
+Laos,2023-10,218,24.48246,Southern
+Latvia,2023-10,2,6.7497816,Northern
+Lebanon,2023-10,2,19.8713,Northern
+Lithuania,2023-10,2,7.85905,Northern
+Madagascar,2023-10,74,24.942741,Southern
+Malaysia,2023-10,602,26.323406,Southern
+Mali,2023-10,2,31.146078,Southern
+Mauritius,2023-10,37,23.835623,Southern
+Mozambique,2023-10,12,26.55604,Southern
+Namibia,2023-10,1,25.42837,Southern
+Nepal,2023-10,476,14.455173,Northern
+Netherlands,2023-10,69,13.176607,Northern
+New Zealand,2023-10,9,10.297635,Southern
+Nicaragua,2023-10,38,26.405401,Southern
+Niger,2023-10,8,29.243046,Southern
+Norway,2023-10,236,-0.47643805,Northern
+Oman,2023-10,241,29.71253,Southern
+Pakistan,2023-10,10,21.91602,Northern
+Paraguay,2023-10,1,27.557035,Southern
+Philippines,2023-10,131,26.789425,Southern
+Poland,2023-10,9,10.852304,Northern
+Portugal,2023-10,107,18.703522,Northern
+Qatar,2023-10,247,31.205938,Northern
+Romania,2023-10,9,13.529781,Northern
+Russia,2023-10,55,-0.5503813,Northern
+Saudi Arabia,2023-10,1270,28.725126,Northern
+Senegal,2023-10,83,30.22808,Southern
+Slovakia,2023-10,5,11.518548,Northern
+Slovenia,2023-10,3,14.061699,Northern
+Somalia,2023-10,7,27.055555,Southern
+South Africa,2023-10,25,19.535446,Southern
+South Korea,2023-10,377,14.680034,Northern
+South Sudan,2023-10,7,29.270855,Southern
+Spain,2023-10,166,17.303251,Northern
+Sri Lanka,2023-10,6,26.28744,Southern
+Sweden,2023-10,78,1.677801,Northern
+Switzerland,2023-10,9,9.477458,Northern
+Syria,2023-10,2,22.82478,Northern
+Tanzania,2023-10,37,25.34826,Southern
+Thailand,2023-10,305,26.972433,Southern
+Togo,2023-10,82,27.08708,Southern
+Tunisia,2023-10,1,24.398455,Northern
+Turkey,2023-10,5,14.818082,Northern
+Uganda,2023-10,12,23.865574,Southern
+Ukraine,2023-10,1,11.713143,Northern
+United Arab Emirates,2023-10,1075,31.229176,Northern
+United Kingdom,2023-10,428,11.070088,Northern
+United States,2023-10,3561,11.079592,Northern
+Uzbekistan,2023-10,31,14.265216,Northern
+Vietnam,2023-10,53,25.147568,Southern
+Zambia,2023-10,18,27.253834,Southern
+Afghanistan,2023-11,59,9.239915,Northern
+Albania,2023-11,3,10.214585,Northern
+Algeria,2023-11,19,19.961882,Northern
+Argentina,2023-11,27,18.257261,Southern
+Australia,2023-11,153,26.612383,Southern
+Austria,2023-11,22,2.3997288,Northern
+Bahrain,2023-11,176,25.708893,Southern
+Bangladesh,2023-11,8,24.415323,Northern
+Belarus,2023-11,1,1.9298483,Northern
+Belgium,2023-11,9,7.356258,Northern
+Bhutan,2023-11,152,5.80321,Northern
+Brazil,2023-11,356,27.350903,Southern
+Brunei,2023-11,51,27.087221,Southern
+Bulgaria,2023-11,2,8.418602,Northern
+Burkina Faso,2023-11,18,29.898104,Southern
+Cambodia,2023-11,62,26.922209,Southern
+Cameroon,2023-11,85,24.890772,Southern
+Canada,2023-11,5222,-8.015125,Northern
+Chile,2023-11,18,10.0938635,Southern
+China,2023-11,48467,0.57352144,Northern
+Colombia,2023-11,4,25.032286,Southern
+Cote d'Ivoire,2023-11,12,27.21219,Southern
+Croatia,2023-11,10,8.804495,Northern
+Czechia,2023-11,8,4.4021034,Northern
+Democratic Republic of Congo,2023-11,35,24.001825,Southern
+Denmark,2023-11,294,4.949252,Northern
+East Timor,2023-11,2,26.905865,Southern
+Ecuador,2023-11,145,22.081915,Southern
+Egypt,2023-11,616,21.547596,Northern
+El Salvador,2023-11,11,26.296106,Southern
+Estonia,2023-11,14,0.86853856,Northern
+Ethiopia,2023-11,204,22.674648,Southern
+Fiji,2023-11,25,25.785818,Southern
+France,2023-11,104,11.192204,Northern
+Germany,2023-11,40,5.6819277,Northern
+Ghana,2023-11,21,28.67225,Southern
+Greece,2023-11,16,13.683014,Northern
+Guinea,2023-11,27,26.258749,Southern
+Guyana,2023-11,3,27.391005,Southern
+Haiti,2023-11,49,25.978788,Southern
+Hong Kong,2023-11,792,22.509295,Southern
+Hungary,2023-11,6,6.6008315,Northern
+Iceland,2023-11,70,-0.8220162,Northern
+India,2023-11,90,21.836983,Northern
+Indonesia,2023-11,44,26.243954,Southern
+Iran,2023-11,2388,15.00198,Northern
+Iraq,2023-11,12,18.462168,Northern
+Ireland,2023-11,116,8.026147,Northern
+Israel,2023-11,6,20.3303,Northern
+Italy,2023-11,194,10.31575,Northern
+Jamaica,2023-11,32,26.789938,Southern
+Japan,2023-11,1243,9.880728,Northern
+Jordan,2023-11,67,17.99781,Northern
+Kazakhstan,2023-11,127,3.539129,Northern
+Kenya,2023-11,6,24.344225,Southern
+Laos,2023-11,107,22.377733,Southern
+Lebanon,2023-11,38,15.39719,Northern
+Lithuania,2023-11,24,2.0238757,Northern
+Luxembourg,2023-11,8,6.2731566,Northern
+Madagascar,2023-11,215,25.097733,Southern
+Malaysia,2023-11,415,25.956276,Southern
+Mali,2023-11,3,26.817375,Southern
+Mauritius,2023-11,23,24.505135,Southern
+Moldova,2023-11,1,6.3483763,Northern
+Mongolia,2023-11,3,-10.118357,Northern
+Montenegro,2023-11,1,6.455832,Northern
+Mozambique,2023-11,27,27.155207,Southern
+Nepal,2023-11,92,10.422107,Northern
+Netherlands,2023-11,101,7.7967534,Northern
+New Zealand,2023-11,8,11.912943,Southern
+Nicaragua,2023-11,44,25.861403,Southern
+Niger,2023-11,3,25.593678,Southern
+North Macedonia,2023-11,1,7.519702,Northern
+Norway,2023-11,439,-6.260761,Northern
+Oman,2023-11,84,26.274023,Southern
+Pakistan,2023-11,82,16.13694,Northern
+Panama,2023-11,10,25.476616,Southern
+Paraguay,2023-11,4,29.068213,Southern
+Philippines,2023-11,80,26.515305,Southern
+Poland,2023-11,15,4.0424495,Northern
+Portugal,2023-11,437,13.522177,Northern
+Qatar,2023-11,313,25.848408,Northern
+Romania,2023-11,8,6.0398116,Northern
+Russia,2023-11,976,-11.703159,Northern
+Saudi Arabia,2023-11,503,23.373508,Northern
+Senegal,2023-11,14,28.299147,Southern
+Serbia,2023-11,3,7.3652263,Northern
+Slovakia,2023-11,2,4.082115,Northern
+Slovenia,2023-11,32,6.066573,Northern
+Somalia,2023-11,5,25.04132,Southern
+South Africa,2023-11,17,22.854216,Southern
+South Korea,2023-11,525,7.455435,Northern
+South Sudan,2023-11,8,28.51466,Southern
+Spain,2023-11,368,11.555184,Northern
+Sri Lanka,2023-11,20,25.954876,Southern
+Sweden,2023-11,240,-4.553163,Northern
+Switzerland,2023-11,2,1.2551337,Northern
+Syria,2023-11,21,16.587065,Northern
+Tanzania,2023-11,43,24.091152,Southern
+Thailand,2023-11,250,25.828026,Southern
+Togo,2023-11,19,28.248816,Southern
+Tunisia,2023-11,2,18.370096,Northern
+Turkey,2023-11,5,9.974967,Northern
+Uganda,2023-11,26,23.064875,Southern
+Ukraine,2023-11,2,4.9371142,Northern
+United Arab Emirates,2023-11,1374,26.286188,Northern
+United Kingdom,2023-11,700,6.8791957,Northern
+United States,2023-11,8845,4.680232,Northern
+Uzbekistan,2023-11,51,10.141359,Northern
+Vietnam,2023-11,100,23.215286,Southern
+Zambia,2023-11,10,25.7058,Southern
+Afghanistan,2023-12,64,4.125845,Northern
+Albania,2023-12,5,6.8675365,Northern
+Algeria,2023-12,221,14.092111,Northern
+Argentina,2023-12,14,20.585903,Southern
+Armenia,2023-12,1,0.14476697,Northern
+Australia,2023-12,128,28.579338,Southern
+Austria,2023-12,127,0.20625338,Northern
+Bahrain,2023-12,146,21.606842,Southern
+Bangladesh,2023-12,2,20.5793,Northern
+Belarus,2023-12,1,-0.5861868,Northern
+Belgium,2023-12,112,6.3428655,Northern
+Bhutan,2023-12,72,3.278173,Northern
+Brazil,2023-12,346,26.796598,Southern
+Brunei,2023-12,17,27.209055,Southern
+Bulgaria,2023-12,32,4.5351267,Northern
+Burkina Faso,2023-12,15,26.075077,Southern
+Cambodia,2023-12,43,26.835752,Southern
+Canada,2023-12,10002,-11.390243,Northern
+Chile,2023-12,48,12.831151,Southern
+China,2023-12,60917,-5.5308347,Northern
+Cote d'Ivoire,2023-12,5,26.28974,Southern
+Croatia,2023-12,297,5.9363217,Northern
+Czechia,2023-12,59,2.239086,Northern
+Democratic Republic of Congo,2023-12,7,24.587519,Southern
+Denmark,2023-12,764,3.282499,Northern
+Dominican Republic,2023-12,7,23.742445,Southern
+East Timor,2023-12,4,26.447803,Southern
+Ecuador,2023-12,123,21.967232,Southern
+Egypt,2023-12,428,16.698751,Northern
+El Salvador,2023-12,4,26.451675,Southern
+Estonia,2023-12,124,-2.9286346,Northern
+Ethiopia,2023-12,109,23.249878,Southern
+Fiji,2023-12,16,26.055218,Southern
+France,2023-12,511,9.378618,Northern
+Georgia,2023-12,30,2.3477166,Northern
+Germany,2023-12,190,4.11245,Northern
+Ghana,2023-12,1,27.770988,Southern
+Greece,2023-12,58,9.755274,Northern
+Guatemala,2023-12,3,21.52236,Southern
+Guinea,2023-12,6,25.178118,Southern
+Guyana,2023-12,9,26.420666,Southern
+Hong Kong,2023-12,1162,18.039627,Southern
+Hungary,2023-12,47,2.838952,Northern
+Iceland,2023-12,158,-5.3406744,Northern
+India,2023-12,139,18.365587,Northern
+Indonesia,2023-12,32,26.075294,Southern
+Iran,2023-12,1453,10.428363,Northern
+Iraq,2023-12,4,13.811349,Northern
+Ireland,2023-12,434,7.6877913,Northern
+Israel,2023-12,12,16.287851,Northern
+Italy,2023-12,2342,7.349581,Northern
+Jamaica,2023-12,10,25.693304,Southern
+Japan,2023-12,1067,4.0736713,Northern
+Jordan,2023-12,286,13.25772,Northern
+Kazakhstan,2023-12,375,-6.351386,Northern
+Kenya,2023-12,30,25.775959,Southern
+Laos,2023-12,55,20.705439,Southern
+Latvia,2023-12,15,-1.4664481,Northern
+Lebanon,2023-12,180,11.849003,Northern
+Libya,2023-12,2,14.311113,Southern
+Lithuania,2023-12,75,0.07544802,Northern
+Luxembourg,2023-12,50,4.874872,Northern
+Madagascar,2023-12,83,25.788706,Southern
+Malaysia,2023-12,374,25.970125,Southern
+Mali,2023-12,1,22.23383,Southern
+Mauritius,2023-12,11,25.784565,Southern
+Moldova,2023-12,41,2.4942944,Northern
+Mongolia,2023-12,180,-17.979208,Northern
+Montenegro,2023-12,11,3.996582,Northern
+Morocco,2023-12,2,12.585561,Northern
+Mozambique,2023-12,39,27.57329,Southern
+Nepal,2023-12,105,6.4279284,Northern
+Netherlands,2023-12,441,6.6240497,Northern
+New Caledonia,2023-12,1,25.445545,Southern
+New Zealand,2023-12,3,14.928952,Southern
+Nicaragua,2023-12,12,25.428432,Southern
+Niger,2023-12,25,19.905907,Southern
+North Macedonia,2023-12,23,3.9054654,Northern
+Norway,2023-12,703,-8.069109,Northern
+Oman,2023-12,4,22.226532,Southern
+Pakistan,2023-12,492,11.426407,Northern
+Panama,2023-12,7,25.797297,Southern
+Philippines,2023-12,52,26.215376,Southern
+Poland,2023-12,49,1.9350497,Northern
+Portugal,2023-12,1212,9.562615,Northern
+Qatar,2023-12,266,21.36539,Northern
+Romania,2023-12,53,2.7167523,Northern
+Russia,2023-12,5406,-21.228798,Northern
+Saudi Arabia,2023-12,371,18.491982,Northern
+Senegal,2023-12,20,26.130653,Southern
+Serbia,2023-12,37,4.365279,Northern
+Slovakia,2023-12,24,0.7056589,Northern
+Slovenia,2023-12,187,3.2481878,Northern
+Somalia,2023-12,3,25.801685,Southern
+South Africa,2023-12,4,22.609488,Southern
+South Korea,2023-12,656,2.108021,Northern
+South Sudan,2023-12,3,29.921202,Southern
+Spain,2023-12,1739,7.4138865,Northern
+Sri Lanka,2023-12,46,25.865005,Southern
+Sweden,2023-12,998,-7.302299,Northern
+Switzerland,2023-12,95,-0.14372449,Northern
+Syria,2023-12,46,11.691993,Northern
+Tanzania,2023-12,88,24.004032,Southern
+Thailand,2023-12,180,25.030151,Southern
+Togo,2023-12,5,27.397133,Southern
+Tunisia,2023-12,15,12.941837,Northern
+Turkey,2023-12,89,5.700413,Northern
+Uganda,2023-12,16,24.060886,Southern
+Ukraine,2023-12,33,1.4511416,Northern
+United Arab Emirates,2023-12,771,21.666208,Northern
+United Kingdom,2023-12,3174,6.5014896,Northern
+United States,2023-12,21981,1.1658766,Northern
+Uzbekistan,2023-12,5,1.4647908,Northern
+Vietnam,2023-12,134,21.187614,Southern
+Zambia,2023-12,2,24.375084,Southern
+Afghanistan,2024-01,5,3.3000636,Northern
+Albania,2024-01,21,4.993411,Northern
+Algeria,2024-01,313,14.559108,Northern
+Argentina,2024-01,46,22.75778,Southern
+Armenia,2024-01,168,-2.63862,Northern
+Australia,2024-01,175,29.092043,Southern
+Austria,2024-01,403,-1.6856745,Northern
+Bahrain,2024-01,58,19.866425,Southern
+Bangladesh,2024-01,10,16.99154,Northern
+Belarus,2024-01,856,-5.1583486,Northern
+Belgium,2024-01,102,2.9873695,Northern
+Bhutan,2024-01,25,-0.09235745,Northern
+Bolivia,2024-01,1,23.684843,Southern
+Brazil,2024-01,751,26.127356,Southern
+Brunei,2024-01,10,27.167627,Southern
+Bulgaria,2024-01,541,1.7989875,Northern
+Burkina Faso,2024-01,20,26.73383,Southern
+Cambodia,2024-01,59,26.725933,Southern
+Cameroon,2024-01,47,24.946562,Southern
+Canada,2024-01,6323,-19.196556,Northern
+Chile,2024-01,39,14.701271,Southern
+China,2024-01,51776,-6.3306623,Northern
+Colombia,2024-01,36,25.879896,Southern
+Costa Rica,2024-01,103,23.510368,Southern
+Cote d'Ivoire,2024-01,2,27.247503,Southern
+Croatia,2024-01,409,3.5226943,Northern
+Cuba,2024-01,3,24.053844,Southern
+Czechia,2024-01,330,-0.254366,Northern
+Democratic Republic of Congo,2024-01,3,25.321077,Southern
+Denmark,2024-01,1142,1.278225,Northern
+East Timor,2024-01,173,26.356134,Southern
+Ecuador,2024-01,50,22.433525,Southern
+Egypt,2024-01,323,14.330447,Northern
+Estonia,2024-01,257,-6.8556023,Northern
+Ethiopia,2024-01,30,23.82733,Southern
+Fiji,2024-01,5,26.466772,Southern
+France,2024-01,2550,7.6805277,Northern
+Georgia,2024-01,107,-1.3454458,Northern
+Germany,2024-01,736,1.539955,Northern
+Ghana,2024-01,1,28.66266,Southern
+Greece,2024-01,136,7.6042023,Northern
+Guatemala,2024-01,9,22.411528,Southern
+Guyana,2024-01,12,25.75126,Southern
+Haiti,2024-01,18,24.47113,Southern
+Hong Kong,2024-01,2150,16.91634,Southern
+Hungary,2024-01,320,1.4500087,Northern
+Iceland,2024-01,163,-3.5402563,Northern
+India,2024-01,150,16.979853,Northern
+Indonesia,2024-01,70,25.94353,Southern
+Iran,2024-01,2222,9.465016,Northern
+Iraq,2024-01,2,12.792713,Northern
+Ireland,2024-01,953,5.0232058,Northern
+Israel,2024-01,181,13.687662,Northern
+Italy,2024-01,3104,6.1182337,Northern
+Jamaica,2024-01,28,25.523024,Southern
+Japan,2024-01,1151,2.298908,Northern
+Jordan,2024-01,3,11.0657425,Northern
+Kazakhstan,2024-01,131,-9.164996,Northern
+Kenya,2024-01,7,26.603018,Southern
+Kosovo,2024-01,1,1.4193249,Southern
+Laos,2024-01,65,20.353256,Southern
+Latvia,2024-01,71,-5.6515737,Northern
+Lebanon,2024-01,165,9.020683,Northern
+Libya,2024-01,4,13.510715,Southern
+Lithuania,2024-01,311,-4.2955937,Northern
+Luxembourg,2024-01,154,1.5896153,Northern
+Madagascar,2024-01,21,24.953327,Southern
+Malaysia,2024-01,475,25.89396,Southern
+Mali,2024-01,5,23.133558,Southern
+Mauritius,2024-01,11,26.709538,Southern
+Moldova,2024-01,276,-0.58977896,Northern
+Mongolia,2024-01,304,-18.015043,Northern
+Montenegro,2024-01,333,1.7943455,Northern
+Morocco,2024-01,198,13.544462,Northern
+Mozambique,2024-01,55,26.116705,Southern
+Nepal,2024-01,287,3.4482849,Northern
+Netherlands,2024-01,711,3.8456993,Northern
+New Caledonia,2024-01,3,26.209354,Southern
+New Zealand,2024-01,8,16.2116,Southern
+Nicaragua,2024-01,14,25.584845,Southern
+Niger,2024-01,77,19.539503,Southern
+Norway,2024-01,995,-8.88361,Northern
+Oman,2024-01,61,22.258434,Southern
+Pakistan,2024-01,258,9.4178095,Northern
+Palestine,2024-01,56,13.515371,Northern
+Panama,2024-01,20,25.922495,Southern
+Papua New Guinea,2024-01,6,24.932951,Southern
+Paraguay,2024-01,26,29.723492,Southern
+Peru,2024-01,27,20.772074,Southern
+Philippines,2024-01,41,25.283766,Southern
+Poland,2024-01,235,-0.49168286,Northern
+Portugal,2024-01,834,10.976666,Northern
+Qatar,2024-01,191,20.144352,Northern
+Romania,2024-01,312,-0.022084355,Northern
+Russia,2024-01,5417,-22.901932,Northern
+Rwanda,2024-01,63,19.979807,Southern
+Saint Vincent and the Grenadines,2024-01,29,26.301971,Southern
+Saudi Arabia,2024-01,307,17.893715,Northern
+Senegal,2024-01,74,26.647112,Southern
+Serbia,2024-01,299,1.7233353,Northern
+Slovakia,2024-01,140,-0.32777002,Northern
+Slovenia,2024-01,908,0.9988481,Northern
+Somalia,2024-01,1,26.0522,Southern
+South Africa,2024-01,19,23.753565,Southern
+South Korea,2024-01,551,0.54568756,Northern
+South Sudan,2024-01,1,29.469887,Southern
+Spain,2024-01,2606,8.429356,Northern
+Sri Lanka,2024-01,103,25.60819,Southern
+Sweden,2024-01,946,-8.132298,Northern
+Switzerland,2024-01,522,-1.4338865,Northern
+Syria,2024-01,10,10.079312,Northern
+Tanzania,2024-01,107,22.93629,Southern
+Thailand,2024-01,220,24.891027,Southern
+Togo,2024-01,7,28.22776,Southern
+Trinidad and Tobago,2024-01,7,26.330107,Southern
+Tunisia,2024-01,208,12.730293,Northern
+Turkey,2024-01,211,3.0063581,Northern
+Uganda,2024-01,4,24.655352,Southern
+Ukraine,2024-01,424,-1.7763926,Northern
+United Arab Emirates,2024-01,742,20.625269,Northern
+United Kingdom,2024-01,5222,4.4938073,Northern
+United States,2024-01,31229,-2.7272227,Northern
+Venezuela,2024-01,3,27.094582,Southern
+Vietnam,2024-01,132,20.465149,Southern
+Zambia,2024-01,8,23.009497,Southern
+Afghanistan,2024-02,12,1.0245497,Northern
+Albania,2024-02,76,8.11429,Northern
+Algeria,2024-02,75,16.36795,Northern
+Argentina,2024-02,42,22.451773,Southern
+Armenia,2024-02,107,-0.99206597,Northern
+Australia,2024-02,125,28.848845,Southern
+Austria,2024-02,312,4.1845484,Northern
+Bahrain,2024-02,34,19.193878,Southern
+Bangladesh,2024-02,20,21.116785,Northern
+Belarus,2024-02,284,1.8023353,Northern
+Belgium,2024-02,63,7.805633,Northern
+Belize,2024-02,1,24.002441,Southern
+Bhutan,2024-02,9,1.7764357,Northern
+Bolivia,2024-02,23,22.687525,Southern
+Brazil,2024-02,1747,26.14092,Southern
+Brunei,2024-02,13,27.261204,Southern
+Bulgaria,2024-02,134,7.529025,Northern
+Burkina Faso,2024-02,9,28.93926,Southern
+Cambodia,2024-02,65,28.493902,Southern
+Cameroon,2024-02,34,27.006102,Southern
+Canada,2024-02,5119,-16.57263,Northern
+Chile,2024-02,38,14.688891,Southern
+China,2024-02,24385,-4.56044,Northern
+Colombia,2024-02,32,25.675678,Southern
+Costa Rica,2024-02,106,23.323814,Southern
+Croatia,2024-02,207,9.183656,Northern
+Cuba,2024-02,5,22.477299,Southern
+Czechia,2024-02,337,5.980411,Northern
+Denmark,2024-02,637,4.5409284,Northern
+East Timor,2024-02,55,25.898924,Southern
+Ecuador,2024-02,16,22.454924,Southern
+Egypt,2024-02,245,15.290195,Northern
+Estonia,2024-02,147,-1.2692529,Northern
+Ethiopia,2024-02,9,25.27897,Southern
+France,2024-02,1649,10.554125,Northern
+Georgia,2024-02,69,1.1114079,Northern
+Germany,2024-02,492,6.646778,Northern
+Ghana,2024-02,10,30.45731,Southern
+Greece,2024-02,153,10.112593,Northern
+Guatemala,2024-02,29,21.92873,Southern
+Guyana,2024-02,8,26.712605,Southern
+Haiti,2024-02,33,23.44826,Southern
+Honduras,2024-02,7,22.800146,Southern
+Hong Kong,2024-02,1603,18.422754,Southern
+Hungary,2024-02,527,8.393536,Northern
+Iceland,2024-02,168,-4.476748,Northern
+India,2024-02,163,20.171194,Northern
+Indonesia,2024-02,65,26.171362,Southern
+Iran,2024-02,1238,8.547209,Northern
+Ireland,2024-02,478,7.6429596,Northern
+Israel,2024-02,358,13.691661,Northern
+Italy,2024-02,762,8.5671,Northern
+Jamaica,2024-02,12,24.587713,Southern
+Japan,2024-02,812,3.2356718,Northern
+Jordan,2024-02,4,10.890413,Northern
+Kazakhstan,2024-02,15,-9.697259,Northern
+Kenya,2024-02,54,27.604992,Southern
+Kosovo,2024-02,1,6.4304996,Southern
+Laos,2024-02,39,22.640566,Southern
+Latvia,2024-02,62,0.4083548,Northern
+Lebanon,2024-02,74,8.721044,Northern
+Libya,2024-02,4,15.027655,Southern
+Lithuania,2024-02,421,2.1735392,Northern
+Luxembourg,2024-02,102,6.8737445,Northern
+Madagascar,2024-02,1,24.890213,Southern
+Malaysia,2024-02,430,26.44315,Southern
+Mali,2024-02,12,24.8692,Southern
+Mauritius,2024-02,8,26.045439,Southern
+Moldova,2024-02,165,6.2060347,Northern
+Mongolia,2024-02,30,-17.281094,Northern
+Montenegro,2024-02,66,5.7613463,Northern
+Morocco,2024-02,57,14.466987,Northern
+Mozambique,2024-02,46,26.856823,Southern
+Nepal,2024-02,384,5.7228093,Northern
+Netherlands,2024-02,427,7.8575115,Northern
+New Caledonia,2024-02,10,26.041119,Southern
+New Zealand,2024-02,3,15.05692,Southern
+Nicaragua,2024-02,4,25.392515,Southern
+Niger,2024-02,17,21.420761,Southern
+Norway,2024-02,914,-5.9119234,Northern
+Oman,2024-02,49,23.27776,Southern
+Pakistan,2024-02,74,11.948232,Northern
+Palestine,2024-02,13,13.300453,Northern
+Panama,2024-02,14,25.807571,Southern
+Paraguay,2024-02,18,29.393105,Southern
+Peru,2024-02,156,20.740486,Southern
+Philippines,2024-02,9,25.617273,Southern
+Poland,2024-02,545,5.7086296,Northern
+Portugal,2024-02,173,12.127609,Northern
+Qatar,2024-02,85,19.769848,Northern
+Romania,2024-02,144,6.493564,Northern
+Russia,2024-02,1831,-19.974478,Northern
+Rwanda,2024-02,10,20.701761,Southern
+Saudi Arabia,2024-02,200,18.36678,Northern
+Senegal,2024-02,88,28.836052,Southern
+Serbia,2024-02,276,8.047798,Northern
+Slovakia,2024-02,131,6.1107244,Northern
+Slovenia,2024-02,702,6.470258,Northern
+South Africa,2024-02,34,23.967714,Southern
+South Korea,2024-02,167,3.7475872,Northern
+Spain,2024-02,325,9.603802,Northern
+Sri Lanka,2024-02,31,26.740467,Southern
+Sweden,2024-02,795,-4.716356,Northern
+Switzerland,2024-02,433,2.8368766,Northern
+Syria,2024-02,21,10.55974,Northern
+Tanzania,2024-02,141,24.13067,Southern
+Thailand,2024-02,155,26.893929,Southern
+Togo,2024-02,2,30.108973,Southern
+Trinidad and Tobago,2024-02,6,26.645931,Southern
+Tunisia,2024-02,150,13.906504,Northern
+Turkey,2024-02,123,5.01795,Northern
+Uganda,2024-02,4,25.52055,Southern
+Ukraine,2024-02,334,3.5199692,Northern
+United Arab Emirates,2024-02,574,20.655907,Northern
+United Kingdom,2024-02,3525,6.8241296,Northern
+United States,2024-02,36568,1.9572763,Northern
+Uruguay,2024-02,1,24.793335,Southern
+Venezuela,2024-02,15,27.533451,Southern
+Vietnam,2024-02,35,22.156519,Southern
+Zambia,2024-02,17,24.553755,Southern
+Afghanistan,2024-03,30,5.843506,Northern
+Albania,2024-03,65,9.757257,Northern
+Algeria,2024-03,13,21.021423,Northern
+Argentina,2024-03,32,19.992676,Southern
+Armenia,2024-03,36,1.685541,Northern
+Australia,2024-03,197,25.842312,Southern
+Austria,2024-03,108,5.519712,Northern
+Bahrain,2024-03,18,20.84848,Southern
+Bangladesh,2024-03,68,24.911253,Northern
+Belarus,2024-03,15,4.230852,Northern
+Belgium,2024-03,31,8.6272745,Northern
+Belize,2024-03,1,27.396917,Southern
+Bhutan,2024-03,40,5.500524,Northern
+Bolivia,2024-03,154,23.092915,Southern
+Brazil,2024-03,3103,26.306463,Southern
+Brunei,2024-03,11,27.558554,Southern
+Bulgaria,2024-03,16,8.524271,Northern
+Burkina Faso,2024-03,23,33.665203,Southern
+Cambodia,2024-03,41,29.96222,Southern
+Cameroon,2024-03,22,28.330826,Southern
+Canada,2024-03,7888,-13.057723,Northern
+Cayman Islands,2024-03,4,26.690277,Southern
+Chile,2024-03,99,12.483899,Southern
+China,2024-03,18347,3.1802516,Northern
+Colombia,2024-03,45,25.966835,Southern
+Costa Rica,2024-03,101,24.655437,Southern
+Cote d'Ivoire,2024-03,22,29.435339,Southern
+Croatia,2024-03,42,10.741038,Northern
+Czechia,2024-03,109,7.343106,Northern
+Democratic Republic of Congo,2024-03,1,26.844637,Southern
+Denmark,2024-03,358,5.249753,Northern
+East Timor,2024-03,30,25.629765,Southern
+Ecuador,2024-03,13,22.624075,Southern
+Egypt,2024-03,236,19.896164,Northern
+El Salvador,2024-03,4,28.421562,Southern
+Estonia,2024-03,64,2.2841256,Northern
+Ethiopia,2024-03,5,26.320833,Southern
+France,2024-03,404,11.434395,Northern
+Georgia,2024-03,24,3.1898232,Northern
+Germany,2024-03,136,7.5524287,Northern
+Ghana,2024-03,12,31.144527,Southern
+Greece,2024-03,134,11.499054,Northern
+Guatemala,2024-03,17,25.599436,Southern
+Guyana,2024-03,11,27.481493,Southern
+Haiti,2024-03,7,25.233587,Southern
+Honduras,2024-03,62,26.051254,Southern
+Hong Kong,2024-03,1682,20.553776,Southern
+Hungary,2024-03,96,9.698746,Northern
+Iceland,2024-03,116,-2.3649151,Northern
+India,2024-03,196,24.260939,Northern
+Indonesia,2024-03,131,26.284086,Southern
+Iran,2024-03,763,13.053601,Northern
+Iraq,2024-03,1,16.793644,Northern
+Ireland,2024-03,163,7.457047,Northern
+Israel,2024-03,167,16.856184,Northern
+Italy,2024-03,340,9.993834,Northern
+Jamaica,2024-03,5,26.155668,Southern
+Japan,2024-03,715,4.8239393,Northern
+Jordan,2024-03,9,15.044452,Northern
+Kazakhstan,2024-03,2,-0.86796385,Northern
+Kenya,2024-03,41,28.108335,Southern
+Kosovo,2024-03,6,8.411032,Southern
+Laos,2024-03,44,24.65753,Southern
+Latvia,2024-03,22,3.4367614,Northern
+Lebanon,2024-03,91,11.610617,Northern
+Libya,2024-03,2,19.859438,Southern
+Lithuania,2024-03,60,4.320479,Northern
+Luxembourg,2024-03,27,7.8842816,Northern
+Madagascar,2024-03,4,24.875017,Southern
+Malaysia,2024-03,445,26.8894,Southern
+Mali,2024-03,10,29.44144,Southern
+Mauritius,2024-03,7,25.683083,Southern
+Moldova,2024-03,20,6.447072,Northern
+Mongolia,2024-03,40,-4.6199384,Northern
+Montenegro,2024-03,14,7.347125,Northern
+Morocco,2024-03,3,15.73124,Northern
+Mozambique,2024-03,11,26.315006,Southern
+Nepal,2024-03,185,10.359801,Northern
+Netherlands,2024-03,221,8.650031,Northern
+New Caledonia,2024-03,2,25.169699,Southern
+New Zealand,2024-03,5,12.387559,Southern
+Nicaragua,2024-03,3,27.456364,Southern
+Niger,2024-03,23,28.314857,Southern
+Norway,2024-03,759,-4.21446,Northern
+Oman,2024-03,20,25.87581,Southern
+Pakistan,2024-03,13,16.69687,Northern
+Palestine,2024-03,8,16.386494,Northern
+Panama,2024-03,11,26.50514,Southern
+Papua New Guinea,2024-03,1,24.837626,Southern
+Paraguay,2024-03,87,29.681038,Southern
+Peru,2024-03,132,20.819262,Southern
+Philippines,2024-03,9,26.349781,Southern
+Poland,2024-03,239,6.6913614,Northern
+Portugal,2024-03,180,12.178977,Northern
+Qatar,2024-03,114,22.388357,Northern
+Romania,2024-03,59,7.5068827,Northern
+Russia,2024-03,594,-11.543931,Northern
+Rwanda,2024-03,11,21.059624,Southern
+Saudi Arabia,2024-03,149,22.40058,Northern
+Senegal,2024-03,100,29.97518,Southern
+Serbia,2024-03,24,9.773034,Northern
+Slovakia,2024-03,19,7.3462543,Northern
+Slovenia,2024-03,72,8.181986,Northern
+South Africa,2024-03,26,23.216652,Southern
+South Korea,2024-03,111,6.5611005,Northern
+South Sudan,2024-03,3,33.708965,Southern
+Spain,2024-03,223,10.5456295,Northern
+Sri Lanka,2024-03,51,27.61099,Southern
+Sweden,2024-03,527,-0.9505432,Northern
+Switzerland,2024-03,224,3.4830213,Northern
+Syria,2024-03,16,14.058271,Northern
+Tanzania,2024-03,41,24.075258,Southern
+Thailand,2024-03,133,28.624893,Southern
+Togo,2024-03,1,31.121988,Southern
+Trinidad and Tobago,2024-03,2,26.956865,Southern
+Tunisia,2024-03,32,17.763844,Northern
+Turkey,2024-03,128,6.852168,Northern
+Uganda,2024-03,5,26.075933,Southern
+Ukraine,2024-03,417,5.0526347,Northern
+United Arab Emirates,2024-03,401,23.882158,Northern
+United Kingdom,2024-03,3030,6.9766216,Northern
+United States,2024-03,25169,4.290544,Northern
+Uruguay,2024-03,1,21.694736,Southern
+Venezuela,2024-03,21,28.435184,Southern
+Vietnam,2024-03,85,23.920658,Southern
+Zambia,2024-03,20,24.116701,Southern
+Afghanistan,2024-04,30,11.627398,Northern
+Albania,2024-04,26,13.589094,Northern
+Algeria,2024-04,4,24.816668,Northern
+Argentina,2024-04,88,14.709969,Southern
+Armenia,2024-04,17,10.179064,Northern
+Australia,2024-04,194,21.205793,Southern
+Austria,2024-04,32,8.121984,Northern
+Bahrain,2024-04,10,25.076996,Southern
+Bangladesh,2024-04,450,30.338926,Northern
+Belarus,2024-04,1,10.141278,Northern
+Belgium,2024-04,20,10.322069,Northern
+Bhutan,2024-04,132,9.231545,Northern
+Bolivia,2024-04,134,22.443155,Southern
+Brazil,2024-04,4609,25.794222,Southern
+Brunei,2024-04,27,28.09595,Southern
+Bulgaria,2024-04,12,14.032952,Northern
+Burkina Faso,2024-04,6,34.474316,Southern
+Cambodia,2024-04,43,32.238808,Southern
+Cameroon,2024-04,52,27.722595,Southern
+Canada,2024-04,8197,-3.380913,Northern
+Chile,2024-04,322,9.372107,Southern
+China,2024-04,9941,10.140587,Northern
+Colombia,2024-04,171,25.466404,Southern
+Costa Rica,2024-04,240,24.6851,Southern
+Cote d'Ivoire,2024-04,25,29.272095,Southern
+Croatia,2024-04,29,13.710771,Northern
+Cuba,2024-04,15,25.674732,Southern
+Czechia,2024-04,39,10.31279,Northern
+Democratic Republic of Congo,2024-04,6,25.913258,Southern
+Denmark,2024-04,177,7.640752,Northern
+Dominican Republic,2024-04,8,24.77529,Southern
+East Timor,2024-04,45,25.398943,Southern
+Ecuador,2024-04,33,22.541534,Southern
+Egypt,2024-04,162,24.610512,Northern
+El Salvador,2024-04,13,28.883034,Southern
+Estonia,2024-04,50,5.560817,Northern
+Ethiopia,2024-04,6,25.371662,Southern
+Fiji,2024-04,31,26.662907,Southern
+France,2024-04,178,12.972042,Northern
+Georgia,2024-04,64,11.697121,Northern
+Germany,2024-04,45,10.149447,Northern
+Ghana,2024-04,50,30.507925,Southern
+Greece,2024-04,191,15.936834,Northern
+Guatemala,2024-04,14,26.07629,Southern
+Guyana,2024-04,14,26.980026,Southern
+Haiti,2024-04,44,25.419352,Southern
+Honduras,2024-04,141,26.536757,Southern
+Hong Kong,2024-04,3521,25.457277,Southern
+Hungary,2024-04,26,13.484001,Northern
+Iceland,2024-04,151,-1.7061517,Northern
+India,2024-04,143,28.537725,Northern
+Indonesia,2024-04,116,26.479654,Southern
+Iran,2024-04,350,18.330973,Northern
+Iraq,2024-04,1,24.975985,Northern
+Ireland,2024-04,81,9.083353,Northern
+Israel,2024-04,11,21.658278,Northern
+Italy,2024-04,108,12.557317,Northern
+Jamaica,2024-04,19,26.566645,Southern
+Japan,2024-04,281,13.145072,Northern
+Jordan,2024-04,7,21.618198,Northern
+Kenya,2024-04,1,26.103724,Southern
+Kosovo,2024-04,18,12.403571,Southern
+Laos,2024-04,17,28.630592,Southern
+Latvia,2024-04,13,7.5899425,Northern
+Lebanon,2024-04,23,16.74835,Northern
+Libya,2024-04,3,25.114248,Southern
+Lithuania,2024-04,23,8.5681305,Northern
+Luxembourg,2024-04,37,9.453979,Northern
+Madagascar,2024-04,12,24.489717,Southern
+Malaysia,2024-04,448,27.345388,Southern
+Mali,2024-04,2,32.853996,Southern
+Mauritius,2024-04,43,25.412271,Southern
+Moldova,2024-04,23,14.184904,Northern
+Mongolia,2024-04,41,5.5597067,Northern
+Mozambique,2024-04,23,24.667944,Southern
+Nepal,2024-04,72,15.853917,Northern
+Netherlands,2024-04,108,10.545585,Northern
+New Caledonia,2024-04,7,24.035566,Southern
+New Zealand,2024-04,11,11.477758,Southern
+Nicaragua,2024-04,5,27.92604,Southern
+Niger,2024-04,20,32.85068,Southern
+Norway,2024-04,692,-1.8596252,Northern
+Oman,2024-04,44,29.327795,Southern
+Panama,2024-04,40,26.27598,Southern
+Paraguay,2024-04,120,26.317327,Southern
+Peru,2024-04,119,20.650127,Southern
+Philippines,2024-04,6,27.94001,Southern
+Poland,2024-04,77,10.620082,Northern
+Portugal,2024-04,187,15.359705,Northern
+Qatar,2024-04,79,26.869246,Northern
+Romania,2024-04,20,12.938805,Northern
+Russia,2024-04,406,-2.1266084,Northern
+Rwanda,2024-04,13,20.269112,Southern
+Saudi Arabia,2024-04,144,26.648521,Northern
+Senegal,2024-04,46,32.55233,Southern
+Slovakia,2024-04,1,10.892947,Northern
+Slovenia,2024-04,44,11.045463,Northern
+South Africa,2024-04,133,18.552265,Southern
+South Korea,2024-04,114,14.748119,Northern
+South Sudan,2024-04,11,32.03456,Southern
+Spain,2024-04,141,13.383807,Northern
+Sri Lanka,2024-04,101,28.603954,Southern
+Sweden,2024-04,426,1.1206084,Northern
+Switzerland,2024-04,162,5.250991,Northern
+Syria,2024-04,4,21.628996,Northern
+Tanzania,2024-04,24,22.95919,Southern
+Thailand,2024-04,135,31.46329,Southern
+Togo,2024-04,6,29.965591,Southern
+Tunisia,2024-04,5,18.728687,Northern
+Turkey,2024-04,71,14.738826,Northern
+Uganda,2024-04,8,23.956955,Southern
+Ukraine,2024-04,292,13.476753,Northern
+United Arab Emirates,2024-04,183,27.717669,Northern
+United Kingdom,2024-04,2358,8.508827,Northern
+United States,2024-04,11281,9.773721,Northern
+Uruguay,2024-04,5,18.228283,Southern
+Venezuela,2024-04,27,27.61727,Southern
+Vietnam,2024-04,110,27.96033,Southern
+Zambia,2024-04,20,22.620102,Southern
+Afghanistan,2024-05,4,18.95785,Northern
+Albania,2024-05,3,16.50121,Northern
+Algeria,2024-05,2,30.069328,Northern
+Argentina,2024-05,386,8.001048,Southern
+Armenia,2024-05,1,10.110493,Northern
+Australia,2024-05,227,18.702633,Southern
+Austria,2024-05,9,11.96912,Northern
+Bahrain,2024-05,8,29.381927,Southern
+Bangladesh,2024-05,629,29.49273,Northern
+Belgium,2024-05,15,14.330273,Northern
+Bhutan,2024-05,111,11.537153,Northern
+Bolivia,2024-05,6,18.705841,Southern
+Brazil,2024-05,2545,24.855196,Southern
+Brunei,2024-05,21,27.851555,Southern
+Bulgaria,2024-05,2,14.913377,Northern
+Burkina Faso,2024-05,1,33.50732,Southern
+Cambodia,2024-05,25,30.012947,Southern
+Cameroon,2024-05,20,27.35367,Southern
+Canada,2024-05,2207,4.2865877,Northern
+Cayman Islands,2024-05,7,28.237396,Southern
+Chile,2024-05,305,5.333424,Southern
+China,2024-05,7011,15.027371,Northern
+Colombia,2024-05,174,24.90462,Southern
+Costa Rica,2024-05,243,24.967857,Southern
+Cote d'Ivoire,2024-05,8,28.486412,Southern
+Croatia,2024-05,27,17.396385,Northern
+Cuba,2024-05,3,27.761246,Southern
+Czechia,2024-05,12,14.724075,Northern
+Democratic Republic of Congo,2024-05,10,26.805883,Southern
+Denmark,2024-05,56,14.393212,Northern
+Dominican Republic,2024-05,17,25.73594,Southern
+East Timor,2024-05,14,24.824944,Southern
+Ecuador,2024-05,61,22.181322,Southern
+Egypt,2024-05,112,28.245117,Northern
+El Salvador,2024-05,60,28.42681,Southern
+Estonia,2024-05,12,13.874482,Northern
+Ethiopia,2024-05,3,25.6392,Southern
+Fiji,2024-05,63,25.200832,Southern
+France,2024-05,101,15.479786,Northern
+Georgia,2024-05,14,11.177817,Northern
+Germany,2024-05,10,15.1402645,Northern
+Ghana,2024-05,45,29.693314,Southern
+Greece,2024-05,45,17.681465,Northern
+Guatemala,2024-05,5,28.365196,Southern
+Guyana,2024-05,7,25.834532,Southern
+Haiti,2024-05,188,26.35636,Southern
+Honduras,2024-05,116,28.16206,Southern
+Hong Kong,2024-05,3204,25.554512,Southern
+Hungary,2024-05,4,17.640701,Northern
+Iceland,2024-05,25,3.9630117,Northern
+India,2024-05,116,30.427963,Northern
+Indonesia,2024-05,93,26.348228,Southern
+Iran,2024-05,133,23.643711,Northern
+Iraq,2024-05,2,28.064972,Northern
+Ireland,2024-05,49,12.528952,Northern
+Jamaica,2024-05,12,27.208628,Southern
+Japan,2024-05,32,15.809207,Northern
+Jordan,2024-05,3,23.544092,Northern
+Kenya,2024-05,15,26.107454,Southern
+Kosovo,2024-05,2,14.889033,Southern
+Laos,2024-05,20,26.622154,Southern
+Latvia,2024-05,4,14.576592,Northern
+Lebanon,2024-05,5,18.149303,Northern
+Libya,2024-05,1,29.198753,Southern
+Lithuania,2024-05,6,15.216331,Northern
+Luxembourg,2024-05,28,13.838409,Northern
+Madagascar,2024-05,9,22.304388,Southern
+Malaysia,2024-05,675,27.261978,Southern
+Mali,2024-05,2,35.374863,Southern
+Mauritius,2024-05,37,23.50238,Southern
+Moldova,2024-05,11,16.271963,Northern
+Mongolia,2024-05,52,14.74574,Northern
+Mozambique,2024-05,9,23.073383,Southern
+Namibia,2024-05,8,21.26996,Southern
+Nepal,2024-05,19,18.187262,Northern
+Netherlands,2024-05,63,15.498171,Northern
+New Caledonia,2024-05,8,21.20897,Southern
+New Zealand,2024-05,23,7.4891133,Southern
+Nicaragua,2024-05,37,28.516388,Southern
+Niger,2024-05,3,35.31852,Southern
+Norway,2024-05,351,7.252721,Northern
+Oman,2024-05,66,32.971394,Southern
+Pakistan,2024-05,5,28.249743,Northern
+Panama,2024-05,222,26.2231,Southern
+Papua New Guinea,2024-05,20,24.423048,Southern
+Paraguay,2024-05,540,19.499123,Southern
+Peru,2024-05,53,19.6066,Southern
+Philippines,2024-05,3,28.270376,Southern
+Poland,2024-05,5,16.272375,Northern
+Portugal,2024-05,320,16.48635,Northern
+Qatar,2024-05,63,32.037586,Northern
+Romania,2024-05,1,15.193033,Northern
+Russia,2024-05,314,5.1666493,Northern
+Rwanda,2024-05,3,21.426813,Southern
+Saudi Arabia,2024-05,90,31.403746,Northern
+Senegal,2024-05,29,33.117027,Southern
+Slovenia,2024-05,21,14.553293,Northern
+South Africa,2024-05,420,17.286299,Southern
+South Korea,2024-05,36,17.456825,Northern
+South Sudan,2024-05,18,31.876337,Southern
+Spain,2024-05,101,16.028694,Northern
+Sri Lanka,2024-05,120,27.98482,Southern
+Sweden,2024-05,238,11.517262,Northern
+Switzerland,2024-05,53,9.074192,Northern
+Syria,2024-05,4,23.471598,Northern
+Tanzania,2024-05,25,22.82747,Southern
+Thailand,2024-05,67,29.433048,Southern
+Togo,2024-05,17,28.997133,Southern
+Turkey,2024-05,24,14.760538,Northern
+Uganda,2024-05,4,24.436201,Southern
+Ukraine,2024-05,49,15.497282,Northern
+United Arab Emirates,2024-05,238,32.731552,Northern
+United Kingdom,2024-05,1045,12.984747,Northern
+United States,2024-05,2118,14.883865,Northern
+Uruguay,2024-05,152,12.439182,Southern
+Venezuela,2024-05,101,26.74155,Southern
+Vietnam,2024-05,104,27.245514,Southern
+Zambia,2024-05,37,20.67545,Southern
+Afghanistan,2024-06,1,23.636276,Northern
+Argentina,2024-06,478,9.505047,Southern
+Australia,2024-06,365,15.22288,Southern
+Austria,2024-06,2,16.112953,Northern
+Bahrain,2024-06,6,33.34497,Southern
+Bangladesh,2024-06,601,29.749884,Northern
+Belgium,2024-06,5,15.648024,Northern
+Bhutan,2024-06,19,14.689861,Northern
+Brazil,2024-06,996,24.645779,Southern
+Brunei,2024-06,43,27.275284,Southern
+Bulgaria,2024-06,1,23.3341,Northern
+Burkina Faso,2024-06,1,30.886433,Southern
+Cambodia,2024-06,60,28.884418,Southern
+Cameroon,2024-06,26,25.339798,Southern
+Canada,2024-06,455,10.518121,Northern
+Cayman Islands,2024-06,9,28.401611,Southern
+Chile,2024-06,88,5.301235,Southern
+China,2024-06,5635,18.61862,Northern
+Colombia,2024-06,105,24.384995,Southern
+Costa Rica,2024-06,395,23.878635,Southern
+Cote d'Ivoire,2024-06,21,26.855364,Southern
+Croatia,2024-06,9,22.106054,Northern
+Cuba,2024-06,4,27.54227,Southern
+Czechia,2024-06,5,18.076996,Northern
+Democratic Republic of Congo,2024-06,7,25.600033,Southern
+Denmark,2024-06,27,14.527239,Northern
+Dominican Republic,2024-06,41,26.529177,Southern
+East Timor,2024-06,30,23.654615,Southern
+Ecuador,2024-06,115,21.37589,Southern
+Egypt,2024-06,96,32.45019,Northern
+El Salvador,2024-06,115,25.901014,Southern
+Estonia,2024-06,1,16.833961,Northern
+Ethiopia,2024-06,7,25.00685,Southern
+Fiji,2024-06,28,23.977976,Southern
+France,2024-06,94,18.444157,Northern
+Georgia,2024-06,2,17.96684,Northern
+Germany,2024-06,5,16.836245,Northern
+Ghana,2024-06,113,27.77756,Southern
+Greece,2024-06,11,25.494305,Northern
+Guatemala,2024-06,2,25.31541,Southern
+Guinea,2024-06,3,26.736847,Southern
+Guyana,2024-06,15,25.641542,Southern
+Haiti,2024-06,65,27.094185,Southern
+Honduras,2024-06,101,25.544823,Southern
+Hong Kong,2024-06,1608,28.165913,Southern
+India,2024-06,85,29.684298,Northern
+Indonesia,2024-06,68,25.705803,Southern
+Iran,2024-06,35,29.50873,Northern
+Ireland,2024-06,21,12.794292,Northern
+Israel,2024-06,1,28.768814,Northern
+Jamaica,2024-06,11,27.624462,Southern
+Japan,2024-06,25,20.105473,Northern
+Kenya,2024-06,19,25.336891,Southern
+Laos,2024-06,58,26.264568,Southern
+Libya,2024-06,1,32.82978,Southern
+Luxembourg,2024-06,19,15.849478,Northern
+Madagascar,2024-06,92,20.583937,Southern
+Malaysia,2024-06,721,26.381395,Southern
+Mauritius,2024-06,72,22.25578,Southern
+Moldova,2024-06,5,22.812757,Northern
+Mongolia,2024-06,10,18.462526,Northern
+Mozambique,2024-06,44,21.37642,Southern
+Myanmar,2024-06,3,26.479927,Southern
+Namibia,2024-06,36,16.282785,Southern
+Nepal,2024-06,1,20.610014,Northern
+Netherlands,2024-06,43,15.746178,Northern
+New Caledonia,2024-06,1,21.071278,Southern
+New Zealand,2024-06,46,7.3903913,Southern
+Nicaragua,2024-06,351,26.50251,Southern
+Niger,2024-06,7,35.160698,Southern
+Norway,2024-06,142,9.625593,Northern
+Oman,2024-06,36,35.360638,Southern
+Pakistan,2024-06,2,29.959358,Northern
+Panama,2024-06,236,25.650906,Southern
+Papua New Guinea,2024-06,14,23.769016,Southern
+Paraguay,2024-06,446,22.93108,Southern
+Peru,2024-06,80,19.001257,Southern
+Philippines,2024-06,24,27.381678,Southern
+Poland,2024-06,9,18.572338,Northern
+Portugal,2024-06,342,19.6337,Northern
+Qatar,2024-06,39,36.02415,Northern
+Russia,2024-06,112,14.123098,Northern
+Saudi Arabia,2024-06,49,36.312244,Northern
+Senegal,2024-06,65,31.254229,Southern
+Slovenia,2024-06,6,19.181107,Northern
+South Africa,2024-06,169,12.509216,Southern
+South Korea,2024-06,10,22.52139,Northern
+South Sudan,2024-06,30,29.486212,Southern
+Spain,2024-06,100,20.008026,Northern
+Sri Lanka,2024-06,105,27.914482,Southern
+Sweden,2024-06,61,13.660123,Northern
+Switzerland,2024-06,23,13.480856,Northern
+Tanzania,2024-06,6,21.697987,Southern
+Thailand,2024-06,117,28.443617,Southern
+Togo,2024-06,17,27.095827,Southern
+Turkey,2024-06,3,23.385714,Northern
+Uganda,2024-06,12,24.238567,Southern
+Ukraine,2024-06,3,21.577246,Northern
+United Arab Emirates,2024-06,296,36.76731,Northern
+United Kingdom,2024-06,529,13.167834,Northern
+United States,2024-06,1341,20.794046,Northern
+Uruguay,2024-06,132,14.204197,Southern
+Venezuela,2024-06,160,25.572714,Southern
+Vietnam,2024-06,90,27.652924,Southern
+Zambia,2024-06,73,18.36521,Southern
+Zimbabwe,2024-06,7,17.436783,Southern
+Afghanistan,2024-07,2,26.347746,Northern
+Argentina,2024-07,7,6.8743424,Southern
+Australia,2024-07,1168,14.402082,Southern
+Austria,2024-07,2,18.66692,Northern
+Bahrain,2024-07,11,34.756256,Southern
+Bangladesh,2024-07,403,29.602516,Northern
+Belgium,2024-07,12,18.279072,Northern
+Bhutan,2024-07,108,16.050833,Northern
+Bolivia,2024-07,2,17.04823,Southern
+Brazil,2024-07,1303,23.948624,Southern
+Brunei,2024-07,52,27.568163,Southern
+Bulgaria,2024-07,2,25.09923,Northern
+Burkina Faso,2024-07,16,27.924965,Southern
+Cambodia,2024-07,229,27.373531,Southern
+Cameroon,2024-07,31,24.20287,Southern
+Canada,2024-07,248,14.9441185,Northern
+Cayman Islands,2024-07,12,29.135162,Southern
+Chile,2024-07,48,4.6364665,Southern
+China,2024-07,7010,21.318682,Northern
+Colombia,2024-07,112,24.243076,Southern
+Costa Rica,2024-07,130,23.84475,Southern
+Cote d'Ivoire,2024-07,16,25.540415,Southern
+Croatia,2024-07,5,25.163305,Northern
+Cuba,2024-07,20,28.685183,Southern
+Czechia,2024-07,2,20.102669,Northern
+Democratic Republic of Congo,2024-07,2,25.216959,Southern
+Denmark,2024-07,39,16.356028,Northern
+Dominican Republic,2024-07,26,26.687296,Southern
+East Timor,2024-07,17,23.017944,Southern
+Ecuador,2024-07,99,20.838871,Southern
+Egypt,2024-07,97,32.724113,Northern
+El Salvador,2024-07,81,27.010756,Southern
+Ethiopia,2024-07,28,23.680449,Southern
+Fiji,2024-07,9,23.612658,Southern
+France,2024-07,61,20.89202,Northern
+Germany,2024-07,10,18.881859,Northern
+Ghana,2024-07,339,26.523502,Southern
+Guinea,2024-07,33,24.994663,Southern
+Guyana,2024-07,76,25.602545,Southern
+Haiti,2024-07,4,27.497658,Southern
+Honduras,2024-07,45,24.98215,Southern
+Hong Kong,2024-07,1841,29.254879,Southern
+Iceland,2024-07,6,8.842789,Northern
+India,2024-07,397,27.64511,Northern
+Indonesia,2024-07,92,25.553888,Southern
+Iran,2024-07,109,31.981716,Northern
+Ireland,2024-07,20,14.282992,Northern
+Jamaica,2024-07,26,27.9088,Southern
+Japan,2024-07,70,24.883299,Northern
+Kenya,2024-07,26,24.664812,Southern
+Laos,2024-07,50,25.466341,Southern
+Lebanon,2024-07,1,25.820662,Northern
+Luxembourg,2024-07,2,18.137552,Northern
+Madagascar,2024-07,141,19.617939,Southern
+Malaysia,2024-07,1127,26.638792,Southern
+Mali,2024-07,1,33.31126,Southern
+Mauritius,2024-07,53,21.43851,Southern
+Mozambique,2024-07,65,21.631414,Southern
+Myanmar,2024-07,92,26.066174,Southern
+Namibia,2024-07,10,15.565516,Southern
+Nepal,2024-07,36,20.808271,Northern
+Netherlands,2024-07,45,18.039925,Northern
+New Caledonia,2024-07,9,20.03476,Southern
+New Zealand,2024-07,118,6.136506,Southern
+Nicaragua,2024-07,114,26.29153,Southern
+Niger,2024-07,2,32.847706,Southern
+Norway,2024-07,169,12.007848,Northern
+Oman,2024-07,66,35.053482,Southern
+Pakistan,2024-07,3,30.789604,Northern
+Panama,2024-07,41,25.794046,Southern
+Papua New Guinea,2024-07,6,23.192947,Southern
+Paraguay,2024-07,224,18.013573,Southern
+Philippines,2024-07,117,26.777071,Southern
+Poland,2024-07,24,20.483765,Northern
+Portugal,2024-07,251,22.993937,Northern
+Qatar,2024-07,48,37.20391,Northern
+Russia,2024-07,26,17.282068,Northern
+Saudi Arabia,2024-07,104,36.165375,Northern
+Senegal,2024-07,348,29.167858,Southern
+Slovenia,2024-07,2,22.169672,Northern
+South Africa,2024-07,47,11.029241,Southern
+South Korea,2024-07,13,26.011429,Northern
+South Sudan,2024-07,102,26.692787,Southern
+Spain,2024-07,79,24.528801,Northern
+Sri Lanka,2024-07,114,28.367172,Southern
+Sweden,2024-07,77,15.389453,Northern
+Switzerland,2024-07,24,16.54129,Northern
+Tanzania,2024-07,19,21.62845,Southern
+Thailand,2024-07,248,27.382597,Southern
+Togo,2024-07,21,26.007154,Southern
+Tunisia,2024-07,2,31.40618,Northern
+Uganda,2024-07,51,23.392641,Southern
+Ukraine,2024-07,2,24.537073,Northern
+United Arab Emirates,2024-07,219,37.168304,Northern
+United Kingdom,2024-07,410,14.964594,Northern
+United States,2024-07,1087,22.56305,Northern
+Uruguay,2024-07,8,9.496999,Southern
+Venezuela,2024-07,115,25.331472,Southern
+Vietnam,2024-07,154,26.856064,Southern
+Zambia,2024-07,338,19.030453,Southern
+Zimbabwe,2024-07,16,18.837706,Southern
+Algeria,2024-08,1,34.892075,Northern
+Australia,2024-08,986,18.757301,Southern
+Austria,2024-08,4,19.38931,Northern
+Bahrain,2024-08,8,34.450714,Southern
+Bangladesh,2024-08,74,28.529982,Northern
+Belgium,2024-08,4,19.404463,Northern
+Belize,2024-08,11,27.330278,Southern
+Bhutan,2024-08,101,15.400662,Northern
+Brazil,2024-08,227,25.167578,Southern
+Brunei,2024-08,19,26.821213,Southern
+Burkina Faso,2024-08,47,26.764671,Southern
+Cambodia,2024-08,272,28.47029,Southern
+Cameroon,2024-08,54,23.923,Southern
+Canada,2024-08,142,13.630112,Northern
+Cayman Islands,2024-08,2,29.313995,Southern
+China,2024-08,3395,20.616587,Northern
+Colombia,2024-08,19,24.591349,Southern
+Costa Rica,2024-08,64,23.884699,Southern
+Cote d'Ivoire,2024-08,9,25.03206,Southern
+Croatia,2024-08,3,25.552294,Northern
+Cuba,2024-08,6,28.287813,Southern
+Denmark,2024-08,47,17.30246,Northern
+Dominican Republic,2024-08,7,26.897945,Southern
+East Timor,2024-08,2,23.365984,Southern
+Ecuador,2024-08,48,20.931322,Southern
+Egypt,2024-08,81,32.760147,Northern
+Ethiopia,2024-08,80,22.504066,Southern
+Fiji,2024-08,4,22.761288,Southern
+France,2024-08,39,21.48936,Northern
+Germany,2024-08,7,19.940416,Northern
+Ghana,2024-08,308,25.991783,Southern
+Greece,2024-08,1,26.269953,Northern
+Guatemala,2024-08,1,24.422688,Southern
+Guinea,2024-08,21,24.73236,Southern
+Guyana,2024-08,28,26.360445,Southern
+Honduras,2024-08,25,25.2825,Southern
+Hong Kong,2024-08,531,28.918083,Southern
+Iceland,2024-08,7,6.666685,Northern
+India,2024-08,373,26.81169,Northern
+Indonesia,2024-08,50,25.56633,Southern
+Iran,2024-08,15,30.894203,Northern
+Ireland,2024-08,14,14.834188,Northern
+Israel,2024-08,1,29.007973,Northern
+Jamaica,2024-08,12,28.267946,Southern
+Japan,2024-08,62,25.890549,Northern
+Kenya,2024-08,44,24.399113,Southern
+Laos,2024-08,44,25.339205,Southern
+Luxembourg,2024-08,6,19.19614,Northern
+Madagascar,2024-08,52,20.512648,Southern
+Malaysia,2024-08,765,26.076382,Southern
+Mali,2024-08,19,31.823093,Southern
+Mauritius,2024-08,4,21.205904,Southern
+Mozambique,2024-08,8,22.678185,Southern
+Myanmar,2024-08,62,25.757057,Southern
+Namibia,2024-08,4,19.272211,Southern
+Nepal,2024-08,74,20.221228,Northern
+Netherlands,2024-08,56,19.292511,Northern
+New Caledonia,2024-08,9,20.187374,Southern
+New Zealand,2024-08,31,7.1296444,Southern
+Nicaragua,2024-08,13,26.610504,Southern
+Niger,2024-08,17,30.06109,Southern
+Norway,2024-08,157,11.843378,Northern
+Oman,2024-08,56,33.033573,Southern
+Pakistan,2024-08,15,27.757584,Northern
+Panama,2024-08,7,25.609114,Southern
+Paraguay,2024-08,114,21.337448,Southern
+Philippines,2024-08,161,27.20616,Southern
+Poland,2024-08,17,20.275766,Northern
+Portugal,2024-08,49,23.455206,Northern
+Qatar,2024-08,31,36.546688,Northern
+Russia,2024-08,2,14.10136,Northern
+Saudi Arabia,2024-08,71,35.726532,Northern
+Senegal,2024-08,273,28.51755,Southern
+Slovenia,2024-08,3,22.699293,Northern
+Somalia,2024-08,6,27.686563,Southern
+South Africa,2024-08,75,14.335612,Southern
+South Korea,2024-08,19,27.569012,Northern
+South Sudan,2024-08,43,25.260609,Southern
+Spain,2024-08,53,24.85186,Northern
+Sri Lanka,2024-08,89,27.630537,Southern
+Sweden,2024-08,64,14.869357,Northern
+Switzerland,2024-08,22,17.302967,Northern
+Tanzania,2024-08,7,22.263046,Southern
+Thailand,2024-08,186,27.607204,Southern
+Togo,2024-08,15,25.604816,Southern
+Tunisia,2024-08,1,30.514793,Northern
+Turkey,2024-08,3,24.404257,Northern
+Uganda,2024-08,87,23.156538,Southern
+Ukraine,2024-08,1,22.863487,Northern
+United Arab Emirates,2024-08,217,36.56762,Northern
+United Kingdom,2024-08,235,15.534047,Northern
+United States,2024-08,758,21.362272,Northern
+Uruguay,2024-08,1,12.220928,Southern
+Vietnam,2024-08,132,27.249678,Southern
+Zambia,2024-08,108,21.201641,Southern
+Zimbabwe,2024-08,2,20.559408,Southern
+Algeria,2024-09,2,30.790588,Northern
+Australia,2024-09,843,20.86736,Southern
+Austria,2024-09,4,12.469165,Northern
+Bahrain,2024-09,17,33.24411,Southern
+Bangladesh,2024-09,82,29.446518,Northern
+Belgium,2024-09,4,15.230083,Northern
+Belize,2024-09,33,28.072607,Southern
+Bhutan,2024-09,48,14.65794,Northern
+Brazil,2024-09,474,27.159407,Southern
+Brunei,2024-09,13,27.52843,Southern
+Burkina Faso,2024-09,80,27.006351,Southern
+Cambodia,2024-09,149,27.436049,Southern
+Cameroon,2024-09,76,24.053522,Southern
+Canada,2024-09,265,9.4838505,Northern
+Cayman Islands,2024-09,16,29.171844,Southern
+Chile,2024-09,13,7.2675624,Southern
+China,2024-09,3232,16.26569,Northern
+Colombia,2024-09,9,25.191881,Southern
+Costa Rica,2024-09,78,23.856308,Southern
+Cote d'Ivoire,2024-09,29,25.460878,Southern
+Croatia,2024-09,8,18.261375,Northern
+Cuba,2024-09,19,28.175875,Southern
+Czechia,2024-09,2,15.467241,Northern
+Denmark,2024-09,45,14.954207,Northern
+East Timor,2024-09,4,24.78328,Southern
+Ecuador,2024-09,42,21.50275,Southern
+Egypt,2024-09,81,30.253082,Northern
+Ethiopia,2024-09,52,23.980894,Southern
+Fiji,2024-09,19,23.45527,Southern
+France,2024-09,56,16.875559,Northern
+Germany,2024-09,9,15.475747,Northern
+Ghana,2024-09,99,26.381178,Southern
+Greece,2024-09,1,21.46636,Northern
+Guinea,2024-09,5,24.734179,Southern
+Guyana,2024-09,19,27.544271,Southern
+Honduras,2024-09,19,25.398273,Southern
+Hong Kong,2024-09,409,28.490152,Southern
+Iceland,2024-09,2,3.518748,Northern
+India,2024-09,211,26.787462,Northern
+Indonesia,2024-09,124,26.095688,Southern
+Iran,2024-09,105,25.989754,Northern
+Iraq,2024-09,3,31.92101,Northern
+Ireland,2024-09,27,12.8252325,Northern
+Israel,2024-09,4,26.926928,Northern
+Jamaica,2024-09,4,27.913986,Southern
+Japan,2024-09,184,22.994312,Northern
+Jordan,2024-09,3,26.535748,Northern
+Kenya,2024-09,99,25.527956,Southern
+Laos,2024-09,50,25.035786,Southern
+Lebanon,2024-09,1,22.582808,Northern
+Lithuania,2024-09,2,16.743464,Northern
+Luxembourg,2024-09,12,14.672325,Northern
+Madagascar,2024-09,45,22.911139,Southern
+Malaysia,2024-09,932,26.46484,Southern
+Mali,2024-09,40,30.517645,Southern
+Mauritius,2024-09,7,21.92899,Southern
+Montenegro,2024-09,1,15.656178,Northern
+Mozambique,2024-09,1,24.662704,Southern
+Myanmar,2024-09,7,25.979986,Southern
+Namibia,2024-09,11,21.771128,Southern
+Nepal,2024-09,145,19.371967,Northern
+Netherlands,2024-09,56,15.895318,Northern
+New Caledonia,2024-09,9,21.54125,Southern
+New Zealand,2024-09,12,8.474832,Southern
+Nicaragua,2024-09,10,26.468529,Southern
+Niger,2024-09,49,30.849709,Southern
+Norway,2024-09,151,7.8391104,Northern
+Oman,2024-09,182,31.760702,Southern
+Pakistan,2024-09,135,27.140417,Northern
+Panama,2024-09,2,25.585344,Southern
+Papua New Guinea,2024-09,1,23.983595,Southern
+Paraguay,2024-09,113,25.503965,Southern
+Philippines,2024-09,121,26.811876,Southern
+Poland,2024-09,69,17.017313,Northern
+Portugal,2024-09,53,19.381716,Northern
+Qatar,2024-09,71,34.214188,Northern
+Romania,2024-09,1,17.65082,Northern
+Russia,2024-09,17,7.909381,Northern
+Rwanda,2024-09,3,21.716944,Southern
+Saudi Arabia,2024-09,140,33.301636,Northern
+Senegal,2024-09,303,27.873524,Southern
+Slovakia,2024-09,1,16.009256,Northern
+Slovenia,2024-09,6,15.682934,Northern
+Somalia,2024-09,8,28.345697,Southern
+South Africa,2024-09,39,16.40318,Southern
+South Korea,2024-09,6,24.311815,Northern
+South Sudan,2024-09,12,26.449951,Southern
+Spain,2024-09,153,18.563524,Northern
+Sri Lanka,2024-09,52,28.137665,Southern
+Sweden,2024-09,19,10.812768,Northern
+Switzerland,2024-09,24,10.299837,Northern
+Tanzania,2024-09,20,23.777414,Southern
+Thailand,2024-09,166,27.171785,Southern
+Togo,2024-09,113,25.937534,Southern
+Turkey,2024-09,4,20.0853,Northern
+Uganda,2024-09,34,23.88048,Southern
+United Arab Emirates,2024-09,658,34.267555,Northern
+United Kingdom,2024-09,405,12.757772,Northern
+United States,2024-09,1017,18.20433,Northern
+Uruguay,2024-09,1,15.427818,Southern
+Uzbekistan,2024-09,3,19.854807,Northern
+Venezuela,2024-09,17,26.315321,Southern
+Vietnam,2024-09,100,26.316256,Southern
+Zambia,2024-09,31,24.629349,Southern
+Afghanistan,2024-10,12,15.393673,Northern
+Australia,2024-10,181,25.106106,Southern
+Austria,2024-10,4,9.434406,Northern
+Bahrain,2024-10,66,29.581146,Southern
+Bangladesh,2024-10,103,27.858637,Northern
+Belgium,2024-10,10,12.181157,Northern
+Belize,2024-10,3,26.011465,Southern
+Bhutan,2024-10,32,11.132501,Northern
+Brazil,2024-10,2153,27.098417,Southern
+Brunei,2024-10,15,27.015879,Southern
+Bulgaria,2024-10,3,12.65871,Northern
+Burkina Faso,2024-10,43,28.792871,Southern
+Cambodia,2024-10,84,27.118855,Southern
+Cameroon,2024-10,100,24.247189,Southern
+Canada,2024-10,323,1.0091574,Northern
+Cayman Islands,2024-10,4,28.411224,Southern
+China,2024-10,2905,9.139027,Northern
+Costa Rica,2024-10,67,23.494732,Southern
+Cote d'Ivoire,2024-10,34,26.095604,Southern
+Croatia,2024-10,7,14.223464,Northern
+Cuba,2024-10,16,27.02074,Southern
+Czechia,2024-10,7,10.021141,Northern
+Democratic Republic of Congo,2024-10,5,24.888458,Southern
+Denmark,2024-10,85,10.903559,Northern
+Dominican Republic,2024-10,3,26.385738,Southern
+East Timor,2024-10,14,26.261492,Southern
+Ecuador,2024-10,78,21.83149,Southern
+Egypt,2024-10,87,24.625114,Northern
+Ethiopia,2024-10,18,23.798994,Southern
+Fiji,2024-10,17,24.806574,Southern
+France,2024-10,116,15.5564375,Northern
+Germany,2024-10,8,11.078355,Northern
+Ghana,2024-10,78,26.918621,Southern
+Greece,2024-10,1,17.031073,Northern
+Guatemala,2024-10,3,23.435087,Southern
+Guyana,2024-10,5,27.270138,Southern
+Honduras,2024-10,26,24.379045,Southern
+Hong Kong,2024-10,129,26.400927,Southern
+Hungary,2024-10,3,11.66761,Northern
+Iceland,2024-10,19,-0.3983633,Northern
+India,2024-10,56,25.84715,Northern
+Indonesia,2024-10,206,26.16561,Southern
+Iran,2024-10,295,20.371765,Northern
+Iraq,2024-10,4,23.885792,Northern
+Ireland,2024-10,61,11.283924,Northern
+Israel,2024-10,7,22.689352,Northern
+Jamaica,2024-10,21,27.482113,Southern
+Japan,2024-10,201,16.60742,Northern
+Jordan,2024-10,9,21.455345,Northern
+Kazakhstan,2024-10,3,7.81946,Northern
+Kenya,2024-10,43,26.517809,Southern
+Kosovo,2024-10,1,12.335925,Southern
+Kuwait,2024-10,16,26.633928,Northern
+Laos,2024-10,26,24.207882,Southern
+Latvia,2024-10,2,8.213198,Northern
+Lithuania,2024-10,9,8.505111,Northern
+Luxembourg,2024-10,21,11.405532,Northern
+Madagascar,2024-10,33,23.928064,Southern
+Malaysia,2024-10,637,26.260729,Southern
+Mali,2024-10,38,30.693073,Southern
+Mauritius,2024-10,20,22.72113,Southern
+Mozambique,2024-10,1,25.430523,Southern
+Namibia,2024-10,6,24.32372,Southern
+Nepal,2024-10,66,16.052534,Northern
+Netherlands,2024-10,47,12.16644,Northern
+New Caledonia,2024-10,17,22.210987,Southern
+New Zealand,2024-10,3,10.387344,Southern
+Nicaragua,2024-10,5,26.097935,Southern
+Niger,2024-10,26,29.515413,Southern
+Norway,2024-10,313,2.9802046,Northern
+Oman,2024-10,121,29.402733,Southern
+Pakistan,2024-10,72,23.626598,Northern
+Panama,2024-10,2,25.202724,Southern
+Paraguay,2024-10,70,27.250513,Southern
+Philippines,2024-10,54,26.762379,Southern
+Poland,2024-10,64,9.933918,Northern
+Portugal,2024-10,171,17.141687,Northern
+Qatar,2024-10,305,30.511196,Northern
+Romania,2024-10,8,10.918326,Northern
+Russia,2024-10,11,-1.9268856,Northern
+Rwanda,2024-10,3,20.534916,Southern
+Saudi Arabia,2024-10,360,28.12156,Northern
+Senegal,2024-10,380,28.726849,Southern
+Serbia,2024-10,1,12.594505,Northern
+Slovakia,2024-10,15,9.382662,Northern
+Slovenia,2024-10,4,11.988667,Northern
+Somalia,2024-10,10,27.988205,Southern
+South Africa,2024-10,13,19.647404,Southern
+South Korea,2024-10,17,15.888551,Northern
+South Sudan,2024-10,8,26.888746,Southern
+Spain,2024-10,449,15.588056,Northern
+Sri Lanka,2024-10,30,26.887484,Southern
+Sweden,2024-10,88,5.3341513,Northern
+Switzerland,2024-10,32,8.377549,Northern
+Tanzania,2024-10,50,24.271683,Southern
+Thailand,2024-10,86,26.99728,Southern
+Togo,2024-10,64,26.45014,Southern
+Turkey,2024-10,1,13.377766,Northern
+Uganda,2024-10,23,23.579,Southern
+Ukraine,2024-10,1,10.75832,Northern
+United Arab Emirates,2024-10,1004,31.151047,Northern
+United Kingdom,2024-10,775,10.886772,Northern
+United States,2024-10,1327,12.209506,Northern
+Uzbekistan,2024-10,4,13.105219,Northern
+Venezuela,2024-10,5,26.643715,Southern
+Vietnam,2024-10,58,24.775467,Southern
+Zambia,2024-10,8,25.330389,Southern
+Afghanistan,2024-11,40,9.433729,Northern
+Algeria,2024-11,1,20.287745,Northern
+Argentina,2024-11,100,18.903658,Southern
+Australia,2024-11,177,26.773083,Southern
+Austria,2024-11,2,1.9588779,Northern
+Bahrain,2024-11,97,25.300629,Southern
+Bangladesh,2024-11,72,24.371683,Northern
+Belgium,2024-11,26,6.840895,Northern
+Bhutan,2024-11,35,6.8758097,Northern
+Brazil,2024-11,1953,26.324081,Southern
+Brunei,2024-11,4,27.160635,Southern
+Bulgaria,2024-11,19,4.994152,Northern
+Burkina Faso,2024-11,13,27.317715,Southern
+Cambodia,2024-11,55,27.23404,Southern
+Cameroon,2024-11,68,24.721455,Southern
+Canada,2024-11,963,-7.9093156,Northern
+China,2024-11,5656,2.3695285,Northern
+Colombia,2024-11,8,24.516424,Southern
+Costa Rica,2024-11,12,22.617147,Southern
+Cote d'Ivoire,2024-11,40,26.825527,Southern
+Croatia,2024-11,3,6.687894,Northern
+Cuba,2024-11,20,25.165388,Southern
+Czechia,2024-11,13,3.0376887,Northern
+Democratic Republic of Congo,2024-11,6,24.1573,Southern
+Denmark,2024-11,142,6.412722,Northern
+Dominican Republic,2024-11,1,24.467188,Southern
+East Timor,2024-11,17,26.168398,Southern
+Ecuador,2024-11,127,21.435682,Southern
+Egypt,2024-11,216,18.664673,Northern
+Estonia,2024-11,6,4.2406316,Northern
+Ethiopia,2024-11,75,23.225386,Southern
+Fiji,2024-11,67,25.258966,Southern
+France,2024-11,384,11.107483,Northern
+Georgia,2024-11,6,2.9729917,Northern
+Germany,2024-11,12,5.165831,Northern
+Ghana,2024-11,129,27.849669,Southern
+Greece,2024-11,8,11.07561,Northern
+Guatemala,2024-11,1,22.589815,Southern
+Honduras,2024-11,20,23.307177,Southern
+Hong Kong,2024-11,175,22.16088,Southern
+Hungary,2024-11,21,3.706875,Northern
+Iceland,2024-11,22,-1.5847825,Northern
+India,2024-11,79,21.68402,Northern
+Indonesia,2024-11,197,25.884495,Southern
+Iran,2024-11,1042,14.814955,Northern
+Iraq,2024-11,49,16.733263,Northern
+Ireland,2024-11,183,8.626408,Northern
+Israel,2024-11,27,17.924429,Northern
+Italy,2024-11,103,9.694584,Northern
+Jamaica,2024-11,105,25.76494,Southern
+Japan,2024-11,498,9.392626,Northern
+Jordan,2024-11,79,15.193949,Northern
+Kazakhstan,2024-11,47,-0.478832,Northern
+Kenya,2024-11,6,25.650661,Southern
+Kosovo,2024-11,1,3.705254,Southern
+Kuwait,2024-11,279,21.316624,Northern
+Laos,2024-11,26,22.230362,Southern
+Latvia,2024-11,1,3.959227,Northern
+Lithuania,2024-11,41,3.6990438,Northern
+Luxembourg,2024-11,41,5.776529,Northern
+Madagascar,2024-11,31,25.913984,Southern
+Malaysia,2024-11,576,25.819227,Southern
+Mali,2024-11,4,26.287638,Southern
+Mauritius,2024-11,26,24.426952,Southern
+Moldova,2024-11,3,3.607391,Northern
+Mongolia,2024-11,1,-5.8182116,Northern
+Montenegro,2024-11,1,4.5356407,Northern
+Morocco,2024-11,1,17.450642,Northern
+Namibia,2024-11,1,25.61518,Southern
+Nepal,2024-11,35,11.257494,Northern
+Netherlands,2024-11,83,7.121808,Northern
+New Caledonia,2024-11,11,23.922478,Southern
+New Zealand,2024-11,1,12.419905,Southern
+Nicaragua,2024-11,2,25.48315,Southern
+Niger,2024-11,12,22.490322,Southern
+Norway,2024-11,520,-1.8881518,Northern
+Oman,2024-11,131,26.372295,Southern
+Pakistan,2024-11,74,17.59802,Northern
+Paraguay,2024-11,61,27.524624,Southern
+Philippines,2024-11,46,26.663359,Southern
+Poland,2024-11,49,3.6998646,Northern
+Portugal,2024-11,602,14.684698,Northern
+Qatar,2024-11,283,25.580454,Northern
+Romania,2024-11,6,3.2780502,Northern
+Russia,2024-11,49,-10.910691,Northern
+Rwanda,2024-11,10,19.526226,Southern
+Saint Vincent and the Grenadines,2024-11,1,27.699066,Southern
+Saudi Arabia,2024-11,344,22.635904,Northern
+Senegal,2024-11,124,27.84558,Southern
+Slovakia,2024-11,43,2.1413264,Northern
+Slovenia,2024-11,22,4.30478,Northern
+Somalia,2024-11,1,26.55921,Southern
+South Africa,2024-11,13,21.966045,Southern
+South Korea,2024-11,41,9.390323,Northern
+South Sudan,2024-11,12,28.34597,Southern
+Spain,2024-11,721,12.214128,Northern
+Sri Lanka,2024-11,27,25.742779,Southern
+Sweden,2024-11,107,0.06282612,Northern
+Switzerland,2024-11,89,1.9253021,Northern
+Tanzania,2024-11,49,24.605581,Southern
+Thailand,2024-11,62,25.754597,Southern
+Togo,2024-11,19,27.338833,Southern
+Tunisia,2024-11,2,18.284718,Northern
+Turkey,2024-11,7,6.618205,Northern
+Uganda,2024-11,18,23.187368,Southern
+Ukraine,2024-11,4,3.126813,Northern
+United Arab Emirates,2024-11,1393,26.337093,Northern
+United Kingdom,2024-11,1433,7.2121177,Northern
+United States,2024-11,3101,4.3120155,Northern
+Uzbekistan,2024-11,49,6.3731365,Northern
+Venezuela,2024-11,2,26.631968,Southern
+Vietnam,2024-11,53,23.354229,Southern
+Zambia,2024-11,4,25.000023,Southern
+Afghanistan,2024-12,61,0.047207996,Northern
+Albania,2024-12,2,5.48025,Northern
+Algeria,2024-12,55,13.421954,Northern
+Argentina,2024-12,105,20.045332,Southern
+Australia,2024-12,117,28.664902,Southern
+Austria,2024-12,121,-0.967524,Northern
+Bahrain,2024-12,120,18.957916,Southern
+Bangladesh,2024-12,21,19.676044,Northern
+Belgium,2024-12,198,4.751282,Northern
+Bhutan,2024-12,32,3.3876288,Northern
+Brazil,2024-12,1087,25.908457,Southern
+Brunei,2024-12,28,26.875544,Southern
+Bulgaria,2024-12,87,3.720064,Northern
+Burkina Faso,2024-12,20,25.427477,Southern
+Cambodia,2024-12,47,25.820742,Southern
+Cameroon,2024-12,22,24.881084,Southern
+Canada,2024-12,5816,-14.700624,Northern
+Cayman Islands,2024-12,4,26.346588,Southern
+Chile,2024-12,47,12.694138,Southern
+China,2024-12,32105,-5.6608214,Northern
+Colombia,2024-12,14,24.625221,Southern
+Costa Rica,2024-12,28,22.746216,Southern
+Cote d'Ivoire,2024-12,21,26.548874,Southern
+Croatia,2024-12,138,3.6475925,Northern
+Cuba,2024-12,3,23.932205,Southern
+Czechia,2024-12,266,1.0374577,Northern
+Democratic Republic of Congo,2024-12,32,24.887203,Southern
+Denmark,2024-12,679,5.266599,Northern
+Dominican Republic,2024-12,1,23.987373,Southern
+East Timor,2024-12,22,25.65537,Southern
+Ecuador,2024-12,155,21.600014,Southern
+Egypt,2024-12,541,14.60245,Northern
+Estonia,2024-12,5,1.2210779,Northern
+Ethiopia,2024-12,55,22.94068,Southern
+Fiji,2024-12,19,26.105425,Southern
+France,2024-12,4460,7.854504,Northern
+Georgia,2024-12,39,-1.0580338,Northern
+Germany,2024-12,78,3.0275564,Northern
+Ghana,2024-12,26,27.695566,Southern
+Greece,2024-12,57,8.659867,Northern
+Guyana,2024-12,3,25.804853,Southern
+Honduras,2024-12,19,22.25614,Southern
+Hong Kong,2024-12,874,17.182905,Southern
+Hungary,2024-12,135,2.1213894,Northern
+Iceland,2024-12,161,-4.115238,Northern
+India,2024-12,177,18.022833,Northern
+Indonesia,2024-12,359,25.869717,Southern
+Iran,2024-12,3789,6.699771,Northern
+Iraq,2024-12,181,10.920471,Northern
+Ireland,2024-12,1645,7.5741353,Northern
+Israel,2024-12,218,13.979397,Northern
+Italy,2024-12,1340,5.8631363,Northern
+Jamaica,2024-12,91,25.65008,Southern
+Japan,2024-12,1425,2.164464,Northern
+Jordan,2024-12,283,10.618665,Northern
+Kazakhstan,2024-12,75,-7.0029874,Northern
+Kenya,2024-12,14,25.798006,Southern
+Kosovo,2024-12,7,1.8427454,Southern
+Kuwait,2024-12,329,14.190281,Northern
+Laos,2024-12,19,19.469608,Southern
+Latvia,2024-12,14,1.3988863,Northern
+Lebanon,2024-12,1,9.587217,Northern
+Libya,2024-12,3,13.038244,Southern
+Lithuania,2024-12,585,1.70184,Northern
+Luxembourg,2024-12,507,2.84097,Northern
+Madagascar,2024-12,66,25.925783,Southern
+Malaysia,2024-12,758,25.763824,Southern
+Mali,2024-12,3,22.10115,Southern
+Mauritius,2024-12,28,25.453356,Southern
+Moldova,2024-12,40,2.0659935,Northern
+Mongolia,2024-12,399,-16.466763,Northern
+Montenegro,2024-12,15,2.1861253,Northern
+Morocco,2024-12,11,11.878008,Northern
+Nepal,2024-12,67,6.6038175,Northern
+Netherlands,2024-12,435,6.0171475,Northern
+New Caledonia,2024-12,99,25.359562,Southern
+New Zealand,2024-12,6,15.329823,Southern
+Nicaragua,2024-12,7,24.97253,Southern
+Niger,2024-12,25,18.64278,Southern
+Norway,2024-12,1218,-4.446233,Northern
+Oman,2024-12,126,20.973486,Southern
+Pakistan,2024-12,427,9.189832,Northern
+Panama,2024-12,2,24.940985,Southern
+Paraguay,2024-12,48,26.823614,Southern
+Peru,2024-12,9,20.036163,Southern
+Philippines,2024-12,35,25.835867,Southern
+Poland,2024-12,472,2.4689384,Northern
+Portugal,2024-12,3826,9.626703,Northern
+Qatar,2024-12,328,19.178493,Northern
+Romania,2024-12,142,1.9483956,Northern
+Russia,2024-12,481,-16.512663,Northern
+Rwanda,2024-12,28,19.843246,Southern
+Saint Vincent and the Grenadines,2024-12,16,26.8544,Southern
+Saudi Arabia,2024-12,555,16.798635,Northern
+Senegal,2024-12,60,25.55183,Southern
+Serbia,2024-12,48,2.3860748,Northern
+Slovakia,2024-12,846,0.70984817,Northern
+Slovenia,2024-12,347,1.4752173,Northern
+South Africa,2024-12,3,24.343164,Southern
+South Korea,2024-12,765,1.3578094,Northern
+South Sudan,2024-12,7,29.309444,Southern
+Spain,2024-12,2037,7.264159,Northern
+Sri Lanka,2024-12,30,25.9974,Southern
+Sweden,2024-12,947,-2.8563125,Northern
+Switzerland,2024-12,713,-2.5467072,Northern
+Tanzania,2024-12,12,23.6847,Southern
+Thailand,2024-12,56,23.979416,Southern
+Togo,2024-12,20,27.114004,Southern
+Tunisia,2024-12,5,12.263956,Northern
+Turkey,2024-12,80,3.4250228,Northern
+Uganda,2024-12,6,23.9091,Southern
+Ukraine,2024-12,67,0.87508214,Northern
+United Arab Emirates,2024-12,1142,20.363506,Northern
+United Kingdom,2024-12,8326,6.856918,Northern
+United States,2024-12,11478,0.94223034,Northern
+Uruguay,2024-12,1,20.111822,Southern
+Uzbekistan,2024-12,21,-1.1172104,Northern
+Venezuela,2024-12,14,26.43019,Southern
+Vietnam,2024-12,108,20.113937,Southern
+Afghanistan,2025-01,79,-1.812812,Northern
+Albania,2025-01,269,6.4448423,Northern
+Algeria,2025-01,195,13.163888,Northern
+Angola,2025-01,7,22.95093,Southern
+Argentina,2025-01,29,22.835396,Southern
+Armenia,2025-01,81,-3.5982082,Northern
+Australia,2025-01,296,29.94167,Southern
+Austria,2025-01,846,-1.1466186,Northern
+Bahrain,2025-01,77,17.286194,Southern
+Bangladesh,2025-01,19,18.746408,Northern
+Belarus,2025-01,48,1.3022947,Northern
+Belgium,2025-01,624,2.8080919,Northern
+Bhutan,2025-01,36,3.3565097,Northern
+Bolivia,2025-01,4,21.94572,Southern
+Brazil,2025-01,810,25.527433,Southern
+Brunei,2025-01,71,26.344688,Southern
+Bulgaria,2025-01,672,3.3390498,Northern
+Burkina Faso,2025-01,18,26.518023,Southern
+Cambodia,2025-01,21,24.689333,Southern
+Cameroon,2025-01,24,25.25779,Southern
+Canada,2025-01,10955,-17.417957,Northern
+Cayman Islands,2025-01,64,25.663147,Southern
+Chile,2025-01,20,14.038447,Southern
+China,2025-01,33467,-5.7844,Northern
+Costa Rica,2025-01,102,22.67053,Southern
+Cote d'Ivoire,2025-01,16,27.482384,Southern
+Croatia,2025-01,629,4.8086667,Northern
+Cuba,2025-01,3,23.060188,Southern
+Czechia,2025-01,1163,0.54083455,Northern
+Democratic Republic of Congo,2025-01,3,25.163445,Southern
+Denmark,2025-01,1323,3.0205255,Northern
+Dominican Republic,2025-01,6,23.50095,Southern
+East Timor,2025-01,111,25.384716,Southern
+Ecuador,2025-01,59,21.699335,Southern
+Egypt,2025-01,331,15.667671,Northern
+El Salvador,2025-01,4,26.392227,Southern
+Estonia,2025-01,37,0.6194455,Northern
+Ethiopia,2025-01,52,23.262596,Southern
+Fiji,2025-01,2,25.832438,Southern
+France,2025-01,5643,7.40083,Northern
+Gabon,2025-01,37,25.558064,Southern
+Georgia,2025-01,126,-1.0089592,Northern
+Germany,2025-01,571,2.0191762,Northern
+Ghana,2025-01,52,28.598078,Southern
+Greece,2025-01,106,8.558521,Northern
+Guatemala,2025-01,11,21.475502,Southern
+Guyana,2025-01,15,25.060497,Southern
+Haiti,2025-01,16,24.232248,Southern
+Honduras,2025-01,55,22.456959,Southern
+Hong Kong,2025-01,2696,16.087252,Southern
+Hungary,2025-01,795,2.5237296,Northern
+Iceland,2025-01,214,-4.261613,Northern
+India,2025-01,160,17.465036,Northern
+Indonesia,2025-01,304,25.376696,Southern
+Iran,2025-01,1974,6.106308,Northern
+Iraq,2025-01,77,10.392048,Northern
+Ireland,2025-01,995,5.061035,Northern
+Israel,2025-01,333,13.700922,Northern
+Italy,2025-01,4874,6.347765,Northern
+Jamaica,2025-01,18,25.172787,Southern
+Japan,2025-01,992,1.0852689,Northern
+Kazakhstan,2025-01,165,-6.9498754,Northern
+Kenya,2025-01,8,26.277626,Southern
+Kosovo,2025-01,132,2.081122,Southern
+Kuwait,2025-01,93,13.203087,Northern
+Kyrgyzstan,2025-01,46,-11.025782,Northern
+Laos,2025-01,25,17.584866,Southern
+Latvia,2025-01,23,1.6033384,Northern
+Lebanon,2025-01,28,8.97724,Northern
+Lithuania,2025-01,787,1.8898009,Northern
+Luxembourg,2025-01,2961,2.206196,Northern
+Madagascar,2025-01,95,25.691853,Southern
+Malaysia,2025-01,575,25.188848,Southern
+Mali,2025-01,11,21.557045,Southern
+Mauritius,2025-01,76,26.429377,Southern
+Moldova,2025-01,107,2.947655,Northern
+Mongolia,2025-01,64,-16.16997,Northern
+Montenegro,2025-01,192,2.6956618,Northern
+Morocco,2025-01,21,10.9590435,Northern
+Mozambique,2025-01,1,26.73026,Southern
+Nepal,2025-01,196,5.799466,Northern
+Netherlands,2025-01,1116,3.546464,Northern
+New Caledonia,2025-01,57,25.206404,Southern
+New Zealand,2025-01,18,14.670262,Southern
+Nicaragua,2025-01,19,24.921625,Southern
+Niger,2025-01,53,20.388054,Southern
+Nigeria,2025-01,5,26.098497,Southern
+Norway,2025-01,3201,-6.322014,Northern
+Oman,2025-01,89,19.333387,Southern
+Pakistan,2025-01,750,9.287907,Northern
+Panama,2025-01,6,24.954588,Southern
+Paraguay,2025-01,29,29.437529,Southern
+Peru,2025-01,90,19.790155,Southern
+Philippines,2025-01,42,25.351746,Southern
+Poland,2025-01,1773,1.9879222,Northern
+Portugal,2025-01,2747,10.406146,Northern
+Qatar,2025-01,398,17.205984,Northern
+Romania,2025-01,318,2.0991263,Northern
+Russia,2025-01,2965,-19.427572,Northern
+Rwanda,2025-01,37,20.225695,Southern
+Saint Vincent and the Grenadines,2025-01,63,26.274475,Southern
+Saudi Arabia,2025-01,665,14.967138,Northern
+Senegal,2025-01,63,24.990868,Southern
+Serbia,2025-01,126,2.6279497,Northern
+Sierra Leone,2025-01,1,27.660614,Southern
+Slovakia,2025-01,1920,0.64862,Northern
+Slovenia,2025-01,882,2.8293064,Northern
+Somalia,2025-01,4,24.728476,Southern
+South Africa,2025-01,9,24.143105,Southern
+South Korea,2025-01,708,-0.41897893,Northern
+Spain,2025-01,4351,7.5668216,Northern
+Sri Lanka,2025-01,25,25.023062,Southern
+Suriname,2025-01,3,25.415667,Southern
+Sweden,2025-01,1403,-4.654889,Northern
+Switzerland,2025-01,2581,-2.0280762,Northern
+Syria,2025-01,18,9.150666,Northern
+Tajikistan,2025-01,6,-12.654734,Northern
+Tanzania,2025-01,6,23.723204,Southern
+Thailand,2025-01,151,22.309145,Southern
+Togo,2025-01,20,28.215567,Southern
+Tunisia,2025-01,54,12.04314,Northern
+Turkey,2025-01,254,2.9200552,Northern
+Uganda,2025-01,3,24.936516,Southern
+Ukraine,2025-01,330,2.2920792,Northern
+United Arab Emirates,2025-01,1173,18.19361,Northern
+United Kingdom,2025-01,7610,3.596634,Northern
+Uruguay,2025-01,1,23.860476,Southern
+Uzbekistan,2025-01,7,-0.114684984,Northern
+Vietnam,2025-01,150,18.963247,Southern
+Afghanistan,2025-02,43,1.7285577,Northern
+Albania,2025-02,119,5.317109,Northern
+Algeria,2025-02,184,15.215972,Northern
+Argentina,2025-02,30,22.836119,Southern
+Armenia,2025-02,31,-5.4506726,Northern
+Australia,2025-02,657,28.857605,Southern
+Austria,2025-02,1151,-0.57857376,Northern
+Azerbaijan,2025-02,1,-0.057541613,Northern
+Bahrain,2025-02,69,17.433502,Southern
+Bangladesh,2025-02,35,21.995592,Northern
+Belarus,2025-02,168,-4.503108,Northern
+Belgium,2025-02,1155,3.7527404,Northern
+Belize,2025-02,8,24.715376,Southern
+Bhutan,2025-02,45,3.0516992,Northern
+Bolivia,2025-02,7,22.345749,Southern
+Brazil,2025-02,497,25.590393,Southern
+Brunei,2025-02,47,26.322592,Southern
+Bulgaria,2025-02,238,-0.15127859,Northern
+Burkina Faso,2025-02,17,29.057903,Southern
+Cambodia,2025-02,20,27.51877,Southern
+Cameroon,2025-02,17,26.89662,Southern
+Canada,2025-02,17445,-19.605453,Northern
+Chile,2025-02,70,13.707075,Southern
+China,2025-02,22613,-4.226987,Northern
+Colombia,2025-02,196,24.716703,Southern
+Costa Rica,2025-02,116,22.933016,Southern
+Cote d'Ivoire,2025-02,1,28.625904,Southern
+Croatia,2025-02,636,3.5906746,Northern
+Cuba,2025-02,7,24.481407,Southern
+Czechia,2025-02,1695,-0.6306579,Northern
+Denmark,2025-02,2827,1.8744919,Northern
+Dominican Republic,2025-02,13,23.588745,Southern
+East Timor,2025-02,10,25.335398,Southern
+Ecuador,2025-02,29,21.604382,Southern
+Egypt,2025-02,124,14.209453,Northern
+El Salvador,2025-02,7,27.621485,Southern
+Estonia,2025-02,88,-3.1570904,Northern
+Ethiopia,2025-02,38,24.952003,Southern
+Fiji,2025-02,2,26.479504,Southern
+France,2025-02,3935,8.286089,Northern
+Gabon,2025-02,2,25.96192,Southern
+Georgia,2025-02,150,-3.7213166,Northern
+Germany,2025-02,705,1.5373031,Northern
+Ghana,2025-02,83,29.935942,Southern
+Greece,2025-02,168,6.4282527,Northern
+Guatemala,2025-02,29,22.705357,Southern
+Guyana,2025-02,9,24.768469,Southern
+Haiti,2025-02,25,24.677145,Southern
+Honduras,2025-02,47,23.336987,Southern
+Hong Kong,2025-02,2396,16.582827,Southern
+Hungary,2025-02,937,0.6319216,Northern
+Iceland,2025-02,135,-0.18119957,Northern
+India,2025-02,234,21.08574,Northern
+Indonesia,2025-02,100,25.62781,Southern
+Iran,2025-02,795,7.298366,Northern
+Iraq,2025-02,16,9.818325,Northern
+Ireland,2025-02,416,6.635629,Northern
+Israel,2025-02,96,11.568402,Northern
+Italy,2025-02,3931,6.6303444,Northern
+Jamaica,2025-02,22,25.281181,Southern
+Japan,2025-02,288,0.5032197,Northern
+Kazakhstan,2025-02,106,-7.62145,Northern
+Kenya,2025-02,6,27.26142,Southern
+Kosovo,2025-02,202,1.07916,Southern
+Kuwait,2025-02,55,13.29354,Northern
+Laos,2025-02,25,21.025333,Southern
+Latvia,2025-02,6,-3.1462421,Northern
+Lebanon,2025-02,90,5.2952666,Northern
+Lithuania,2025-02,305,-2.58251,Northern
+Luxembourg,2025-02,3605,2.4203568,Northern
+Madagascar,2025-02,72,24.833467,Southern
+Malaysia,2025-02,465,25.460804,Southern
+Mali,2025-02,8,24.401854,Southern
+Mauritius,2025-02,58,27.084496,Southern
+Mexico,2025-02,1127,18.607197,Northern
+Moldova,2025-02,218,-2.4713259,Northern
+Mongolia,2025-02,9,-14.655396,Northern
+Montenegro,2025-02,260,1.6198853,Northern
+Morocco,2025-02,20,12.117229,Northern
+Mozambique,2025-02,1,26.359722,Southern
+Myanmar,2025-02,1,21.649298,Southern
+Nepal,2025-02,199,7.632581,Northern
+Netherlands,2025-02,1528,3.6582282,Northern
+New Caledonia,2025-02,23,25.319412,Southern
+New Zealand,2025-02,16,16.20823,Southern
+Nicaragua,2025-02,17,25.279842,Southern
+Niger,2025-02,74,22.816391,Southern
+Nigeria,2025-02,6,28.221199,Southern
+Norway,2025-02,7156,-4.155633,Northern
+Oman,2025-02,29,22.720509,Southern
+Pakistan,2025-02,526,13.241678,Northern
+Panama,2025-02,22,24.940683,Southern
+Papua New Guinea,2025-02,7,24.482645,Southern
+Paraguay,2025-02,11,29.710426,Southern
+Peru,2025-02,80,19.663647,Southern
+Philippines,2025-02,31,25.381796,Southern
+Poland,2025-02,1897,-0.77065647,Northern
+Portugal,2025-02,1288,10.844263,Northern
+Qatar,2025-02,440,18.33602,Northern
+Romania,2025-02,448,-1.6791831,Northern
+Russia,2025-02,8722,-18.258621,Northern
+Rwanda,2025-02,20,21.292028,Southern
+Saint Vincent and the Grenadines,2025-02,20,25.70694,Southern
+Saudi Arabia,2025-02,334,17.127321,Northern
+Senegal,2025-02,48,26.444202,Southern
+Serbia,2025-02,73,1.1109256,Northern
+Slovakia,2025-02,2338,-0.834797,Northern
+Slovenia,2025-02,905,1.6038629,Northern
+Somalia,2025-02,3,25.986334,Southern
+South Africa,2025-02,10,23.447027,Southern
+South Korea,2025-02,172,-0.88845176,Northern
+South Sudan,2025-02,4,31.73404,Southern
+Spain,2025-02,2470,8.599745,Northern
+Sri Lanka,2025-02,34,26.034979,Southern
+Suriname,2025-02,10,25.067598,Southern
+Sweden,2025-02,2892,-3.3934035,Northern
+Switzerland,2025-02,2806,-0.6794591,Northern
+Syria,2025-02,12,7.298963,Northern
+Tajikistan,2025-02,25,-9.339713,Northern
+Tanzania,2025-02,11,24.428158,Southern
+Thailand,2025-02,149,25.558664,Southern
+Togo,2025-02,29,29.82042,Southern
+Tunisia,2025-02,91,12.7475,Northern
+Turkey,2025-02,271,-0.4111823,Northern
+Uganda,2025-02,6,26.55986,Southern
+Ukraine,2025-02,1487,-4.1115184,Northern
+United Arab Emirates,2025-02,1380,20.883392,Northern
+United Kingdom,2025-02,9074,4.996922,Northern
+Uzbekistan,2025-02,26,0.6115721,Northern
+Venezuela,2025-02,4,26.648558,Southern
+Vietnam,2025-02,98,20.200954,Southern
+Yemen,2025-02,1,22.031439,Southern
+Zambia,2025-02,3,22.93486,Southern

@@ -1,4 +1,9 @@
 function renderRidgelinePlot(containerSelector, csvPath) {
+  const container = document.querySelector(containerSelector);
+  const containerWidth = container.clientWidth;
+  const margin = { top: 50, right: 30, bottom: 40, left: 160 };
+  const width = containerWidth - margin.left - margin.right;
+
   const tooltip = d3.select(containerSelector)
     .append("div")
     .style("position", "absolute")
@@ -19,8 +24,7 @@ function renderRidgelinePlot(containerSelector, csvPath) {
       d.Entity = d.Entity;
     });
 
-    const margin = { top: 50, right: 30, bottom: 40, left: 160 },
-          width = 1000 - margin.left - margin.right;
+
 
     const filteredData = data.filter(
       d => (d.Decade === "1950" || d.Decade === "2010") && d.Region !== "Other"
@@ -30,6 +34,7 @@ function renderRidgelinePlot(containerSelector, csvPath) {
     const regionCount = nested.length;
     const regionHeight = 70;
     const height = regionCount * regionHeight;
+
 
     const svg = d3.select(containerSelector)
       .append("svg")

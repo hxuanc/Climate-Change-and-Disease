@@ -1,9 +1,11 @@
 function renderPrecipAnomalyChart(containerSelector, csvPath) {
-  const margin = { top: 30, right: 30, bottom: 70, left: 60 },
-        width = 800 - margin.left - margin.right,
-        height = 500 - margin.top - margin.bottom;
+
 
   const container = document.querySelector(containerSelector);
+  const containerWidth = container.clientWidth;
+  const margin = { top: 30, right: 30, bottom: 30, left: 60 };
+  const width = containerWidth - margin.left - margin.right;
+  const height = 500 - margin.top - margin.bottom;
   // container.innerHTML = ''; // Clear previous content
 
   // Create chart and controls wrapper
