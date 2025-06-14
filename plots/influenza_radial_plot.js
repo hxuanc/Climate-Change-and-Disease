@@ -1,23 +1,23 @@
 function renderRadialFlu(containerN, containerS, data) {
   const container = document.querySelector(containerN);
   const containerWidth = container.clientWidth;
-  const margin = { top: 30, right: 30, bottom: 30, left: 30 };
-  const width = containerWidth - margin.left - margin.right;
-  const height = 800 - margin.top - margin.bottom;
-  const innerRadius = 120;
-  const outerRadius = Math.min(width, height) / 2 - 60; // add buffer to prevent clipping
+  const margin = { top: 30, right: 30, bottom: 40, left: 30 };
+  const width = 500;
+  const height = 700 - margin.top - margin.bottom;
+  const innerRadius = 100;
+  const outerRadius = Math.min(width, height) / 2 - 10;
 
   const monthNames = [
     "January", "February", "March", "April", "May", "June",
     "July", "August", "September", "October", "November", "December"
   ];
 
-  // Season color mapping
+  // Pastel season color mapping
   const seasonColors = {
-    winter: "#4a90e2",
-    spring: "#7ed957",
-    summer: "#f5a623",
-    autumn: "#d0021b"
+    winter: "#7da5cf",   // pastel blue
+    spring: "#afe2a0",   // pastel green
+    summer: "#f6c881",   // pastel peach
+    autumn: "#f79c9c"    // pastel reddish-pink
   };
 
   function getSeason(month, hemisphere) {
@@ -56,10 +56,9 @@ function renderRadialFlu(containerN, containerS, data) {
       .attr("transform", `translate(${width / 2}, ${height / 2 + 60})`);
 
     const angleScale = d3.scaleBand()
-        .range([0, 2 * Math.PI])
-        .align(0)
-        .domain(d3.range(12)); // force months from 0 to 11 in correct order
-
+      .range([0, 2 * Math.PI])
+      .align(0)
+      .domain(d3.range(12));
 
     const radiusScale = d3.scaleRadial()
       .range([innerRadius, outerRadius])
@@ -70,18 +69,18 @@ function renderRadialFlu(containerN, containerS, data) {
       .range(Object.values(seasonColors));
 
     const arc = d3.arc()
-        .innerRadius(innerRadius)
-        .startAngle(d => angleScale(d.Month))
-        .endAngle(d => angleScale(d.Month) + angleScale.bandwidth())
-        .padAngle(0.01)
-        .padRadius(innerRadius);
+      .innerRadius(innerRadius)
+      .startAngle(d => angleScale(d.Month))
+      .endAngle(d => angleScale(d.Month) + angleScale.bandwidth())
+      .padAngle(0.01)
+      .padRadius(innerRadius);
 
-    // Create tooltip div if it doesn't exist
-    let tooltip = d3.select("#tooltip");
+    // Tooltip
+    let tooltip = d3.select(container).select(".radial-tooltip");
     if (tooltip.empty()) {
-    tooltip = d3.select("body")
+      tooltip = d3.select(container)
         .append("div")
-        .attr("id", "tooltip")
+        .attr("class", "radial-tooltip")
         .style("position", "absolute")
         .style("background", "white")
         .style("border", "1px solid #ccc")
@@ -91,7 +90,8 @@ function renderRadialFlu(containerN, containerS, data) {
         .style("display", "none")
         .style("font-size", "12px")
         .style("box-shadow", "0px 2px 8px rgba(0,0,0,0.15)");
-}
+    }
+
     svg.selectAll("path")
       .data(data)
       .enter()
@@ -106,48 +106,79 @@ function renderRadialFlu(containerN, containerS, data) {
         .padRadius(innerRadius))
       .attr("opacity", 0.8)
       .on("mouseover", function (event, d) {
-        d3.selectAll("path").attr("opacity", 0.2);  // Fade all
+        svg.selectAll("path").attr("opacity", 0.2);
         d3.select(this).attr("opacity", 1)
-            .attr("stroke", "#000")       // Add border on hover
-            .attr("stroke-width", 1.5);   // Adjust thickness
+          .attr("stroke", "#000")
+          .attr("stroke-width", 1.5);
 
         const month = monthNames[d.Month];
         const season = getSeason(d.Month, hemisphere);
-
         tooltip
-            .style("display", "block")
-            .html(`<strong>${month}</strong><br>Total: ${d.Total}<br>Season: ${season}`);
-    })
-    .on("mousemove", function (event) {
+          .style("display", "block")
+          .html(`<strong>${month}</strong><br>Total: ${d.Total}<br>Season: ${season}`);
+      })
+      .on("mousemove", function (event) {
         tooltip
-            .style("left", (event.pageX + 10) + "px")
-            .style("top", (event.pageY - 20) + "px");
-    })
-    .on("mouseout", function () {
-        d3.selectAll("path")
-            .attr("opacity", 0.8)
-            .attr("stroke", null)         // Remove stroke
-            .attr("stroke-width", null);  // Reset stroke width;  // Reset all
+          .style("left", (event.pageX + 10) + "px")
+          .style("top", (event.pageY - 20) + "px");
+      })
+      .on("mouseout", function () {
+        svg.selectAll("path")
+          .attr("opacity", 0.8)
+          .attr("stroke", null)
+          .attr("stroke-width", null);
         tooltip.style("display", "none");
-    });
+      });
 
-    // Add internal month labels
-    const labelRadius = outerRadius - 255;
+    // Add month labels
+    const labelRadius = outerRadius - 315;
     svg.selectAll("text.month-label")
-        .data(d3.range(12)) // <-- use indices
-        .enter()
-        .append("text")
-        .attr("class", "month-label")
-        .attr("x", i => Math.sin(angleScale(i) + angleScale.bandwidth() / 2) * labelRadius)
-        .attr("y", i => -Math.cos(angleScale(i) + angleScale.bandwidth() / 2) * labelRadius)
-        .attr("text-anchor", "middle")
-        .attr("alignment-baseline", "middle")
-        .attr("font-size", "10px")
-        .attr("fill", "#333")
-        .text(i => monthNames[i]);
+      .data(d3.range(12))
+      .enter()
+      .append("text")
+      .attr("class", "month-label")
+      .attr("x", i => Math.sin(angleScale(i) + angleScale.bandwidth() / 2) * labelRadius)
+      .attr("y", i => -Math.cos(angleScale(i) + angleScale.bandwidth() / 2) * labelRadius)
+      .attr("text-anchor", "middle")
+      .attr("alignment-baseline", "middle")
+      .attr("font-size", "10px")
+      .attr("fill", "#333")
+      .text(i => monthNames[i]);
+
+    // Add season legend
+    const legendData = [
+      { season: "Winter", color: seasonColors.winter },
+      { season: "Spring", color: seasonColors.spring },
+      { season: "Summer", color: seasonColors.summer },
+      { season: "Autumn", color: seasonColors.autumn }
+    ];
+
+    const legend = svg.append("g")
+      .attr("class", "legend")
+      .attr("transform", `translate(-${width / 2 }, -${height / 2 - 200})`);
+
+    legend.selectAll("rect")
+      .data(legendData)
+      .enter()
+      .append("rect")
+      .attr("x", 0)
+      .attr("y", (d, i) => i * 20)
+      .attr("width", 14)
+      .attr("height", 14)
+      .attr("fill", d => d.color);
+
+    legend.selectAll("text")
+      .data(legendData)
+      .enter()
+      .append("text")
+      .attr("x", 20)
+      .attr("y", (d, i) => i * 20 + 11)
+      .text(d => d.season)
+      .attr("font-size", "12px")
+      .attr("fill", "#333");
   }
 
-  // Expose update function globally
+  // Global update function
   window.updateRadialFluCharts = function (selectedYear) {
     const hem = d3.select("#hemisphere-select").property("value");
 

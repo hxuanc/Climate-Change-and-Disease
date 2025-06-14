@@ -1,9 +1,9 @@
 function renderClimateChart(containerSelector, csvPath) {
   const container = document.querySelector(containerSelector);
   const containerWidth = container.clientWidth;
-  const margin = { top: 30, right: 30, bottom: 30, left: 30 };
+  const margin = { top: 30, right: 30, bottom: 60, left: 30 };
   const width = containerWidth - margin.left - margin.right;
-  const height = 450 - margin.top - margin.bottom;
+  const height = 500 - margin.top - margin.bottom;
 
   const svg = d3.select(containerSelector)
     .append("svg")
@@ -64,7 +64,12 @@ function renderClimateChart(containerSelector, csvPath) {
 
     svg.append("g")
       .attr("transform", `translate(0, ${height - margin.bottom})`)
-      .call(d3.axisBottom(x));
+      .call(d3.axisBottom(x))
+      .selectAll("text")
+      .attr("transform", "rotate(-40)")
+      .style("text-anchor", "end")
+      .attr("dx", "-0.6em")
+      .attr("dy", "0.25em");
 
     svg.append("g")
       .attr("transform", `translate(${margin.left}, 0)`)
@@ -95,7 +100,7 @@ function renderClimateChart(containerSelector, csvPath) {
       .attr("y", d => yLeft(d.Precipitation))
       .attr("width", x.bandwidth())
       .attr("height", d => height - margin.bottom - yLeft(d.Precipitation))
-      .attr("fill", "#69b3a2")
+      .attr("fill", "#c1e8d5")
       .on("mouseover", (event, d) => {
         d3.select(event.currentTarget).attr("opacity", 0.6);
         tooltip.style("visibility", "visible")
@@ -114,9 +119,9 @@ function renderClimateChart(containerSelector, csvPath) {
       .y(d => yRight(d[key]));
 
     const tempLines = [
-      { key: "MinTemp", color: "blue", label: "Min Temp" },
-      { key: "MeanTemp", color: "orange", label: "Mean Temp" },
-      { key: "MaxTemp", color: "red", label: "Max Temp" }
+      { key: "MinTemp", color: "#cb5b5b", label: "Min Temperature" },
+      { key: "MeanTemp", color: "#f6b252", label: "Mean Temperature" },
+      { key: "MaxTemp", color: "#3c87b9", label: "Max Temperature" }
     ];
 
     tempLines.forEach(temp => {
@@ -157,7 +162,7 @@ function renderClimateChart(containerSelector, csvPath) {
       .enter()
       .append("g")
       .attr("class", "legend")
-      .attr("transform", (d, i) => `translate(0, ${margin.top + i * 20})`);
+      .attr("transform", (d, i) => `translate(5, ${margin.top  + i * 12})`);
 
     legend.append("line")
       .attr("x1", width - 150)
@@ -171,7 +176,7 @@ function renderClimateChart(containerSelector, csvPath) {
       .attr("x", width - 125)
       .attr("y", 0)
       .attr("dy", "0.35em")
-      .style("font-size", "12px")
+      .style("font-size", "10px")
       .text(d => d.label);
   });
 }

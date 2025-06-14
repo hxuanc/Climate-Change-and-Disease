@@ -35,15 +35,19 @@ function renderDengueBarChart(containerSelector, csvPath) {
       .call(d3.axisLeft(y));
 
     // Tooltip
-    const tooltip = d3.select("body").append("div")
-      .attr("class", "tooltip")
-      .style("position", "absolute")
-      .style("padding", "6px 12px")
-      .style("background", "rgba(0,0,0,0.75)")
-      .style("color", "#fff")
-      .style("border-radius", "4px")
-      .style("pointer-events", "none")
-      .style("opacity", 0);
+  const tooltip = d3.select(containerSelector)
+    .append("div")
+    .style("position", "absolute")
+    .style("background", "#fff")
+    .style("padding", "6px")
+    .style("border", "1px solid #ccc")
+    .style("border-radius", "4px")
+    .style("pointer-events", "none")
+    .style("font-size", "12px")
+    .style("opacity", 0)
+    .style("z-index", 10)
+    .style("font-size", "12px")
+    .style("line-height", "1.4em");
 
     // Bars
     svg.selectAll("rect")

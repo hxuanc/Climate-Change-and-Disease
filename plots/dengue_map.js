@@ -30,11 +30,11 @@ function renderDengueProportionalMap(containerSelector, geoJsonPath, dataPath) {
     .append("div")
     .style("position", "absolute")
     .style("background", "#fff")
+    .style("padding", "6px")
     .style("border", "1px solid #ccc")
-    .style("padding", "6px 10px")
-    .style("font-size", "12px")
     .style("border-radius", "4px")
     .style("pointer-events", "none")
+    .style("font-size", "12px")
     .style("opacity", 0);
 
   Promise.all([

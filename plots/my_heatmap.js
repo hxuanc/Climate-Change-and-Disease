@@ -32,9 +32,9 @@ function renderDengueHeatmap(containerSelector, csvPath) {
 
     const container = document.querySelector(containerSelector);
     const containerWidth = container.clientWidth;
-    const margin = { top: 30, right: 30, bottom: 30, left: 60 };
+    const margin = { top: 20, right: 30, bottom: 60, left: 60 };
     const width = containerWidth - margin.left - margin.right;
-    const height = 400 - margin.top - margin.bottom;
+    const height = 410 - margin.top - margin.bottom;
 
 
     const svg = d3.select(containerSelector)
@@ -85,10 +85,13 @@ function renderDengueHeatmap(containerSelector, csvPath) {
             .domain([0, d3.max(data, d => d.Total)]);
 
         svg.append("g")
-            .call(d3.axisTop(x))
+            .attr("transform", `translate(0, ${height})`)
+            .call(d3.axisBottom(x))
             .selectAll("text")
             .attr("transform", "rotate(-45)")
-            .style("text-anchor", "start");
+            .style("text-anchor", "end")
+            .attr("dx", "-0.6em")
+            .attr("dy", "0.25em");
 
         svg.append("g")
             .call(d3.axisLeft(y));

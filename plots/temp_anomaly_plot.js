@@ -5,7 +5,6 @@ function renderTempAnomalyChart(containerSelector, csvPath) {
   const margin = { top: 30, right: 30, bottom: 30, left: 30 };
   const width = 400;
   const height = 500 - margin.top - margin.bottom;
-  // container.innerHTML = ''; // Clear previous content
 
   // Create chart and controls wrapper
   const chartWrapper = document.createElement("div");
@@ -30,13 +29,13 @@ function renderTempAnomalyChart(containerSelector, csvPath) {
 
   // Dropdown label
   const label = document.createElement("label");
-  label.setAttribute("for", "entity-select");
+  label.setAttribute("for", "entity-select2");
   label.textContent = "Choose a country/region:";
   controls.appendChild(label);
 
   // Dropdown
   const select = document.createElement("select");
-  select.id = "entity-select";
+  select.id = "entity-select2";
   controls.appendChild(select);
 
   // Reset button
@@ -44,10 +43,36 @@ function renderTempAnomalyChart(containerSelector, csvPath) {
   resetBtn.textContent = "Reset to World";
   controls.appendChild(resetBtn);
 
+  resetBtn.addEventListener("click", () => {
+  select.value = "World";
+  select.dispatchEvent(new Event("change")); // 🔥 triggers dropdown logic
+});
+
   // Tooltip
   const tooltip = document.createElement("div");
   tooltip.className = "custom-tooltip";
   document.body.appendChild(tooltip);
+
+  // Add tooltip styles dynamically
+  if (!document.querySelector("style[data-tooltip-style]")) {
+    const style = document.createElement("style");
+    style.setAttribute("data-tooltip-style", "true");
+    style.innerHTML = `
+      .custom-tooltip {
+        position: absolute;
+        background: #fff;
+        padding: 6px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        pointer-events: none;
+        font-size: 12px;
+        opacity: 0;
+        transition: opacity 0.2s ease;
+        z-index: 10;
+      }
+    `;
+    document.head.appendChild(style);
+  }
 
   resetBtn.addEventListener("click", () => {
     select.value = "World";
@@ -134,7 +159,6 @@ function renderTempAnomalyChart(containerSelector, csvPath) {
           tooltip.innerHTML = `
             <strong>Year:</strong> ${d.Year}<br>
             <strong>Annual Temperature Anomaly:</strong> ${d.TemperatureAnomaly.toFixed(2)}°C`;
-          tooltip.style.opacity = 1;
         })
         .on("mousemove", function (event) {
           tooltip.style.left = (event.pageX + 10) + "px";
@@ -171,8 +195,8 @@ function renderTempAnomalyChart(containerSelector, csvPath) {
         .attr("cx", d => x(d.Year) + x.bandwidth() / 2)
         .attr("cy", d => y(d.MovingAverage))
         .attr("r", 5)
-        .attr("fill", d => d.MovingAverage >= 0 ? "#1f77b4" : "#d62728") // match line color
-        .attr("fill-opacity", 0) // make initially transparent
+        .attr("fill", d => d.MovingAverage >= 0 ? "#1f77b4" : "#d62728")
+        .attr("fill-opacity", 0)
         .attr("pointer-events", "all")
         .on("mouseover",  function (event, d) {
           d3.select(this)
@@ -195,7 +219,7 @@ function renderTempAnomalyChart(containerSelector, csvPath) {
           d3.select(this)
             .attr("r", 4)
             .attr("stroke", "none")
-            .attr("fill-opacity", 0); // revert to invisible
+            .attr("fill-opacity", 0);
 
           tooltip.style.opacity = 0;
         });

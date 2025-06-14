@@ -84,98 +84,150 @@
       padding: 10px;
       background: white;
     }
+    .section-divider {
+      height: 2px;
+      background-color: #ccc;
+      margin: 60px auto;
+      width: 90%;
+      border-radius: 1px;
+    }
   </style>
 </head>
 <body>
 
-  <h1>Climate & Disease: A Data-Driven Story</h1>
+    <h1>From Climate Anomalies to Disease Outbreaks: A Global Data Exploration</h1>
 
   <!-- SECTION 1 -->
-<section class="section-fullwidth">
-  <h2 style="text-align: center;">Global Temperature Map</h2>
-
-  <!-- Whole section column layout -->
-  <div style="display: flex; flex-direction: column; gap: 40px;">
-
-    <!-- Row 1: Map + Description -->
-    <div style="display: grid; grid-template-columns: 2fr 1fr; gap: 30px;">
-      <!-- Map -->
-      <div id="choropleth-map-wrapper" style="text-align: center;">
-        <!-- Slider -->
-        <div class="slider-container" style="margin: 10px auto; text-align: center;">
-          <label for="choropleth-timeline">
-            Date: <span id="choropleth-timeline-label">December 2020</span>
-          </label><br>
-          <input type="range" id="choropleth-timeline" min="0" max="899" value="899" style="width: 60%;">
+   <h2>Warming and Wetter: How Earth's Climate is Changing?</h2>
+  <section class="section-fullwidth">
+    <div style="display: flex; flex-direction: column; gap: 40px;">
+      <div style="display: flex; flex-direction: column; gap: 30px;">
+        <h3 style="text-align: center;">Global Temperature Anomalies</h3>
+        <div id="choropleth-map-wrapper" style="text-align: center;">
+          <div class="slider-container">
+            <label for="choropleth-timeline">
+              Date: <span id="choropleth-timeline-label">December 2020</span>
+            </label><br>
+            <input type="range" id="choropleth-timeline" min="0" max="899" value="899" style="width: 60%;">
+          </div>
+          <div id="choropleth-map" style="margin-top: 0;"></div>
+          <div id="temp-choropleth-legend-container"></div>
         </div>
-        <div id="choropleth-map" style="margin-top: 0;"></div>
       </div>
+        <div id="anomaly-description" class="description-box">
+          <h3>Description</h3>
+          <p>This section explains the patterns and insights derived from the temperature and precipitation anomaly data.</p>
+        </div>
 
-      <!-- Description -->
-      <div id="anomaly-description" class="description-box">
-        <h3>Description</h3>
-        <p>
-          This section explains the patterns and insights derived from the temperature and precipitation anomaly data.
-        </p>
+        <div style="display: flex; gap: 30px;">
+          <div style="flex: 1; display: flex; flex-direction: column; align-items: center;">
+            <h3 style="text-align: center;">Temperature Anomaly Over Time</h3>
+            <div id="temp-anomaly-chart" class="chart-box"></div>
+          </div>
+          <div style="flex: 1; display: flex; flex-direction: column; align-items: center;">
+            <h3 style="text-align: center;">Temperature Distribution by Decade</h3>
+            <div id="temp_ridgeline_chart" class="chart-box"></div>
+          </div>
       </div>
     </div>
-
-    <!-- Row 2: Ridgeline + Anomaly charts side by side -->
-    <div style="display: flex; gap: 30px;">
-      <div id="temp-anomaly-chart" class="chart-box" style="flex: 1;"></div>
-      <div id="temp_ridgeline_chart" class="chart-box" style="flex: 1;"></div>
-    </div>
-
-  </div>
-</section>
+  </section>
 
   <!-- SECTION 2 -->
-<section class="section-fullwidth">
-  <h2 style="text-align: center;">Global Temperature Map</h2>
+  <!-- <h2>Section 2: Yearly Precipitation by Country</h2> -->
+  <section class="section-fullwidth">
 
-  <!-- Whole section column layout -->
-  <div style="display: flex; flex-direction: column; gap: 40px;">
-
-    <!-- Row 1: Map + Description -->
-    <div style="display: grid; grid-template-columns: 2fr 1fr; gap: 30px;">
-      <!-- Map -->
-      <div id="yearly-choropleth-wrapper" style="margin-top:60px;text-align:center;">
-        <h2>Yearly Precipitation by Country</h2>
-        <div class="slider-container" style="margin:10px auto;">
-          <label for="yearly-choropleth-slider">
-            Year: <span id="yearly-choropleth-label"></span>
-          </label><br>
-          <input type="range" id="yearly-choropleth-slider" step="1" style="width:60%;">
+    <div style="display: flex; flex-direction: column; gap: 40px;">
+      <div style="display: flex; flex-direction: column; gap: 30px;">
+        <div id="yearly-choropleth-wrapper" style="text-align: center;">
+          <h3>Yearly Precipitation Map</h3>
+          <div class="slider-container">
+            <label for="yearly-choropleth-slider">
+              Year: <span id="yearly-choropleth-label"></span>
+            </label><br>
+            <input type="range" id="yearly-choropleth-slider" step="1" style="width: 60%;">
+          </div>
+          <div id="yearly-choropleth-map" style="margin-top: 20px;"></div>
         </div>
-        <div id="yearly-choropleth-map" style="margin-top:20px;"></div>
-      </div>
 
-      <!-- Description -->
-      <div id="anomaly-description" class="description-box">
-        <h3>Description</h3>
-        <p>
-          This section explains the patterns and insights derived from the temperature and precipitation anomaly data.
-        </p>
+      </div>
+          <div class="description-box">
+          <h3>Description</h3>
+          <p>This section explains the patterns and insights derived from the precipitation data by year and region.</p>
+        </div>
+
+      <div style="display: flex; gap: 30px;">
+        <div style="flex: 1; display: flex; flex-direction: column; align-items: center;">
+          <h3 style="text-align: center;">Precipitation Anomaly Over Time</h3>
+          <div id="precip-anomaly-chart" class="chart-box"></div>
+        </div>
+        <div style="flex: 1; display: flex; flex-direction: column; align-items: center;">
+          <h3 style="text-align: center;">Precipitation Patterns by Year</h3>
+          <div id="precip-strip-chart" class="chart-box"></div>
+        </div>
       </div>
     </div>
+  </section>
 
-    <!-- Row 2: Ridgeline + Anomaly charts side by side -->
-    <div style="display: flex; gap: 30px;">
-      <div id="precip-anomaly-chart" class="chart-box" style="flex: 1;"></div>
-      <div id="precip-strip-chart" class="chart-box" style="flex: 1;"></div>
+
+  <!-- SECTION 3 -->
+  <!-- <section class="section-fullwidth">
+
+    <div class="control-panel" style="text-align: center;">
+      <label for="flu-year-select">Select Year:</label>
+      <select id="flu-year-select"></select>
+      <label for="hemisphere-select" style="margin-left: 20px;">Select Hemisphere:</label>
+      <select id="hemisphere-select">
+        <option value="northern">Northern Hemisphere</option>
+        <option value="southern">Southern Hemisphere</option>
+      </select>
     </div>
+    <div class="chart-container" style="display: flex; gap: 30px; margin-top: 30px;">
+      <div id="northern-hemisphere" style="flex: 1;"></div>
+      <div id="southern-hemisphere" style="flex: 1;"></div>
+    </div>
+    <div style="display: grid; grid-template-columns: 7fr 3fr; gap: 30px;">
+      <div id="combined-flu-chart"></div>
+      <div class="description-box">
+        <h3>Flu Trend Description</h3>
+        <p>This section highlights aggregated influenza trends across hemispheres and years, showing how flu peaks vary and how climate might influence them.</p>
+      </div>
+    </div>
+  </section> -->
 
-  </div>
-</section>
+  <!-- SECTION 4 -->
+  <!-- <h2>Section 4: Dengue Trends and Climate</h2> -->
+  <!-- <section class="section-fullwidth">
 
+    <div id="controls" style="text-align: center; margin-bottom: 30px;">
+      <label for="monthYearSlider">
+        <strong>Month-Year:</strong> <span id="monthYearLabel">Jan 2009</span>
+      </label><br>
+      <input type="range" id="monthYearSlider" min="0" max="168" step="1" value="0" style="width: 60%;">
+    </div>
+    <div style="display: flex; flex-direction: column; gap: 30px;">
+      <div id="dengue-map" style="flex: 1; height: 700px;"></div>
+      <div id="dengue-bar-chart" style="flex: 1;"></div>
+    </div>
+    <div class="description-box" style="margin-top: 30px;">
+      <h3>Dengue Overview</h3>
+      <p>This map and chart explore how dengue fever trends relate to seasonal patterns and geographic regions. Use the slider to explore changes over time.</p>
+    </div>
+  </section> -->
 
-<!-- SECTION 3: Influenza by Hemisphere -->
-<section class="section-fullwidth" style="margin-top: 20px;">
-  <h2 style="text-align: center;">Influenza Trends by Hemisphere</h2>
+<h2>Disease Dynamics in a Changing World</h2>
+
+<!-- Toggle Buttons -->
+<div style="text-align: center; margin-bottom: 20px;">
+  <button onclick="showSection('flu')" style="margin-right: 10px;">Show Influenza Trends</button>
+  <button onclick="showSection('dengue')">Show Dengue Trends</button>
+</div>
+
+<!-- SECTION 3: Influenza -->
+<section id="section-flu" class="section-fullwidth">
+  <h3 style="text-align: center;">Influenza Trends by Hemisphere</h3>
   <div class="control-panel" style="text-align: center;">
     <label for="flu-year-select">Select Year:</label>
     <select id="flu-year-select"></select>
-
     <label for="hemisphere-select" style="margin-left: 20px;">Select Hemisphere:</label>
     <select id="hemisphere-select">
       <option value="northern">Northern Hemisphere</option>
@@ -183,88 +235,107 @@
     </select>
   </div>
 
-  <div class="chart-container" style="display: flex; gap: 30px; margin-top: 30px;">
-    <div id="northern-hemisphere" style="flex: 1;"></div>
-    <div id="southern-hemisphere" style="flex: 1;"></div>
+<div class="chart-wrapper" style="display: flex; justify-content: center; margin-top: 0px;">
+  <div class="chart-container" style="display: flex; gap: 30px;">
+    <div id="northern-hemisphere" style="display: none;"></div>
+    <div id="southern-hemisphere" style="display: none;"></div>
   </div>
+</div>
 
-    <div style="display: grid; grid-template-columns: 7fr 3fr; gap: 30px;">
-    <div id="combined-flu-chart"></div>
+
+  <div style="display: grid; grid-template-columns: 7fr 3fr; gap: 30px;">
+    <div>
+      <h3 style="text-align: center;">Combined Influenza Chart</h3>
+      <div id="combined-flu-chart"></div>
+    </div>
     <div class="description-box">
       <h3>Flu Trend Description</h3>
-      <p>
-        This section highlights aggregated influenza trends across hemispheres and years. It shows how flu activity peaks vary and how climate might influence seasonal patterns.
-      </p>
+      <p>This section highlights aggregated influenza trends across hemispheres and years, showing how flu peaks vary and how climate might influence them.</p>
     </div>
   </div>
 </section>
 
 
-<!-- SECTION 5: Dengue Section -->
-<section class="section-fullwidth" style="margin-top: 60px;">
-  <h2 style="text-align: center;">Dengue Trends and Climate</h2>
-
-  <!-- Controls -->
+<!-- SECTION 4: Dengue -->
+<section id="section-dengue" class="section-fullwidth" style="display: none;">
+  <h3 style="text-align: center;">Dengue Cases Choropleth Map</h3>
   <div id="controls" style="text-align: center; margin-bottom: 30px;">
     <label for="monthYearSlider">
       <strong>Month-Year:</strong> <span id="monthYearLabel">Jan 2009</span>
     </label><br>
     <input type="range" id="monthYearSlider" min="0" max="168" step="1" value="0" style="width: 60%;">
   </div>
-
-  <!-- Map + Bar chart -->
-  <div style="display: flex;  flex-direction: column; gap: 30px;">
-    <div id="dengue-map" style="flex: 1; height: 700px;"></div>
-    <div id="dengue-bar-chart" style="flex: 1;"></div>
+  <div style="display: flex; flex-direction: column; gap: 30px;">
+    <div>
+      <div id="dengue-map" style="flex: 1; height: 700px;"></div>
+    </div>
+    <div>
+      <h3 style="text-align: center;">Monthly Dengue Case Counts</h3>
+      <div id="dengue-bar-chart" style="flex: 1;"></div>
+    </div>
   </div>
-
-  <!-- Description under -->
   <div class="description-box" style="margin-top: 30px;">
     <h3>Dengue Overview</h3>
-    <p>
-      This map and chart explore how dengue fever trends relate to seasonal patterns and geographic regions. Use the slider to explore changes over time.
-    </p>
+    <p>This map and chart explore how dengue fever trends relate to seasonal patterns and geographic regions. Use the slider to explore changes over time.</p>
   </div>
 </section>
 
-<!-- SECTION 6: Correlation Analysis -->
-<section class="section-fullwidth" style="margin-top: 60px;">
-  <!-- First Correlation Pair -->
-  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px;">
-    <div id="flu-temp-scatter-chart"></div>
-    <div class="description-box">
-      <h3>Flu vs Temperature</h3>
-      <p>
-        This scatter plot shows the relationship between flu activity and temperature across months and regions.
-      </p>
-    </div>
-  </div>
+<!-- JavaScript to toggle -->
+<script>
+  function showSection(section) {
+    const fluSection = document.getElementById('section-flu');
+    const dengueSection = document.getElementById('section-dengue');
 
-  <!-- Second Correlation Pair -->
-  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px; margin-top: 40px;">
-    <div class="description-box">
-      <h3>Dengue vs Precipitation</h3>
-      <p>
-        Here we analyze how precipitation impacts dengue activity, showing a correlation pattern over the observation period.
-      </p>
-    </div>
-    <div id="dengue-precip-scatter-chart"></div>
-  </div>
-</section>
+    if (section === 'flu') {
+      fluSection.style.display = 'block';
+      dengueSection.style.display = 'none';
+    } else {
+      fluSection.style.display = 'none';
+      dengueSection.style.display = 'block';
+    }
+  }
+</script>
+    <h2>From Weather to Wards: Exploring Correlations</h2>
+  <!-- SECTION 5 -->
+  <section class="section-fullwidth">
 
-<!-- SECTION 7: Summary Bar + Heatmap -->
-<section class="section-fullwidth" style="margin-top: 60px;">
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px;">
+    <div>
+      <h3 style="text-align: center;">Flu Activity vs Temperature</h3>
+      <div id="flu-temp-scatter-chart"></div>
+    </div>
+      <div class="description-box">
+        <h3>Flu vs Temperature</h3>
+        <p>This scatter plot shows the relationship between flu activity and temperature across months and regions.</p>
+      </div>
+    </div>
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px; margin-top: 40px;">
+      <div class="description-box">
+        <h3>Dengue vs Precipitation</h3>
+        <p>This chart analyzes how precipitation impacts dengue activity, showing a correlation pattern over the observation period.</p>
+      </div>
+    <div>
+      <h3 style="text-align: center;">Dengue Activity vs Precipitation</h3>
+      <div id="dengue-precip-scatter-chart"></div>
+    </div>
+    </div>
+  </section>
+
+<h2>From National Data to Local Insight: Malaysia's Story</h2>
+<!-- SECTION 6 -->
+<section class="section-fullwidth">
+
   <div style="display: flex; gap: 30px;">
-    <div id="my-climate-bar" style="flex: 1;"></div>
-    <div id="heatmap-container" style="flex: 1;"></div>
+    <div style="flex: 1;">
+      <h3 style="text-align: center;">Malaysia Climate Anomalies by Year</h3>
+      <div id="my-climate-bar"></div>
+    </div>
+    <div style="flex: 1;">
+      <h3 style="text-align: center;">Malaysia Climate Anomalies Heatmap</h3>
+      <div id="heatmap-container"></div>
+    </div>
   </div>
 
-  <div class="description-box" style="margin-top: 30px;">
-    <h3>Climate and Disease Summary</h3>
-    <p>
-      This section summarizes key relationships between climate variables and disease incidence across datasets. The bar chart shows contributions or intensities per variable, while the heatmap provides a high-level view of seasonal and spatial patterns.
-    </p>
-  </div>
 </section>
 
   <!-- D3 + TopoJSON Libraries -->

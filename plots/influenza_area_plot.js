@@ -100,17 +100,17 @@ function renderCombinedFluAreaChart(selector, csvPath) {
     // Tooltip setup
     const tooltip = d3.select(selector)
       .append("div")
-      .attr("class", "tooltip")
       .style("position", "absolute")
       .style("background", "#fff")
-      .style("border", "1px solid #999")
-      .style("padding", "8px")
+      .style("border", "1px solid #ccc")
+      .style("padding", "6px")
       .style("pointer-events", "none")
       .style("opacity", 0)
       .style("font-size", "12px")
       .style("border-radius", "4px")
       .style("line-height", "1.4em")
-      .style("box-shadow", "0 2px 6px rgba(0,0,0,0.2)");
+      .style("box-shadow", "0 2px 6px rgba(0,0,0,0.2)")
+      .style("z-index", 10);
 
     const hoverLine = svg.append("line")
       .attr("stroke", "black")

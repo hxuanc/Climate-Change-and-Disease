@@ -12,14 +12,18 @@ function renderYearlyChoropleth(containerSelector, geoJsonPath, dataPath) {
   const projection = d3.geoNaturalEarth1().scale(160).translate([width / 2, height / 2]);
   const path = d3.geoPath().projection(projection);
 
-  const tooltip = d3.select(containerSelector).append("div")
-    .attr("class", "tooltip")
-    .style("opacity", 0)
+  const tooltip = d3.select("body").append("div")
     .style("position", "absolute")
-    .style("z-index", 9999);
+    .style("background", "#fff")
+    .style("padding", "6px")
+    .style("border", "1px solid #ccc")
+    .style("border-radius", "4px")
+    .style("pointer-events", "none")
+    .style("font-size", "12px")
+    .style("opacity", 0);
 
   const colorScale = d3.scaleSequential()
-    .interpolator(d3.interpolateBlues)
+    .interpolator(d3.interpolateYlGnBu)
     .clamp(true);
 
   Promise.all([

@@ -24,7 +24,7 @@ function renderDenguePrecipScatterPlot(containerSelector, csvPath) {
       .domain(d3.extent(data, d => d.AnnualPrecipitation)).nice()
       .range([height - margin.bottom, margin.top]);
 
-    const color = d3.scaleSequential(d3.interpolateBlues)
+    const color = d3.scaleSequential(d3.interpolateYlGnBu)
       .domain(d3.extent(data, d => d.AnnualPrecipitation));
 
     // Axes
@@ -53,11 +53,12 @@ function renderDenguePrecipScatterPlot(containerSelector, csvPath) {
     const tooltip = d3.select("body")
       .append("div")
       .style("position", "absolute")
-      .style("padding", "8px")
-      .style("background", "rgba(0,0,0,0.7)")
-      .style("color", "#fff")
+      .style("background", "#fff")
+      .style("padding", "6px")
+      .style("border", "1px solid #ccc")
       .style("border-radius", "4px")
       .style("pointer-events", "none")
+      .style("font-size", "12px")
       .style("opacity", 0);
 
     // Points

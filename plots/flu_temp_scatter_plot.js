@@ -37,7 +37,7 @@ function renderFluTempScatterPlot(containerSelector, csvPath) {
 
     const color = d3.scaleOrdinal()
       .domain(["Northern", "Southern"])
-      .range(["#1f77b4", "#ff7f0e"]);
+      .range(["#98e4c8", "#f4a44a"]);
 
     // X Axis
     svg.append("g")

@@ -45,10 +45,37 @@ function renderPrecipAnomalyChart(containerSelector, csvPath) {
   resetBtn.textContent = "Reset to World";
   controls.appendChild(resetBtn);
 
+  resetBtn.addEventListener("click", () => {
+  select.value = "World";
+  select.dispatchEvent(new Event("change")); // triggers dropdown logic
+});
+
   // Tooltip
   const tooltip = document.createElement("div");
   tooltip.className = "custom-tooltip";
   document.body.appendChild(tooltip);
+
+  // Add tooltip styles dynamically
+  if (!document.querySelector("style[data-tooltip-style]")) {
+    const style = document.createElement("style");
+    style.setAttribute("data-tooltip-style", "true");
+    style.innerHTML = `
+      .custom-tooltip {
+        position: absolute;
+        background: #fff;
+        padding: 6px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        pointer-events: none;
+        font-size: 12px;
+        opacity: 0;
+        transition: opacity 0.2s ease;
+        z-index: 10;
+      }
+    `;
+    document.head.appendChild(style);
+  }
+
 
   resetBtn.addEventListener("click", () => {
     select.value = "World";
@@ -125,7 +152,7 @@ function renderPrecipAnomalyChart(containerSelector, csvPath) {
         .attr("y", d => d.PrecipitationAnomaly >= 0 ? y(d.PrecipitationAnomaly) : y(0))
         .attr("width", x.bandwidth())
         .attr("height", d => Math.abs(y(d.PrecipitationAnomaly) - y(0)))
-        .attr("fill", d => d.PrecipitationAnomaly >= 0 ? "#1f77b4" : "#d62728")
+        .attr("fill", d => d.PrecipitationAnomaly >= 0 ? "#5ca9e0" : "#e0695c")
         .on("mouseover", function (event, d){
           d3.select(this)
             .attr("stroke", "black")
@@ -158,7 +185,7 @@ function renderPrecipAnomalyChart(containerSelector, csvPath) {
         svg.append("path")
           .datum([filtered[i - 1], filtered[i]])
           .attr("fill", "none")
-          .attr("stroke", d => d[1].MovingAverage >= 0 ? "#1f77b4" : "#d62728")
+          .attr("stroke", d => d[1].MovingAverage >= 0 ?"#5ca9e0" : "#e0695c")
           .attr("stroke-width", 2)
           .attr("d", line);
       }
@@ -172,7 +199,7 @@ function renderPrecipAnomalyChart(containerSelector, csvPath) {
         .attr("cx", d => x(d.Year) + x.bandwidth() / 2)
         .attr("cy", d => y(d.MovingAverage))
         .attr("r", 5)
-        .attr("fill", d => d.MovingAverage >= 0 ? "#1f77b4" : "#d62728") // match line color
+        .attr("fill", d => d.MovingAverage >= 0 ?"#5ca9e0" : "#e0695c") // match line color
         .attr("fill-opacity", 0) // make initially transparent
         .attr("pointer-events", "all")
         .on("mouseover",  function (event, d) {
